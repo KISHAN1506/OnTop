@@ -1,0 +1,83 @@
+/* About Us page specific styles */
+
+.about-intro {
+    padding: 3rem 0;
+    background-color: white;
+    color: var(--color-text-dark);
+}
+
+.about-intro h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.about-intro p {
+    font-size: 1.1rem;
+    max-width: 700px;
+    line-height: 1.6;
+}
+
+.testimonials {
+    padding: 3rem 0;
+    background-color: var(--color-gray-bg);
+}
+
+.testimonials h2 {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    color: var(--color-text-dark);
+    text-align: center;
+}
+
+.testimonial-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 20px;
+    margin-top: 2rem;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.testimonial-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.testimonial-card:hover {
+    transform: scale(1.02);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+    z-index: 10;
+}
+
+.testimonial-text-card, .testimonial-name-card {
+    background-color: white;
+    border: 1px solid var(--color-border-light);
+    border-radius: 8px;
+    padding: 1rem 1.25rem;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+    margin-bottom: 0.75rem;
+}
+
+.testimonial-text-card p {
+    font-style: italic;
+    color: var(--color-text-dark);
+    margin: 0;
+}
+
+.testimonial-name-card {
+    background-color: var(--color-primary-green);
+    color: white;
+    text-align: center;
+    font-weight: 700;
+    font-size: 1.1rem;
+    padding: 0.75rem 1rem;
+    transition: background-color 0.3s ease;
+}
+
+.testimonial-name-card:hover {
+    background-color: #008C75;
+}
