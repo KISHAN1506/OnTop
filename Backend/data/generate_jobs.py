@@ -12,7 +12,7 @@ def generate_job_dataset():
     model = genai.GenerativeModel("gemini-2.5-pro")
 
     prompt = """
-    Generate exactly 30 realistic tech job postings as a JSON array.
+    Generate exactly 300 realistic tech job postings as a JSON array.
     
     For each job, use this exact structure:
     {

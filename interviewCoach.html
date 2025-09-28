@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interview Coach AI | JobLens AI</title>
+    <link rel="stylesheet" href="mainPageStyle.css">
+    <link rel="stylesheet" href="interview-coach.css">
+</head>
+<body>
+
+    <header class="navbar">
+        <div class="container">
+            <div class="logo">JobLens AI</div>
+            <nav class="nav-links">
+                <a href="mainPage.html">Home<span class="dropdown-arrow">▼</span></a>
+                <a href="jobmatch.html">Smart Job Matching<span class="dropdown-arrow">▼</span></a>
+                <a href="interview-coach.html">Interview Coach<span class="dropdown-arrow">▼</span></a>
+                <a href="#">Skill Gap Analyzer</a>
+                <a href="#">Roadmaps</a>
+                <a href="aboutUs.html">About Us</a>
+            </nav>
+            <a href="#" class="btn btn-primary">Get Started</a>
+        </div>
+    </header>
+
+    <section class="hero-section">
+        <div class="container">
+            <h1>AI Interview Coach</h1>
+            <p>Practice with AI-generated questions tailored to your job role and get personalized feedback to ace your next interview.</p>
+        </div>
+    </section>
+
+    <main class="main-content">
+        <!-- Interview Setup Section -->
+        <section class="interview-setup">
+            <div class="container">
+                <h2>Start Your Interview Practice</h2>
+                <div class="setup-form">
+                    <div class="form-group">
+                        <label for="job-title">Job Title/Role</label>
+                        <input type="text" id="job-title" placeholder="e.g., Frontend Developer, Data Scientist" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="company-name">Company Name (Optional)</label>
+                        <input type="text" id="company-name" placeholder="e.g., Google, Microsoft">
+                    </div>
+                    <button id="start-interview-btn" class="btn btn-primary">Generate Interview Questions</button>
+                    <div id="loading" style="display: none; text-align: center; margin-top: 1rem;">
+                        <p>Generating questions...</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Interview Questions Section -->
+        <section class="interview-questions" id="interview-questions" style="display: none;">
+            <div class="container">
+                <div class="interview-header">
+                    <h3 id="interview-title">Interview Practice Session</h3>
+                    <div class="question-counter">
+                        <span id="current-question">1</span> of <span id="total-questions">5</span>
+                    </div>
+                </div>
+
+                <div class="question-container">
+                    <div class="question-card">
+                        <div class="question-type" id="question-type">GENERAL</div>
+                        <h4 id="current-question-text">Question will appear here...</h4>
+                    </div>
+
+                    <div class="answer-section">
+                        <label for="user-answer">Your Answer:</label>
+                        <textarea id="user-answer" placeholder="Type your detailed answer here..." rows="6"></textarea>
+                        
+                        <div class="answer-actions">
+                            <button id="submit-answer-btn" class="btn btn-primary">Submit Answer</button>
+                            <button id="skip-question-btn" class="btn btn-secondary" style="display: none;">Skip Question</button>
+                        </div>
+                    </div>
+
+                    <!-- Feedback Section -->
+                    <div class="feedback-section" id="feedback-section" style="display: none;">
+                        <h4>✨ AI Feedback</h4>
+                        <div class="score-display">
+                            <span>Score: </span>
+                            <span id="feedback-score" class="score-badge">-</span>
+                            <span>/10</span>
+                        </div>
+                        
+                        <div class="feedback-content">
+                            <div class="strengths">
+                                <h5>✅ Strengths:</h5>
+                                <ul id="strengths-list"></ul>
+                            </div>
+                            
+                            <div class="improvements">
+                                <h5>🔧 Areas to Improve:</h5>
+                                <ul id="improvements-list"></ul>
+                            </div>
+                            
+                            <div class="overall-feedback">
+                                <h5>💡 Overall Feedback:</h5>
+                                <p id="overall-feedback-text"></p>
+                            </div>
+                        </div>
+                        
+                        <div class="feedback-actions">
+                            <button id="next-question-btn" class="btn btn-primary">Next Question</button>
+                            <button id="view-summary-btn" class="btn btn-secondary" style="display: none;">View Summary</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="interview-controls">
+                    <button id="new-session-btn" class="btn btn-outline">Start New Session</button>
+                    <button id="end-interview-btn" class="btn btn-outline">End Interview</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Interview Summary -->
+        <section class="interview-summary" id="interview-summary" style="display: none;">
+            <div class="container">
+                <h2>🎉 Interview Complete!</h2>
+                <div class="summary-stats">
+                    <div class="stat-card">
+                        <div class="stat-value" id="average-score">-</div>
+                        <div class="stat-label">Average Score</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-value" id="questions-answered">-</div>
+                        <div class="stat-label">Questions Answered</div>
+                    </div>
+                </div>
+                
+                <div class="summary-actions">
+                    <button id="practice-again-btn" class="btn btn-primary">Practice Again</button>
+                    <button id="view-detailed-feedback-btn" class="btn btn-secondary">View Detailed Feedback</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Features Section -->
+        <section class="features-section">
+            <div class="container">
+                <h2>Why Use Our AI Interview Coach?</h2>
+                <div class="features-grid">
+                    <div class="feature-card">
+                        <div class="feature-icon">🎯</div>
+                        <h3>Role-Specific Questions</h3>
+                        <p>Get questions tailored to your specific job role and industry requirements.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">🤖</div>
+                        <h3>AI-Powered Feedback</h3>
+                        <p>Receive detailed feedback on your answers with suggestions for improvement.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">📊</div>
+                        <h3>Performance Analytics</h3>
+                        <p>Track your progress and identify areas that need more practice.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">⏰</div>
+                        <h3>Flexible Practice</h3>
+                        <p>Practice anytime, anywhere with unlimited interview sessions.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        &copy; 2025 JobLens AI. All rights reserved.
+    </footer>
+
+    <script>
+        let currentSession = null;
+        let currentQuestionIndex = 0;
+        let sessionAnswers = [];
+
+        // Start Interview
+        document.getElementById('start-interview-btn').addEventListener('click', async function() {
+            const jobTitle = document.getElementById('job-title').value.trim();
+            const companyName = document.getElementById('company-name').value.trim();
+            
+            if (!jobTitle) {
+                alert('Please enter a job title.');
+                return;
+            }
+
+            document.getElementById('loading').style.display = 'block';
+            this.disabled = true;
+
+            try {
+                const response = await fetch('http://localhost:8000/api/interview/generate-questions', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({
+                        job_title: jobTitle,
+                        company: companyName || null
+                    })
+                });
+
+                if (!response.ok) {
+                    throw new Error('Failed to generate questions');
+                }
+
+                const data = await response.json();
+                
+                if (data.success) {
+                    currentSession = data.session;
+                    sessionAnswers = [];
+                    startInterviewSession(jobTitle, companyName);
+                }
+            } catch (error) {
+                alert('Error: ' + error.message);
+            } finally {
+                document.getElementById('loading').style.display = 'none';
+                this.disabled = false;
+            }
+        });
+
+        function startInterviewSession(jobTitle, companyName) {
+            document.querySelector('.interview-setup').style.display = 'none';
+            document.getElementById('interview-questions').style.display = 'block';
+            
+            const title = companyName ? `${jobTitle} at ${companyName}` : jobTitle;
+            document.getElementById('interview-title').textContent = `Interview Practice: ${title}`;
+            document.getElementById('total-questions').textContent = currentSession.questions.length;
+            
+            currentQuestionIndex = 0;
+            showCurrentQuestion();
+        }
+
+        function showCurrentQuestion() {
+            if (currentQuestionIndex >= currentSession.questions.length) {
+                showInterviewSummary();
+                return;
+            }
+
+            const question = currentSession.questions[currentQuestionIndex];
+            
+            document.getElementById('current-question').textContent = currentQuestionIndex + 1;
+            document.getElementById('question-type').textContent = question.type.toUpperCase();
+            document.getElementById('current-question-text').textContent = question.question;
+            document.getElementById('user-answer').value = '';
+            
+            // Reset UI
+            document.getElementById('feedback-section').style.display = 'none';
+            document.getElementById('submit-answer-btn').style.display = 'inline-block';
+            document.getElementById('user-answer').disabled = false;
+        }
+
+        // Submit Answer
+        document.getElementById('submit-answer-btn').addEventListener('click', async function() {
+            const answer = document.getElementById('user-answer').value.trim();
+            
+            if (!answer) {
+                alert('Please provide an answer before submitting.');
+                return;
+            }
+
+            this.disabled = true;
+            this.textContent = 'Analyzing...';
+
+            try {
+                const currentQuestion = currentSession.questions[currentQuestionIndex];
+                
+                const response = await fetch('http://localhost:8000/api/interview/analyze-answer', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({
+                        session_id: currentSession.session_id,
+                        question_id: currentQuestion.id,
+                        answer: answer
+                    })
+                });
+
+                if (!response.ok) {
+                    throw new Error('Failed to analyze answer');
+                }
+
+                const data = await response.json();
+                
+                if (data.success) {
+                    showFeedback(data.feedback);
+                    sessionAnswers.push({
+                        question: currentQuestion.question,
+                        answer: answer,
+                        feedback: data.feedback
+                    });
+                }
+            } catch (error) {
+                alert('Error: ' + error.message);
+            } finally {
+                this.disabled = false;
+                this.textContent = 'Submit Answer';
+            }
+        });
+
+        function showFeedback(feedback) {
+            document.getElementById('feedback-score').textContent = feedback.score;
+            
+            // Update score badge color based on score
+            const scoreBadge = document.getElementById('feedback-score');
+            scoreBadge.className = 'score-badge ' + getScoreClass(feedback.score);
+            
+            // Show strengths
+            const strengthsList = document.getElementById('strengths-list');
+            strengthsList.innerHTML = '';
+            feedback.strengths.forEach(strength => {
+                const li = document.createElement('li');
+                li.textContent = strength;
+                strengthsList.appendChild(li);
+            });
+            
+            // Show improvements
+            const improvementsList = document.getElementById('improvements-list');
+            improvementsList.innerHTML = '';
+            feedback.improvements.forEach(improvement => {
+                const li = document.createElement('li');
+                li.textContent = improvement;
+                improvementsList.appendChild(li);
+            });
+            
+            // Show overall feedback
+            document.getElementById('overall-feedback-text').textContent = feedback.feedback;
+            
+            // Show feedback section and hide submit button
+            document.getElementById('feedback-section').style.display = 'block';
+            document.getElementById('submit-answer-btn').style.display = 'none';
+            document.getElementById('user-answer').disabled = true;
+            
+            // Show appropriate next button
+            if (currentQuestionIndex < currentSession.questions.length - 1) {
+                document.getElementById('next-question-btn').style.display = 'inline-block';
+                document.getElementById('view-summary-btn').style.display = 'none';
+            } else {
+                document.getElementById('next-question-btn').style.display = 'none';
+                document.getElementById('view-summary-btn').style.display = 'inline-block';
+            }
+        }
+
+        function getScoreClass(score) {
+            if (score >= 8) return 'excellent';
+            if (score >= 6) return 'good';
+            if (score >= 4) return 'average';
+            return 'needs-improvement';
+        }
+
+        // Next Question
+        document.getElementById('next-question-btn').addEventListener('click', function() {
+            currentQuestionIndex++;
+            showCurrentQuestion();
+        });
+
+        // View Summary
+        document.getElementById('view-summary-btn').addEventListener('click', function() {
+            showInterviewSummary();
+        });
+
+        function showInterviewSummary() {
+            document.getElementById('interview-questions').style.display = 'none';
+            document.getElementById('interview-summary').style.display = 'block';
+            
+            const totalScore = sessionAnswers.reduce((sum, answer) => sum + answer.feedback.score, 0);
+            const averageScore = sessionAnswers.length > 0 ? (totalScore / sessionAnswers.length).toFixed(1) : 0;
+            
+            document.getElementById('average-score').textContent = averageScore;
+            document.getElementById('questions-answered').textContent = sessionAnswers.length;
+        }
+
+        // New Session
+        document.getElementById('new-session-btn').addEventListener('click', function() {
+            if (confirm('Are you sure you want to start a new session? Current progress will be lost.')) {
+                resetInterview();
+            }
+        });
+
+        document.getElementById('practice-again-btn').addEventListener('click', function() {
+            resetInterview();
+        });
+
+        function resetInterview() {
+            currentSession = null;
+            currentQuestionIndex = 0;
+            sessionAnswers = [];
+            
+            document.getElementById('interview-questions').style.display = 'none';
+            document.getElementById('interview-summary').style.display = 'none';
+            document.querySelector('.interview-setup').style.display = 'block';
+            
+            document.getElementById('job-title').value = '';
+            document.getElementById('company-name').value = '';
+        }
+
+        // End Interview
+        document.getElementById('end-interview-btn').addEventListener('click', function() {
+            if (confirm('Are you sure you want to end this interview session?')) {
+                showInterviewSummary();
+            }
+        });
+    </script>
+
+</body>
+</html>

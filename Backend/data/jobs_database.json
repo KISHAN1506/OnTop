@@ -2,435 +2,1571 @@
   {
     "id": 1,
     "title": "Frontend Developer",
-    "company": "InnovateSolutions",
-    "location": "New York, NY",
-    "remote_option": false,
-    "salary_min": 85000,
-    "salary_max": 105000,
+    "company": "InnovateX Solutions",
+    "location": "San Francisco, CA",
+    "remote_option": true,
+    "salary_min": 125000,
+    "salary_max": 155000,
     "required_skills": [
       "React",
       "JavaScript",
       "CSS",
-      "HTML",
-      "Git"
+      "HTML"
     ],
     "preferred_skills": [
       "TypeScript",
-      "Figma",
-      "Jest"
+      "GraphQL"
     ],
-    "experience_level": "Entry",
-    "company_size": "50-200",
-    "description": "Join our team to build and maintain user-facing features for our innovative web platform."
+    "experience_level": "Mid",
+    "company_size": "51-200",
+    "description": "Join our dynamic team to build and maintain responsive, user-friendly web applications using the latest frontend technologies."
   },
   {
     "id": 2,
-    "title": "Frontend Developer",
-    "company": "QuantumLeap Tech",
-    "location": "San Francisco, CA",
-    "remote_option": true,
-    "salary_min": 120000,
-    "salary_max": 150000,
-    "required_skills": [
-      "React",
-      "TypeScript",
-      "Next.js",
-      "GraphQL"
-    ],
-    "preferred_skills": [
-      "CI/CD",
-      "Jest",
-      "Storybook"
-    ],
-    "experience_level": "Mid",
-    "company_size": "200-500",
-    "description": "Develop high-performance, scalable frontend applications for our next-generation AI products."
-  },
-  {
-    "id": 3,
-    "title": "Senior Frontend Developer",
-    "company": "CloudNine Systems",
-    "location": "Seattle, WA",
-    "remote_option": true,
-    "salary_min": 150000,
-    "salary_max": 180000,
-    "required_skills": [
-      "Vue.js",
-      "TypeScript",
-      "Nuxt.js",
-      "Webpack"
-    ],
-    "preferred_skills": [
-      "AWS",
-      "Microfrontends",
-      "Web Performance"
-    ],
-    "experience_level": "Senior",
-    "company_size": "500-1000",
-    "description": "Lead the design and implementation of our customer-facing cloud management dashboard."
-  },
-  {
-    "id": 4,
     "title": "Backend Developer",
-    "company": "FinTech Innovators",
+    "company": "DataWeave Inc.",
     "location": "New York, NY",
     "remote_option": false,
-    "salary_min": 130000,
-    "salary_max": 160000,
+    "salary_min": 170000,
+    "salary_max": 210000,
     "required_skills": [
-      "Node.js",
-      "Express",
+      "Python",
+      "Django",
       "PostgreSQL",
       "REST APIs"
     ],
     "preferred_skills": [
-      "TypeScript",
-      "AWS Lambda",
-      "Microservices"
+      "AWS",
+      "Docker",
+      "Kubernetes"
+    ],
+    "experience_level": "Senior",
+    "company_size": "201-500",
+    "description": "We are looking for a senior backend engineer to design, develop, and deploy scalable microservices for our data platform."
+  },
+  {
+    "id": 3,
+    "title": "Data Scientist",
+    "company": "QuantumLeap AI",
+    "location": "Austin, TX",
+    "remote_option": true,
+    "salary_min": 140000,
+    "salary_max": 175000,
+    "required_skills": [
+      "Python",
+      "SQL",
+      "Pandas",
+      "Scikit-learn",
+      "TensorFlow"
+    ],
+    "preferred_skills": [
+      "PySpark",
+      "AWS Sagemaker",
+      "Airflow"
     ],
     "experience_level": "Mid",
-    "company_size": "200-500",
-    "description": "Build secure and scalable backend services for our financial trading platform."
+    "company_size": "51-200",
+    "description": "Utilize machine learning and statistical modeling to extract valuable business insights from large, complex datasets."
+  },
+  {
+    "id": 4,
+    "title": "DevOps Engineer",
+    "company": "CloudSphere Tech",
+    "location": "Seattle, WA",
+    "remote_option": false,
+    "salary_min": 165000,
+    "salary_max": 200000,
+    "required_skills": [
+      "AWS",
+      "Kubernetes",
+      "Terraform",
+      "CI/CD",
+      "Docker"
+    ],
+    "preferred_skills": [
+      "Python",
+      "Prometheus",
+      "Ansible"
+    ],
+    "experience_level": "Senior",
+    "company_size": "501-1000",
+    "description": "Manage and automate our cloud infrastructure to ensure high availability, scalability, and performance of our services."
   },
   {
     "id": 5,
-    "title": "Senior Backend Engineer",
-    "company": "ScaleFast Inc",
-    "location": "San Francisco, CA",
+    "title": "Full Stack Developer",
+    "company": "Nexus Innovations",
+    "location": "Remote",
     "remote_option": true,
-    "salary_min": 170000,
-    "salary_max": 210000,
+    "salary_min": 95000,
+    "salary_max": 120000,
     "required_skills": [
-      "Go",
-      "gRPC",
-      "Kubernetes",
-      "Microservices"
+      "JavaScript",
+      "Node.js",
+      "React",
+      "MongoDB"
     ],
     "preferred_skills": [
-      "Prometheus",
-      "Istio",
-      "Kafka"
+      "TypeScript",
+      "GraphQL",
+      "AWS"
     ],
-    "experience_level": "Senior",
-    "company_size": "50-200",
-    "description": "Architect and develop high-throughput, low-latency backend systems for a rapidly growing user base."
+    "experience_level": "Entry",
+    "company_size": "11-50",
+    "description": "Exciting opportunity for a junior full stack developer to work on both client-side and server-side development of our flagship product."
   },
   {
     "id": 6,
+    "title": "Frontend Developer",
+    "company": "PixelPerfect Studios",
+    "location": "New York, NY",
+    "remote_option": true,
+    "salary_min": 105000,
+    "salary_max": 130000,
+    "required_skills": [
+      "Vue.js",
+      "JavaScript",
+      "Sass",
+      "HTML"
+    ],
+    "preferred_skills": [
+      "TypeScript",
+      "Vite",
+      "Pinia"
+    ],
+    "experience_level": "Mid",
+    "company_size": "51-200",
+    "description": "Craft beautiful and intuitive user interfaces for our creative suite of applications using Vue.js."
+  },
+  {
+    "id": 7,
     "title": "Backend Developer",
-    "company": "EcoLogistics",
+    "company": "SecureNet Partners",
+    "location": "Austin, TX",
+    "remote_option": false,
+    "salary_min": 110000,
+    "salary_max": 140000,
+    "required_skills": [
+      "Go",
+      "gRPC",
+      "PostgreSQL",
+      "Microservices"
+    ],
+    "preferred_skills": [
+      "Kubernetes",
+      "GCP",
+      "Prometheus"
+    ],
+    "experience_level": "Mid",
+    "company_size": "201-500",
+    "description": "Develop high-performance, concurrent backend systems for our security platform using Go."
+  },
+  {
+    "id": 8,
+    "title": "Data Scientist",
+    "company": "LogicGate Analytics",
+    "location": "San Francisco, CA",
+    "remote_option": false,
+    "salary_min": 180000,
+    "salary_max": 225000,
+    "required_skills": [
+      "Python",
+      "R",
+      "SQL",
+      "PyTorch",
+      "Statistical Analysis"
+    ],
+    "preferred_skills": [
+      "Spark",
+      "Databricks",
+      "Tableau"
+    ],
+    "experience_level": "Senior",
+    "company_size": "1001+",
+    "description": "Lead research and development of novel algorithms to solve complex problems in the logistics and supply chain domain."
+  },
+  {
+    "id": 9,
+    "title": "DevOps Engineer",
+    "company": "ApexDeploy",
+    "location": "Remote",
+    "remote_option": true,
+    "salary_min": 125000,
+    "salary_max": 155000,
+    "required_skills": [
+      "Azure",
+      "Docker",
+      "Kubernetes",
+      "Ansible",
+      "Jenkins"
+    ],
+    "preferred_skills": [
+      "PowerShell",
+      "Terraform",
+      "Azure DevOps"
+    ],
+    "experience_level": "Mid",
+    "company_size": "51-200",
+    "description": "Build and maintain CI/CD pipelines, and manage our Azure cloud infrastructure for optimal reliability and efficiency."
+  },
+  {
+    "id": 10,
+    "title": "Full Stack Developer",
+    "company": "CodeStream",
     "location": "Seattle, WA",
+    "remote_option": true,
+    "salary_min": 160000,
+    "salary_max": 195000,
+    "required_skills": [
+      "TypeScript",
+      "React",
+      "Node.js",
+      "PostgreSQL"
+    ],
+    "preferred_skills": [
+      "GraphQL",
+      "Next.js",
+      "AWS Lambda"
+    ],
+    "experience_level": "Senior",
+    "company_size": "201-500",
+    "description": "Take ownership of features from conception to deployment, working across our modern tech stack."
+  },
+  {
+    "id": 11,
+    "title": "Frontend Developer",
+    "company": "HealthFirst Tech",
+    "location": "Austin, TX",
     "remote_option": false,
     "salary_min": 90000,
     "salary_max": 115000,
     "required_skills": [
-      "Python",
-      "Django",
-      "Docker",
-      "Git"
-    ],
-    "preferred_skills": [
-      "Celery",
-      "Redis",
-      "PostgreSQL"
-    ],
-    "experience_level": "Entry",
-    "company_size": "50-200",
-    "description": "Help develop the core logic for our sustainable supply chain management software."
-  },
-  {
-    "id": 7,
-    "title": "Full Stack Developer",
-    "company": "HealthBridge",
-    "location": "Austin, TX",
-    "remote_option": false,
-    "salary_min": 125000,
-    "salary_max": 150000,
-    "required_skills": [
-      "Vue.js",
-      "Python",
-      "Django",
-      "Docker",
-      "AWS"
-    ],
-    "preferred_skills": [
-      "Vuex",
-      "Celery",
-      "PostgreSQL"
-    ],
-    "experience_level": "Mid",
-    "company_size": "200-500",
-    "description": "Create end-to-end features for our healthcare platform, connecting patients and providers."
-  },
-  {
-    "id": 8,
-    "title": "Senior Full Stack Developer",
-    "company": "NextGen Platforms",
-    "location": "San Francisco, CA",
-    "remote_option": true,
-    "salary_min": 180000,
-    "salary_max": 220000,
-    "required_skills": [
-      "React",
-      "Go",
-      "gRPC",
-      "Kubernetes",
-      "Microservices"
-    ],
-    "preferred_skills": [
-      "Next.js",
-      "Prometheus",
-      "TypeScript"
-    ],
-    "experience_level": "Senior",
-    "company_size": "500-1000",
-    "description": "Lead a team to build and scale our distributed platform, from the UI to the infrastructure."
-  },
-  {
-    "id": 9,
-    "title": "Full Stack Developer",
-    "company": "CodeCrafters",
-    "location": "Remote",
-    "remote_option": true,
-    "salary_min": 80000,
-    "salary_max": 105000,
-    "required_skills": [
-      "JavaScript",
+      "Angular",
+      "TypeScript",
+      "RxJS",
       "HTML",
-      "CSS",
-      "Node.js",
-      "MongoDB"
+      "CSS"
     ],
     "preferred_skills": [
-      "React",
-      "Express.js",
-      "GraphQL"
+      "NgRx",
+      "Jest",
+      "Cypress"
     ],
     "experience_level": "Entry",
-    "company_size": "10-50",
-    "description": "Work on a variety of client projects, building full-stack web applications from the ground up."
-  },
-  {
-    "id": 10,
-    "title": "Data Scientist",
-    "company": "Insight Analytics",
-    "location": "San Francisco, CA",
-    "remote_option": true,
-    "salary_min": 140000,
-    "salary_max": 170000,
-    "required_skills": [
-      "Python",
-      "Pandas",
-      "Scikit-learn",
-      "SQL",
-      "TensorFlow"
-    ],
-    "preferred_skills": [
-      "PyTorch",
-      "Spark",
-      "Airflow"
-    ],
-    "experience_level": "Mid",
-    "company_size": "200-500",
-    "description": "Develop machine learning models to extract actionable insights from large-scale datasets."
-  },
-  {
-    "id": 11,
-    "title": "Senior Data Scientist, NLP",
-    "company": "AI Visionaries",
-    "location": "Seattle, WA",
-    "remote_option": false,
-    "salary_min": 170000,
-    "salary_max": 210000,
-    "required_skills": [
-      "Machine Learning",
-      "Deep Learning",
-      "NLP",
-      "Python",
-      "AWS SageMaker"
-    ],
-    "preferred_skills": [
-      "Kubeflow",
-      "Airflow",
-      "PyTorch"
-    ],
-    "experience_level": "Senior",
-    "company_size": "50-200",
-    "description": "Lead research and development of novel natural language processing algorithms and models."
+    "company_size": "501-1000",
+    "description": "We are seeking a motivated entry-level frontend developer to help build the next generation of our healthcare platform."
   },
   {
     "id": 12,
-    "title": "Data Scientist",
-    "company": "Retail Insights",
-    "location": "Austin, TX",
-    "remote_option": true,
-    "salary_min": 95000,
-    "salary_max": 125000,
-    "required_skills": [
-      "Python",
-      "SQL",
-      "R",
-      "Pandas",
-      "Matplotlib"
-    ],
-    "preferred_skills": [
-      "Tableau",
-      "Scikit-learn",
-      "Statistics"
-    ],
-    "experience_level": "Entry",
-    "company_size": "500-1000",
-    "description": "Analyze customer behavior and sales data to inform business strategy and product development."
-  },
-  {
-    "id": 13,
-    "title": "DevOps Engineer",
-    "company": "CityGrid Tech",
+    "title": "Backend Developer",
+    "company": "Fintech Solutions",
     "location": "New York, NY",
     "remote_option": false,
     "salary_min": 135000,
     "salary_max": 165000,
     "required_skills": [
-      "CI/CD",
-      "Docker",
-      "Jenkins",
-      "GCP",
-      "Python"
+      "Java",
+      "Spring Boot",
+      "MySQL",
+      "REST APIs"
     ],
     "preferred_skills": [
-      "Terraform",
-      "Spinnaker",
-      "Kubernetes"
+      "Kafka",
+      "Microservices",
+      "AWS"
     ],
     "experience_level": "Mid",
-    "company_size": "200-500",
-    "description": "Manage and improve our cloud infrastructure and deployment pipelines for critical city services."
+    "company_size": "1001+",
+    "description": "Develop secure and reliable backend services for our financial trading systems using Java and Spring Boot."
+  },
+  {
+    "id": 13,
+    "title": "Data Scientist",
+    "company": "AdOptimize",
+    "location": "Remote",
+    "remote_option": true,
+    "salary_min": 105000,
+    "salary_max": 130000,
+    "required_skills": [
+      "Python",
+      "SQL",
+      "Pandas",
+      "Scikit-learn"
+    ],
+    "preferred_skills": [
+      "XGBoost",
+      "Airflow",
+      "Looker"
+    ],
+    "experience_level": "Entry",
+    "company_size": "201-500",
+    "description": "Analyze campaign data to build predictive models and optimize advertising spend for our clients."
   },
   {
     "id": 14,
-    "title": "Senior DevOps Engineer",
-    "company": "InfraScale",
-    "location": "Austin, TX",
+    "title": "DevOps Engineer",
+    "company": "InfraCore",
+    "location": "San Francisco, CA",
     "remote_option": true,
-    "salary_min": 160000,
-    "salary_max": 195000,
+    "salary_min": 145000,
+    "salary_max": 180000,
     "required_skills": [
+      "GCP",
       "Kubernetes",
       "Terraform",
-      "AWS",
-      "Jenkins",
-      "Docker"
+      "GitLab CI"
     ],
     "preferred_skills": [
-      "Ansible",
-      "Prometheus",
-      "Go"
+      "Go",
+      "Istio",
+      "Spinnaker"
     ],
-    "experience_level": "Senior",
-    "company_size": "50-200",
-    "description": "Architect, build, and maintain our scalable, secure, and resilient cloud infrastructure."
+    "experience_level": "Mid",
+    "company_size": "51-200",
+    "description": "Design and implement scalable, automated infrastructure on Google Cloud Platform."
   },
   {
     "id": 15,
-    "title": "DevOps Engineer",
-    "company": "Pacific Cloud",
-    "location": "Seattle, WA",
-    "remote_option": true,
-    "salary_min": 100000,
-    "salary_max": 125000,
-    "required_skills": [
-      "AWS",
-      "Linux",
-      "Git",
-      "Bash",
-      "Docker"
-    ],
-    "preferred_skills": [
-      "Jenkins",
-      "Python",
-      "Terraform"
-    ],
-    "experience_level": "Entry",
-    "company_size": "50-200",
-    "description": "Support our engineering teams by automating builds, deployments, and infrastructure management."
-  },
-  {
-    "id": 16,
-    "title": "Senior Data Scientist, Experimentation",
-    "company": "MarketMinds",
-    "location": "New York, NY",
-    "remote_option": true,
-    "salary_min": 180000,
-    "salary_max": 225000,
-    "required_skills": [
-      "A/B Testing",
-      "Causal Inference",
-      "Python",
-      "SQL",
-      "Statistics"
-    ],
-    "preferred_skills": [
-      "Looker",
-      "BigQuery",
-      "R"
-    ],
-    "experience_level": "Senior",
-    "company_size": "500-1000",
-    "description": "Design and analyze complex experiments to drive product growth and optimization."
-  },
-  {
-    "id": 17,
     "title": "Full Stack Developer",
-    "company": "Urban Ledger",
+    "company": "Synergy Systems",
     "location": "New York, NY",
     "remote_option": true,
-    "salary_min": 165000,
-    "salary_max": 200000,
+    "salary_min": 130000,
+    "salary_max": 160000,
     "required_skills": [
-      "React",
-      "Node.js",
-      "TypeScript",
-      "AWS",
+      "JavaScript",
+      "Vue.js",
+      "Python",
+      "Flask",
       "PostgreSQL"
     ],
     "preferred_skills": [
-      "Terraform",
-      "GraphQL",
-      "Serverless"
+      "TypeScript",
+      "Celery",
+      "Docker"
+    ],
+    "experience_level": "Mid",
+    "company_size": "51-200",
+    "description": "Work across the full stack to build new features and improve existing functionality on our collaborative platform."
+  },
+  {
+    "id": 16,
+    "title": "Frontend Developer",
+    "company": "InnovateX Solutions",
+    "location": "Seattle, WA",
+    "remote_option": false,
+    "salary_min": 155000,
+    "salary_max": 190000,
+    "required_skills": [
+      "React",
+      "TypeScript",
+      "Redux",
+      "GraphQL"
+    ],
+    "preferred_skills": [
+      "Next.js",
+      "Storybook"
     ],
     "experience_level": "Senior",
-    "company_size": "200-500",
-    "description": "Own features from conception to deployment in our real-estate technology platform."
+    "company_size": "51-200",
+    "description": "Lead frontend development efforts, mentor junior engineers, and establish best practices for our web applications."
+  },
+  {
+    "id": 17,
+    "title": "Backend Developer",
+    "company": "QuantumLeap AI",
+    "location": "Remote",
+    "remote_option": true,
+    "salary_min": 155000,
+    "salary_max": 195000,
+    "required_skills": [
+      "Python",
+      "FastAPI",
+      "MongoDB",
+      "AsyncIO"
+    ],
+    "preferred_skills": [
+      "Redis",
+      "Docker",
+      "GCP"
+    ],
+    "experience_level": "Senior",
+    "company_size": "51-200",
+    "description": "Architect and build high-throughput APIs to serve our machine learning models."
   },
   {
     "id": 18,
-    "title": "Data Analyst",
-    "company": "GrowthMetrics",
-    "location": "San Francisco, CA",
+    "title": "Data Scientist",
+    "company": "DataWeave Inc.",
+    "location": "Austin, TX",
+    "remote_option": true,
+    "salary_min": 145000,
+    "salary_max": 180000,
+    "required_skills": [
+      "Python",
+      "SQL",
+      "Pandas",
+      "PyTorch"
+    ],
+    "preferred_skills": [
+      "NLP",
+      "Spark",
+      "AWS"
+    ],
+    "experience_level": "Mid",
+    "company_size": "201-500",
+    "description": "Develop and deploy natural language processing models to enhance our data extraction capabilities."
+  },
+  {
+    "id": 19,
+    "title": "DevOps Engineer",
+    "company": "Nexus Innovations",
+    "location": "New York, NY",
     "remote_option": false,
     "salary_min": 110000,
     "salary_max": 135000,
     "required_skills": [
-      "SQL",
+      "AWS",
+      "Terraform",
+      "Docker",
+      "Jenkins"
+    ],
+    "preferred_skills": [
+      "Bash",
+      "CloudFormation",
+      "Datadog"
+    ],
+    "experience_level": "Entry",
+    "company_size": "11-50",
+    "description": "Support our engineering team by automating builds, deployments, and infrastructure management."
+  },
+  {
+    "id": 20,
+    "title": "Full Stack Developer",
+    "company": "CloudSphere Tech",
+    "location": "San Francisco, CA",
+    "remote_option": false,
+    "salary_min": 140000,
+    "salary_max": 175000,
+    "required_skills": [
+      "TypeScript",
+      "Angular",
+      "Node.js",
+      "Express",
+      "PostgreSQL"
+    ],
+    "preferred_skills": [
+      "GCP",
+      "Kubernetes",
+      "gRPC"
+    ],
+    "experience_level": "Mid",
+    "company_size": "501-1000",
+    "description": "Contribute to all phases of the development lifecycle, from concept to deployment of our cloud management software."
+  },
+  {
+    "id": 21,
+    "title": "Frontend Developer",
+    "company": "LogicGate Analytics",
+    "location": "Remote",
+    "remote_option": true,
+    "salary_min": 120000,
+    "salary_max": 145000,
+    "required_skills": [
+      "React",
+      "JavaScript",
+      "Redux",
+      "CSS-in-JS"
+    ],
+    "preferred_skills": [
+      "TypeScript",
+      "Next.js"
+    ],
+    "experience_level": "Mid",
+    "company_size": "1001+",
+    "description": "Develop interactive data visualizations and dashboards for our analytics platform."
+  },
+  {
+    "id": 22,
+    "title": "Backend Developer",
+    "company": "PixelPerfect Studios",
+    "location": "San Francisco, CA",
+    "remote_option": true,
+    "salary_min": 125000,
+    "salary_max": 155000,
+    "required_skills": [
+      "Ruby on Rails",
+      "PostgreSQL",
+      "Sidekiq"
+    ],
+    "preferred_skills": [
+      "Elasticsearch",
+      "Redis",
+      "Heroku"
+    ],
+    "experience_level": "Mid",
+    "company_size": "51-200",
+    "description": "Maintain and enhance the backend services that power our creative collaboration tools."
+  },
+  {
+    "id": 23,
+    "title": "Data Scientist",
+    "company": "SecureNet Partners",
+    "location": "Seattle, WA",
+    "remote_option": false,
+    "salary_min": 160000,
+    "salary_max": 200000,
+    "required_skills": [
       "Python",
-      "Tableau",
-      "Excel",
+      "SQL",
+      "Machine Learning",
+      "Network Analysis"
+    ],
+    "preferred_skills": [
+      "Spark",
+      "Graph Databases",
+      "Azure"
+    ],
+    "experience_level": "Senior",
+    "company_size": "201-500",
+    "description": "Apply machine learning techniques to detect anomalies and threats in network traffic data."
+  },
+  {
+    "id": 24,
+    "title": "DevOps Engineer",
+    "company": "CodeStream",
+    "location": "Austin, TX",
+    "remote_option": true,
+    "salary_min": 130000,
+    "salary_max": 160000,
+    "required_skills": [
+      "AWS",
+      "Docker",
+      "CloudFormation",
+      "CI/CD"
+    ],
+    "preferred_skills": [
+      "Kubernetes",
+      "Terraform",
+      "Python"
+    ],
+    "experience_level": "Mid",
+    "company_size": "201-500",
+    "description": "Automate, manage, and scale our infrastructure to support a rapidly growing user base."
+  },
+  {
+    "id": 25,
+    "title": "Full Stack Developer",
+    "company": "ApexDeploy",
+    "location": "Remote",
+    "remote_option": true,
+    "salary_min": 150000,
+    "salary_max": 185000,
+    "required_skills": [
+      "Go",
+      "React",
+      "TypeScript",
+      "PostgreSQL"
+    ],
+    "preferred_skills": [
+      "gRPC",
+      "Kubernetes",
+      "GCP"
+    ],
+    "experience_level": "Senior",
+    "company_size": "51-200",
+    "description": "Architect and develop core features for our continuous deployment platform, from the database to the UI."
+  },
+  {
+    "id": 26,
+    "title": "Frontend Developer",
+    "company": "Synergy Systems",
+    "location": "New York, NY",
+    "remote_option": false,
+    "salary_min": 100000,
+    "salary_max": 125000,
+    "required_skills": [
+      "React",
+      "JavaScript",
+      "CSS",
+      "HTML"
+    ],
+    "preferred_skills": [
+      "TypeScript",
+      "Jest"
+    ],
+    "experience_level": "Entry",
+    "company_size": "51-200",
+    "description": "Join a collaborative team to build intuitive user interfaces for our project management software."
+  },
+  {
+    "id": 27,
+    "title": "Backend Developer",
+    "company": "HealthFirst Tech",
+    "location": "Austin, TX",
+    "remote_option": true,
+    "salary_min": 165000,
+    "salary_max": 205000,
+    "required_skills": [
+      "C#",
+      ".NET Core",
+      "SQL Server",
+      "Azure"
+    ],
+    "preferred_skills": [
+      "Microservices",
+      "Docker",
+      "Service Bus"
+    ],
+    "experience_level": "Senior",
+    "company_size": "501-1000",
+    "description": "Lead the design and development of our HIPAA-compliant backend services on the Azure platform."
+  },
+  {
+    "id": 28,
+    "title": "Data Scientist",
+    "company": "Fintech Solutions",
+    "location": "New York, NY",
+    "remote_option": false,
+    "salary_min": 150000,
+    "salary_max": 185000,
+    "required_skills": [
+      "Python",
+      "SQL",
+      "Pandas",
+      "Time Series Analysis"
+    ],
+    "preferred_skills": [
+      "KDB+",
+      "C++",
+      "Machine Learning"
+    ],
+    "experience_level": "Mid",
+    "company_size": "1001+",
+    "description": "Develop and backtest quantitative trading strategies using statistical analysis and machine learning."
+  },
+  {
+    "id": 29,
+    "title": "DevOps Engineer",
+    "company": "AdOptimize",
+    "location": "San Francisco, CA",
+    "remote_option": false,
+    "salary_min": 175000,
+    "salary_max": 220000,
+    "required_skills": [
+      "AWS",
+      "Kubernetes",
+      "Terraform",
+      "Prometheus"
+    ],
+    "preferred_skills": [
+      "Istio",
+      "Go",
+      "Spinnaker"
+    ],
+    "experience_level": "Senior",
+    "company_size": "201-500",
+    "description": "Architect and maintain a highly-available, multi-region infrastructure to handle billions of ad requests daily."
+  },
+  {
+    "id": 30,
+    "title": "Full Stack Developer",
+    "company": "InfraCore",
+    "location": "Seattle, WA",
+    "remote_option": true,
+    "salary_min": 105000,
+    "salary_max": 130000,
+    "required_skills": [
+      "JavaScript",
+      "React",
+      "Node.js",
+      "MySQL"
+    ],
+    "preferred_skills": [
+      "TypeScript",
+      "Docker"
+    ],
+    "experience_level": "Entry",
+    "company_size": "51-200",
+    "description": "As a junior developer, you will contribute to both our frontend and backend codebases, learning and growing with our team."
+  },
+  {
+    "id": 31,
+    "title": "Frontend Developer",
+    "company": "DataWeave Inc.",
+    "location": "New York, NY",
+    "remote_option": true,
+    "salary_min": 130000,
+    "salary_max": 160000,
+    "required_skills": [
+      "Vue.js",
+      "TypeScript",
+      "Vuex",
+      "Sass"
+    ],
+    "preferred_skills": [
+      "Nuxt.js",
+      "Jest",
+      "Cypress"
+    ],
+    "experience_level": "Mid",
+    "company_size": "201-500",
+    "description": "Build sophisticated user interfaces for data exploration and management."
+  },
+  {
+    "id": 32,
+    "title": "Backend Developer",
+    "company": "InnovateX Solutions",
+    "location": "San Francisco, CA",
+    "remote_option": false,
+    "salary_min": 120000,
+    "salary_max": 150000,
+    "required_skills": [
+      "Node.js",
+      "Express",
+      "MongoDB",
+      "REST APIs"
+    ],
+    "preferred_skills": [
+      "TypeScript",
+      "GraphQL",
+      "AWS Lambda"
+    ],
+    "experience_level": "Mid",
+    "company_size": "51-200",
+    "description": "Develop and maintain the server-side logic for our innovative suite of business applications."
+  },
+  {
+    "id": 33,
+    "title": "Data Scientist",
+    "company": "CloudSphere Tech",
+    "location": "Seattle, WA",
+    "remote_option": true,
+    "salary_min": 115000,
+    "salary_max": 140000,
+    "required_skills": [
+      "Python",
+      "SQL",
+      "Pandas",
+      "Scikit-learn",
       "Statistics"
     ],
     "preferred_skills": [
-      "Pandas",
-      "R",
-      "Google Analytics"
+      "Tableau",
+      "AWS",
+      "Redshift"
     ],
     "experience_level": "Entry",
-    "company_size": "50-200",
-    "description": "Translate raw data into impactful business insights through dashboards and reports."
+    "company_size": "501-1000",
+    "description": "Analyze cloud usage data to identify trends, build cost-optimization models, and inform product strategy."
   },
   {
-    "id": 19,
-    "title": "Senior DevOps Engineer",
-    "company": "OmniCloud",
+    "id": 34,
+    "title": "DevOps Engineer",
+    "company": "QuantumLeap AI",
+    "location": "Austin, TX",
+    "remote_option": false,
+    "salary_min": 135000,
+    "salary_max": 165000,
+    "required_skills": [
+      "AWS",
+      "Docker",
+      "Kubernetes",
+      "Terraform"
+    ],
+    "preferred_skills": [
+      "Jenkins",
+      "Python scripting",
+      "Datadog"
+    ],
+    "experience_level": "Mid",
+    "company_size": "51-200",
+    "description": "Maintain the infrastructure that powers our AI research and model deployment pipelines."
+  },
+  {
+    "id": 35,
+    "title": "Full Stack Developer",
+    "company": "SecureNet Partners",
     "location": "Remote",
+    "remote_option": true,
+    "salary_min": 125000,
+    "salary_max": 155000,
+    "required_skills": [
+      "Python",
+      "Django",
+      "React",
+      "JavaScript",
+      "PostgreSQL"
+    ],
+    "preferred_skills": [
+      "TypeScript",
+      "Docker",
+      "Celery"
+    ],
+    "experience_level": "Mid",
+    "company_size": "201-500",
+    "description": "Build features end-to-end for our cybersecurity analytics dashboard."
+  },
+  {
+    "id": 36,
+    "title": "Frontend Developer",
+    "company": "Nexus Innovations",
+    "location": "Austin, TX",
+    "remote_option": true,
+    "salary_min": 95000,
+    "salary_max": 115000,
+    "required_skills": [
+      "React",
+      "JavaScript",
+      "HTML",
+      "CSS"
+    ],
+    "preferred_skills": [
+      "Redux",
+      "TypeScript"
+    ],
+    "experience_level": "Entry",
+    "company_size": "11-50",
+    "description": "A great opportunity for a recent graduate to kickstart their career by building responsive UIs."
+  },
+  {
+    "id": 37,
+    "title": "Backend Developer",
+    "company": "ApexDeploy",
+    "location": "Remote",
+    "remote_option": true,
+    "salary_min": 170000,
+    "salary_max": 215000,
+    "required_skills": [
+      "Go",
+      "Kubernetes",
+      "gRPC",
+      "PostgreSQL"
+    ],
+    "preferred_skills": [
+      "GCP",
+      "Istio",
+      "Prometheus"
+    ],
+    "experience_level": "Senior",
+    "company_size": "51-200",
+    "description": "Architect and lead the development of our core backend services for CI/CD automation."
+  },
+  {
+    "id": 38,
+    "title": "Data Scientist",
+    "company": "PixelPerfect Studios",
+    "location": "New York, NY",
+    "remote_option": false,
+    "salary_min": 145000,
+    "salary_max": 180000,
+    "required_skills": [
+      "Python",
+      "SQL",
+      "Pandas",
+      "Scikit-learn"
+    ],
+    "preferred_skills": [
+      "Recommendation Systems",
+      "A/B Testing",
+      "Looker"
+    ],
+    "experience_level": "Mid",
+    "company_size": "51-200",
+    "description": "Analyze user behavior to build personalization features and improve engagement on our platform."
+  },
+  {
+    "id": 39,
+    "title": "DevOps Engineer",
+    "company": "LogicGate Analytics",
+    "location": "San Francisco, CA",
+    "remote_option": false,
+    "salary_min": 180000,
+    "salary_max": 225000,
+    "required_skills": [
+      "AWS",
+      "Kubernetes",
+      "Terraform",
+      "CI/CD",
+      "Security Best Practices"
+    ],
+    "preferred_skills": [
+      "Go",
+      "Istio",
+      "SOC 2 Compliance"
+    ],
+    "experience_level": "Senior",
+    "company_size": "1001+",
+    "description": "Lead our infrastructure security and compliance efforts, ensuring our platform is robust and secure."
+  },
+  {
+    "id": 40,
+    "title": "Full Stack Developer",
+    "company": "HealthFirst Tech",
+    "location": "Remote",
+    "remote_option": true,
+    "salary_min": 160000,
+    "salary_max": 200000,
+    "required_skills": [
+      "C#",
+      ".NET Core",
+      "Angular",
+      "TypeScript",
+      "SQL Server"
+    ],
+    "preferred_skills": [
+      "Azure",
+      "Microservices",
+      "FHIR"
+    ],
+    "experience_level": "Senior",
+    "company_size": "501-1000",
+    "description": "Lead development on a new product line, influencing architecture and technology choices across the stack."
+  },
+  {
+    "id": 41,
+    "title": "Frontend Developer",
+    "company": "Fintech Solutions",
+    "location": "New York, NY",
+    "remote_option": false,
+    "salary_min": 165000,
+    "salary_max": 205000,
+    "required_skills": [
+      "React",
+      "TypeScript",
+      "HighCharts",
+      "WebSocket"
+    ],
+    "preferred_skills": [
+      "Rust",
+      "WebAssembly",
+      "AG-Grid"
+    ],
+    "experience_level": "Senior",
+    "company_size": "1001+",
+    "description": "Build high-performance, real-time data visualization interfaces for our financial trading platform."
+  },
+  {
+    "id": 42,
+    "title": "Backend Developer",
+    "company": "CodeStream",
+    "location": "Seattle, WA",
+    "remote_option": true,
+    "salary_min": 125000,
+    "salary_max": 155000,
+    "required_skills": [
+      "Node.js",
+      "TypeScript",
+      "PostgreSQL",
+      "GraphQL"
+    ],
+    "preferred_skills": [
+      "AWS",
+      "Serverless",
+      "NestJS"
+    ],
+    "experience_level": "Mid",
+    "company_size": "201-500",
+    "description": "Contribute to our GraphQL API, building new features for our developer collaboration tool."
+  },
+  {
+    "id": 43,
+    "title": "Data Scientist",
+    "company": "Synergy Systems",
+    "location": "Remote",
+    "remote_option": true,
+    "salary_min": 135000,
+    "salary_max": 170000,
+    "required_skills": [
+      "Python",
+      "SQL",
+      "Pandas",
+      "Scikit-learn"
+    ],
+    "preferred_skills": [
+      "NLP",
+      "Airflow",
+      "Tableau"
+    ],
+    "experience_level": "Mid",
+    "company_size": "51-200",
+    "description": "Analyze product usage data to drive feature development and improve user experience."
+  },
+  {
+    "id": 44,
+    "title": "DevOps Engineer",
+    "company": "InfraCore",
+    "location": "Seattle, WA",
+    "remote_option": false,
+    "salary_min": 105000,
+    "salary_max": 130000,
+    "required_skills": [
+      "AWS",
+      "CloudFormation",
+      "Docker",
+      "Bash"
+    ],
+    "preferred_skills": [
+      "Python",
+      "Jenkins"
+    ],
+    "experience_level": "Entry",
+    "company_size": "51-200",
+    "description": "Join our platform team to learn and help manage our AWS infrastructure and deployment pipelines."
+  },
+  {
+    "id": 45,
+    "title": "Full Stack Developer",
+    "company": "AdOptimize",
+    "location": "Austin, TX",
+    "remote_option": true,
+    "salary_min": 130000,
+    "salary_max": 160000,
+    "required_skills": [
+      "React",
+      "Node.js",
+      "JavaScript",
+      "SQL"
+    ],
+    "preferred_skills": [
+      "TypeScript",
+      "Go",
+      "BigQuery"
+    ],
+    "experience_level": "Mid",
+    "company_size": "201-500",
+    "description": "Develop features for our ad management platform, working on everything from the UI to the data processing backend."
+  },
+  {
+    "id": 46,
+    "title": "Frontend Developer",
+    "company": "QuantumLeap AI",
+    "location": "San Francisco, CA",
+    "remote_option": false,
+    "salary_min": 135000,
+    "salary_max": 165000,
+    "required_skills": [
+      "React",
+      "TypeScript",
+      "D3.js",
+      "CSS"
+    ],
+    "preferred_skills": [
+      "GraphQL",
+      "Next.js"
+    ],
+    "experience_level": "Mid",
+    "company_size": "51-200",
+    "description": "Create compelling data visualizations and interfaces for interacting with our AI models."
+  },
+  {
+    "id": 47,
+    "title": "Backend Developer",
+    "company": "CloudSphere Tech",
+    "location": "New York, NY",
+    "remote_option": true,
+    "salary_min": 175000,
+    "salary_max": 220000,
+    "required_skills": [
+      "Java",
+      "Spring",
+      "Kafka",
+      "PostgreSQL",
+      "Microservices"
+    ],
+    "preferred_skills": [
+      "AWS",
+      "Kubernetes",
+      "Elasticsearch"
+    ],
+    "experience_level": "Senior",
+    "company_size": "501-1000",
+    "description": "Architect and lead the development of a distributed, event-driven system for cloud resource monitoring."
+  },
+  {
+    "id": 48,
+    "title": "Data Scientist",
+    "company": "InnovateX Solutions",
+    "location": "Remote",
+    "remote_option": true,
+    "salary_min": 160000,
+    "salary_max": 200000,
+    "required_skills": [
+      "Python",
+      "SQL",
+      "PyTorch",
+      "Deep Learning"
+    ],
+    "preferred_skills": [
+      "Computer Vision",
+      "AWS Sagemaker",
+      "Spark"
+    ],
+    "experience_level": "Senior",
+    "company_size": "51-200",
+    "description": "Lead research and development in computer vision to build cutting-edge features for our products."
+  },
+  {
+    "id": 49,
+    "title": "DevOps Engineer",
+    "company": "DataWeave Inc.",
+    "location": "Austin, TX",
+    "remote_option": false,
+    "salary_min": 140000,
+    "salary_max": 175000,
+    "required_skills": [
+      "AWS",
+      "Terraform",
+      "Ansible",
+      "Kubernetes"
+    ],
+    "preferred_skills": [
+      "Python",
+      "Datadog",
+      "GitLab CI"
+    ],
+    "experience_level": "Mid",
+    "company_size": "201-500",
+    "description": "Enhance our platform's reliability and scalability through infrastructure automation and best practices."
+  },
+  {
+    "id": 50,
+    "title": "Full Stack Developer",
+    "company": "PixelPerfect Studios",
+    "location": "New York, NY",
+    "remote_option": false,
+    "salary_min": 100000,
+    "salary_max": 125000,
+    "required_skills": [
+      "JavaScript",
+      "Vue.js",
+      "Ruby on Rails",
+      "PostgreSQL"
+    ],
+    "preferred_skills": [
+      "TypeScript",
+      "Heroku"
+    ],
+    "experience_level": "Entry",
+    "company_size": "51-200",
+    "description": "Join our product team as a full stack engineer, working on both our Vue.js frontend and Rails backend."
+  },
+  {
+    "id": 51,
+    "title": "Frontend Developer",
+    "company": "SecureNet Partners",
+    "location": "Remote",
+    "remote_option": true,
+    "salary_min": 125000,
+    "salary_max": 150000,
+    "required_skills": [
+      "React",
+      "TypeScript",
+      "Redux Toolkit",
+      "Styled Components"
+    ],
+    "preferred_skills": [
+      "D3.js",
+      "GraphQL"
+    ],
+    "experience_level": "Mid",
+    "company_size": "201-500",
+    "description": "Build the user interface for our next-generation security operations center (SOC) platform."
+  },
+  {
+    "id": 52,
+    "title": "Backend Developer",
+    "company": "LogicGate Analytics",
+    "location": "San Francisco, CA",
+    "remote_option": false,
+    "salary_min": 135000,
+    "salary_max": 170000,
+    "required_skills": [
+      "Python",
+      "Flask",
+      "Celery",
+      "PostgreSQL",
+      "Redis"
+    ],
+    "preferred_skills": [
+      "SQLAlchemy",
+      "Docker",
+      "AWS"
+    ],
+    "experience_level": "Mid",
+    "company_size": "1001+",
+    "description": "Develop and optimize data processing pipelines and APIs for our large-scale analytics engine."
+  },
+  {
+    "id": 53,
+    "title": "Data Scientist",
+    "company": "HealthFirst Tech",
+    "location": "Austin, TX",
+    "remote_option": true,
+    "salary_min": 170000,
+    "salary_max": 210000,
+    "required_skills": [
+      "Python",
+      "SQL",
+      "Machine Learning",
+      "Statistics"
+    ],
+    "preferred_skills": [
+      "Causal Inference",
+      "Azure ML",
+      "Healthcare Data (FHIR, HL7)"
+    ],
+    "experience_level": "Senior",
+    "company_size": "501-1000",
+    "description": "Lead the development of predictive models to improve patient outcomes and operational efficiency."
+  },
+  {
+    "id": 54,
+    "title": "DevOps Engineer",
+    "company": "Fintech Solutions",
+    "location": "New York, NY",
+    "remote_option": false,
+    "salary_min": 145000,
+    "salary_max": 185000,
+    "required_skills": [
+      "AWS",
+      "Kubernetes",
+      "Terraform",
+      "CI/CD",
+      "Linux"
+    ],
+    "preferred_skills": [
+      "Python",
+      "Ansible",
+      "Financial Regulations"
+    ],
+    "experience_level": "Mid",
+    "company_size": "1001+",
+    "description": "Manage the infrastructure for our low-latency trading systems, focusing on reliability and security."
+  },
+  {
+    "id": 55,
+    "title": "Full Stack Developer",
+    "company": "Nexus Innovations",
+    "location": "Seattle, WA",
+    "remote_option": false,
+    "salary_min": 125000,
+    "salary_max": 150000,
+    "required_skills": [
+      "JavaScript",
+      "React",
+      "Node.js",
+      "PostgreSQL"
+    ],
+    "preferred_skills": [
+      "TypeScript",
+      "AWS"
+    ],
+    "experience_level": "Mid",
+    "company_size": "11-50",
+    "description": "Join our small, agile team to build and ship new features for our core product."
+  },
+  {
+    "id": 56,
+    "title": "Frontend Developer",
+    "company": "CodeStream",
+    "location": "Remote",
+    "remote_option": true,
+    "salary_min": 155000,
+    "salary_max": 190000,
+    "required_skills": [
+      "React",
+      "TypeScript",
+      "GraphQL",
+      "Apollo Client"
+    ],
+    "preferred_skills": [
+      "WebSockets",
+      "Performance Optimization"
+    ],
+    "experience_level": "Senior",
+    "company_size": "201-500",
+    "description": "Take a lead role in architecting and building complex features for our real-time collaboration frontend."
+  },
+  {
+    "id": 57,
+    "title": "Backend Developer",
+    "company": "Synergy Systems",
+    "location": "New York, NY",
+    "remote_option": true,
+    "salary_min": 115000,
+    "salary_max": 145000,
+    "required_skills": [
+      "Python",
+      "Django",
+      "PostgreSQL",
+      "REST APIs"
+    ],
+    "preferred_skills": [
+      "Django Rest Framework",
+      "Celery",
+      "Docker"
+    ],
+    "experience_level": "Mid",
+    "company_size": "51-200",
+    "description": "Build and maintain the API that powers our collaborative project management application."
+  },
+  {
+    "id": 58,
+    "title": "Data Scientist",
+    "company": "AdOptimize",
+    "location": "San Francisco, CA",
+    "remote_option": false,
+    "salary_min": 150000,
+    "salary_max": 190000,
+    "required_skills": [
+      "Python",
+      "SQL",
+      "BigQuery",
+      "A/B Testing",
+      "Statistics"
+    ],
+    "preferred_skills": [
+      "Scikit-learn",
+      "TensorFlow",
+      "GCP"
+    ],
+    "experience_level": "Mid",
+    "company_size": "201-500",
+    "description": "Design and analyze large-scale experiments to optimize ad bidding strategies and campaign performance."
+  },
+  {
+    "id": 59,
+    "title": "DevOps Engineer",
+    "company": "ApexDeploy",
+    "location": "Austin, TX",
+    "remote_option": false,
+    "salary_min": 170000,
+    "salary_max": 210000,
+    "required_skills": [
+      "GCP",
+      "Kubernetes",
+      "Terraform",
+      "Go"
+    ],
+    "preferred_skills": [
+      "Istio",
+      "Spinnaker",
+      "Client-Go"
+    ],
+    "experience_level": "Senior",
+    "company_size": "51-200",
+    "description": "Architect and build the next generation of our CI/CD platform on top of Kubernetes and GCP."
+  },
+  {
+    "id": 60,
+    "title": "Full Stack Developer",
+    "company": "InnovateX Solutions",
+    "location": "San Francisco, CA",
+    "remote_option": true,
+    "salary_min": 95000,
+    "salary_max": 120000,
+    "required_skills": [
+      "JavaScript",
+      "React",
+      "Node.js",
+      "MongoDB"
+    ],
+    "preferred_skills": [
+      "TypeScript",
+      "Next.js"
+    ],
+    "experience_level": "Entry",
+    "company_size": "51-200",
+    "description": "An opportunity for a motivated junior developer to gain experience across the full MERN stack."
+  },
+  {
+    "id": 61,
+    "title": "Frontend Developer",
+    "company": "InfraCore",
+    "location": "Seattle, WA",
+    "remote_option": true,
+    "salary_min": 120000,
+    "salary_max": 145000,
+    "required_skills": [
+      "Angular",
+      "TypeScript",
+      "NgRx",
+      "Sass"
+    ],
+    "preferred_skills": [
+      "Jest",
+      "Cypress",
+      "D3.js"
+    ],
+    "experience_level": "Mid",
+    "company_size": "51-200",
+    "description": "Develop the user interface for our infrastructure monitoring and management platform."
+  },
+  {
+    "id": 62,
+    "title": "Backend Developer",
+    "company": "AdOptimize",
+    "location": "Remote",
+    "remote_option": true,
+    "salary_min": 175000,
+    "salary_max": 220000,
+    "required_skills": [
+      "Go",
+      "gRPC",
+      "BigQuery",
+      "High-Throughput Systems"
+    ],
+    "preferred_skills": [
+      "Kubernetes",
+      "GCP",
+      "ClickHouse"
+    ],
+    "experience_level": "Senior",
+    "company_size": "201-500",
+    "description": "Design and build low-latency backend systems capable of handling millions of requests per second."
+  },
+  {
+    "id": 63,
+    "title": "Data Scientist",
+    "company": "Nexus Innovations",
+    "location": "Austin, TX",
+    "remote_option": false,
+    "salary_min": 105000,
+    "salary_max": 130000,
+    "required_skills": [
+      "Python",
+      "SQL",
+      "Pandas",
+      "Scikit-learn"
+    ],
+    "preferred_skills": [
+      "Tableau",
+      "AWS"
+    ],
+    "experience_level": "Entry",
+    "company_size": "11-50",
+    "description": "Join our small team to analyze data, build reports, and help drive our product roadmap."
+  },
+  {
+    "id": 64,
+    "title": "DevOps Engineer",
+    "company": "Synergy Systems",
+    "location": "New York, NY",
+    "remote_option": false,
+    "salary_min": 130000,
+    "salary_max": 160000,
+    "required_skills": [
+      "AWS",
+      "Docker",
+      "Terraform",
+      "Jenkins"
+    ],
+    "preferred_skills": [
+      "Ansible",
+      "Python",
+      "CloudWatch"
+    ],
+    "experience_level": "Mid",
+    "company_size": "51-200",
+    "description": "Manage and improve our AWS-based infrastructure and CI/CD processes."
+  },
+  {
+    "id": 65,
+    "title": "Full Stack Developer",
+    "company": "DataWeave Inc.",
+    "location": "New York, NY",
+    "remote_option": true,
+    "salary_min": 135000,
+    "salary_max": 165000,
+    "required_skills": [
+      "Vue.js",
+      "Python",
+      "Flask",
+      "PostgreSQL"
+    ],
+    "preferred_skills": [
+      "TypeScript",
+      "Docker",
+      "AWS"
+    ],
+    "experience_level": "Mid",
+    "company_size": "201-500",
+    "description": "Build user-facing features and the APIs that power them for our data integration platform."
+  },
+  {
+    "id": 66,
+    "title": "Frontend Developer",
+    "company": "HealthFirst Tech",
+    "location": "Remote",
+    "remote_option": true,
+    "salary_min": 125000,
+    "salary_max": 155000,
+    "required_skills": [
+      "Angular",
+      "TypeScript",
+      "RxJS",
+      "HTML5"
+    ],
+    "preferred_skills": [
+      "Accessibility (A11Y)",
+      "NgRx"
+    ],
+    "experience_level": "Mid",
+    "company_size": "501-1000",
+    "description": "Create accessible and intuitive interfaces for patients and healthcare providers."
+  },
+  {
+    "id": 67,
+    "title": "Backend Developer",
+    "company": "QuantumLeap AI",
+    "location": "Austin, TX",
+    "remote_option": false,
+    "salary_min": 120000,
+    "salary_max": 145000,
+    "required_skills": [
+      "Python",
+      "FastAPI",
+      "PostgreSQL",
+      "REST APIs"
+    ],
+    "preferred_skills": [
+      "Docker",
+      "Redis",
+      "GCP"
+    ],
+    "experience_level": "Mid",
+    "company_size": "51-200",
+    "description": "Develop robust and scalable APIs to integrate our AI models with customer applications."
+  },
+  {
+    "id": 68,
+    "title": "Data Scientist",
+    "company": "CodeStream",
+    "location": "Seattle, WA",
+    "remote_option": true,
+    "salary_min": 110000,
+    "salary_max": 135000,
+    "required_skills": [
+      "Python",
+      "SQL",
+      "Pandas",
+      "Statistics"
+    ],
+    "preferred_skills": [
+      "Tableau",
+      "Looker",
+      "A/B Testing"
+    ],
+    "experience_level": "Entry",
+    "company_size": "201-500",
+    "description": "Analyze product usage and user feedback to generate insights that guide feature development."
+  },
+  {
+    "id": 69,
+    "title": "DevOps Engineer",
+    "company": "CloudSphere Tech",
+    "location": "San Francisco, CA",
     "remote_option": true,
     "salary_min": 175000,
     "salary_max": 215000,
@@ -439,272 +1575,5313 @@
       "Kubernetes",
       "Terraform",
       "Go",
-      "Prometheus",
-      "CI/CD"
+      "Prometheus"
     ],
     "preferred_skills": [
       "Istio",
-      "Grafana",
-      "Spinnaker"
+      "Linkerd",
+      "Site Reliability Engineering"
     ],
     "experience_level": "Senior",
-    "company_size": "200-500",
-    "description": "Lead our infrastructure-as-code and observability initiatives in a multi-cloud environment."
+    "company_size": "501-1000",
+    "description": "Lead our SRE team, focusing on automation, observability, and the reliability of our core services."
   },
   {
-    "id": 20,
-    "title": "Backend Developer",
-    "company": "SecureNet",
-    "location": "Austin, TX",
-    "remote_option": true,
-    "salary_min": 120000,
-    "salary_max": 145000,
-    "required_skills": [
-      "Java",
-      "Spring Boot",
-      "Kafka",
-      "MySQL"
-    ],
-    "preferred_skills": [
-      "Hibernate",
-      "Jenkins",
-      "AWS"
-    ],
-    "experience_level": "Mid",
-    "company_size": "500-1000",
-    "description": "Develop and maintain backend services for our enterprise cybersecurity products."
-  },
-  {
-    "id": 21,
-    "title": "Frontend Developer",
-    "company": "Startup Hub",
-    "location": "Austin, TX",
-    "remote_option": true,
-    "salary_min": 80000,
-    "salary_max": 100000,
-    "required_skills": [
-      "JavaScript",
-      "HTML",
-      "CSS",
-      "Git"
-    ],
-    "preferred_skills": [
-      "React",
-      "Vue.js",
-      "Firebase"
-    ],
-    "experience_level": "Entry",
-    "company_size": "10-50",
-    "description": "A great opportunity to grow your skills by working on multiple aspects of our core product."
-  },
-  {
-    "id": 22,
+    "id": 70,
     "title": "Full Stack Developer",
-    "company": "AeroDynamics",
-    "location": "Seattle, WA",
-    "remote_option": true,
-    "salary_min": 130000,
-    "salary_max": 155000,
-    "required_skills": [
-      "Angular",
-      "Java",
-      "Spring Boot",
-      "GCP"
-    ],
-    "preferred_skills": [
-      "Kubernetes",
-      "Jenkins",
-      "TypeScript"
-    ],
-    "experience_level": "Mid",
-    "company_size": "1000+",
-    "description": "Build mission-critical software for the aerospace industry, from UI to backend services."
-  },
-  {
-    "id": 23,
-    "title": "Data Engineer",
-    "company": "DataStream Co",
+    "company": "LogicGate Analytics",
     "location": "Remote",
     "remote_option": true,
-    "salary_min": 130000,
-    "salary_max": 160000,
-    "required_skills": [
-      "Python",
-      "Spark",
-      "Hadoop",
-      "SQL",
-      "ETL"
-    ],
-    "preferred_skills": [
-      "Airflow",
-      "AWS EMR",
-      "Kafka"
-    ],
-    "experience_level": "Mid",
-    "company_size": "50-200",
-    "description": "Design, build, and maintain robust and scalable data pipelines for our analytics platform."
-  },
-  {
-    "id": 24,
-    "title": "Senior Frontend Developer",
-    "company": "GlobalConnect",
-    "location": "Remote",
-    "remote_option": true,
-    "salary_min": 160000,
-    "salary_max": 190000,
+    "salary_min": 165000,
+    "salary_max": 205000,
     "required_skills": [
       "React",
-      "Redux",
-      "Web Performance",
-      "Accessibility (A11Y)"
-    ],
-    "preferred_skills": [
-      "WebRTC",
-      "Three.js",
-      "GraphQL"
-    ],
-    "experience_level": "Senior",
-    "company_size": "200-500",
-    "description": "Take ownership of the frontend architecture for our real-time communication platform."
-  },
-  {
-    "id": 25,
-    "title": "Mid-Level Backend Engineer",
-    "company": "SocialSphere",
-    "location": "San Francisco, CA",
-    "remote_option": false,
-    "salary_min": 135000,
-    "salary_max": 165000,
-    "required_skills": [
-      "Ruby on Rails",
+      "Python",
+      "Flask",
       "PostgreSQL",
-      "Sidekiq",
-      "RSpec"
+      "TypeScript"
     ],
     "preferred_skills": [
       "GraphQL",
-      "Heroku",
-      "Redis"
-    ],
-    "experience_level": "Mid",
-    "company_size": "50-200",
-    "description": "Develop new features and scale the API for our fast-growing social media application."
-  },
-  {
-    "id": 26,
-    "title": "Junior Full Stack Developer",
-    "company": "MediaStream",
-    "location": "New York, NY",
-    "remote_option": false,
-    "salary_min": 95000,
-    "salary_max": 120000,
-    "required_skills": [
-      "Ruby on Rails",
-      "JavaScript",
-      "HTML",
-      "PostgreSQL"
-    ],
-    "preferred_skills": [
-      "React",
-      "Heroku",
-      "CSS"
-    ],
-    "experience_level": "Entry",
-    "company_size": "200-500",
-    "description": "Contribute to all parts of our codebase, from backend APIs to frontend components."
-  },
-  {
-    "id": 27,
-    "title": "Senior Backend Engineer",
-    "company": "Enterprise Flow",
-    "location": "Remote",
-    "remote_option": true,
-    "salary_min": 155000,
-    "salary_max": 185000,
-    "required_skills": [
-      "C#",
-      ".NET Core",
-      "Azure",
-      "SQL Server"
-    ],
-    "preferred_skills": [
-      "Cosmos DB",
-      "Terraform",
-      "Microservices"
+      "Docker",
+      "AWS"
     ],
     "experience_level": "Senior",
-    "company_size": "1000+",
-    "description": "Design and build scalable, cloud-native services for our suite of enterprise B2B products."
+    "company_size": "1001+",
+    "description": "Architect and implement major features for our enterprise analytics product, mentoring other engineers along the way."
   },
   {
-    "id": 28,
-    "title": "DevOps Engineer",
-    "company": "VentureForward",
+    "id": 71,
+    "title": "Frontend Developer",
+    "company": "ApexDeploy",
+    "location": "Austin, TX",
+    "remote_option": true,
+    "salary_min": 125000,
+    "salary_max": 150000,
+    "required_skills": [
+      "React",
+      "TypeScript",
+      "GraphQL",
+      "Styled Components"
+    ],
+    "preferred_skills": [
+      "Next.js",
+      "Jest",
+      "Cypress"
+    ],
+    "experience_level": "Mid",
+    "company_size": "51-200",
+    "description": "Build the user interface that makes complex deployment pipelines easy to manage and visualize."
+  },
+  {
+    "id": 72,
+    "title": "Backend Developer",
+    "company": "Fintech Solutions",
+    "location": "New York, NY",
+    "remote_option": false,
+    "salary_min": 180000,
+    "salary_max": 225000,
+    "required_skills": [
+      "Java",
+      "Low-latency",
+      "Multithreading",
+      "Spring"
+    ],
+    "preferred_skills": [
+      "C++",
+      "Kafka",
+      "FIX Protocol"
+    ],
+    "experience_level": "Senior",
+    "company_size": "1001+",
+    "description": "Develop and optimize high-frequency trading systems where performance is critical."
+  },
+  {
+    "id": 73,
+    "title": "Data Scientist",
+    "company": "SecureNet Partners",
     "location": "Seattle, WA",
     "remote_option": false,
     "salary_min": 145000,
-    "salary_max": 175000,
+    "salary_max": 180000,
     "required_skills": [
-      "Azure DevOps",
-      "Terraform",
-      "PowerShell",
-      "Kubernetes (AKS)"
+      "Python",
+      "SQL",
+      "Pandas",
+      "Scikit-learn",
+      "Network Security"
     ],
     "preferred_skills": [
-      "C#",
-      ".NET",
-      "Azure Monitor"
+      "Spark",
+      "Elasticsearch",
+      "Suricata"
     ],
     "experience_level": "Mid",
-    "company_size": "200-500",
-    "description": "Automate and streamline operations and processes for our Azure-based applications."
+    "company_size": "201-500",
+    "description": "Build machine learning models to identify and classify cybersecurity threats from network data."
   },
   {
-    "id": 29,
-    "title": "Frontend Developer",
-    "company": "DataWeavers",
-    "location": "Austin, TX",
-    "remote_option": false,
-    "salary_min": 110000,
-    "salary_max": 135000,
-    "required_skills": [
-      "Angular",
-      "RxJS",
-      "NgRx",
-      "SCSS",
-      "TypeScript"
-    ],
-    "preferred_skills": [
-      "Docker",
-      "Karma",
-      "Jasmine"
-    ],
-    "experience_level": "Mid",
-    "company_size": "50-200",
-    "description": "Build complex and interactive data visualization dashboards using Angular."
-  },
-  {
-    "id": 30,
-    "title": "Cloud Engineer",
-    "company": "ConnectSphere",
+    "id": 74,
+    "title": "DevOps Engineer",
+    "company": "PixelPerfect Studios",
     "location": "Remote",
     "remote_option": true,
     "salary_min": 125000,
     "salary_max": 155000,
     "required_skills": [
-      "GitLab CI",
+      "AWS",
+      "Terraform",
       "Docker",
+      "Heroku"
+    ],
+    "preferred_skills": [
+      "CI/CD",
+      "Ruby",
+      "CloudWatch"
+    ],
+    "experience_level": "Mid",
+    "company_size": "51-200",
+    "description": "Manage our cloud infrastructure on AWS and Heroku, ensuring our applications are scalable and reliable."
+  },
+  {
+    "id": 75,
+    "title": "Full Stack Developer",
+    "company": "CloudSphere Tech",
+    "location": "Seattle, WA",
+    "remote_option": false,
+    "salary_min": 105000,
+    "salary_max": 130000,
+    "required_skills": [
+      "JavaScript",
+      "Angular",
+      "Java",
+      "Spring"
+    ],
+    "preferred_skills": [
+      "TypeScript",
+      "PostgreSQL",
+      "AWS"
+    ],
+    "experience_level": "Entry",
+    "company_size": "501-1000",
+    "description": "Join our team to learn and contribute to the development of our cloud cost management tools."
+  },
+  {
+    "id": 76,
+    "title": "Frontend Developer",
+    "company": "InnovateX Solutions",
+    "location": "San Francisco, CA",
+    "remote_option": true,
+    "salary_min": 160000,
+    "salary_max": 200000,
+    "required_skills": [
+      "React",
+      "TypeScript",
+      "Redux",
+      "Jest"
+    ],
+    "preferred_skills": [
+      "Next.js",
+      "GraphQL",
+      "Architectural Patterns"
+    ],
+    "experience_level": "Senior",
+    "company_size": "51-200",
+    "description": "Lead frontend architecture decisions, mentor engineers, and drive the adoption of new technologies."
+  },
+  {
+    "id": 77,
+    "title": "Backend Developer",
+    "company": "SecureNet Partners",
+    "location": "Austin, TX",
+    "remote_option": false,
+    "salary_min": 125000,
+    "salary_max": 155000,
+    "required_skills": [
+      "Go",
+      "PostgreSQL",
+      "REST APIs",
+      "Microservices"
+    ],
+    "preferred_skills": [
+      "gRPC",
+      "Kubernetes",
+      "Azure"
+    ],
+    "experience_level": "Mid",
+    "company_size": "201-500",
+    "description": "Develop backend services for our security information and event management (SIEM) platform."
+  },
+  {
+    "id": 78,
+    "title": "Data Scientist",
+    "company": "QuantumLeap AI",
+    "location": "Remote",
+    "remote_option": true,
+    "salary_min": 175000,
+    "salary_max": 220000,
+    "required_skills": [
+      "Python",
+      "PyTorch",
+      "Deep Learning",
+      "Computer Vision"
+    ],
+    "preferred_skills": [
+      "Generative AI",
+      "Transformers",
+      "AWS Sagemaker"
+    ],
+    "experience_level": "Senior",
+    "company_size": "51-200",
+    "description": "Lead R&D on generative models for image and video, pushing the boundaries of what's possible."
+  },
+  {
+    "id": 79,
+    "title": "DevOps Engineer",
+    "company": "HealthFirst Tech",
+    "location": "Austin, TX",
+    "remote_option": true,
+    "salary_min": 135000,
+    "salary_max": 170000,
+    "required_skills": [
+      "Azure",
+      "Terraform",
+      "Kubernetes (AKS)",
+      "CI/CD"
+    ],
+    "preferred_skills": [
+      "Azure DevOps",
+      "PowerShell",
+      "HIPAA Compliance"
+    ],
+    "experience_level": "Mid",
+    "company_size": "501-1000",
+    "description": "Manage our Azure infrastructure with a strong focus on security and compliance for healthcare data."
+  },
+  {
+    "id": 80,
+    "title": "Full Stack Developer",
+    "company": "Synergy Systems",
+    "location": "New York, NY",
+    "remote_option": false,
+    "salary_min": 95000,
+    "salary_max": 120000,
+    "required_skills": [
+      "JavaScript",
+      "Vue.js",
+      "Python",
+      "Flask"
+    ],
+    "preferred_skills": [
+      "SQLAlchemy",
+      "PostgreSQL"
+    ],
+    "experience_level": "Entry",
+    "company_size": "51-200",
+    "description": "Work with a supportive team to build new features for our collaborative software."
+  },
+  {
+    "id": 81,
+    "title": "Frontend Developer",
+    "company": "DataWeave Inc.",
+    "location": "Remote",
+    "remote_option": true,
+    "salary_min": 95000,
+    "salary_max": 115000,
+    "required_skills": [
+      "Vue.js",
+      "JavaScript",
+      "HTML",
+      "CSS"
+    ],
+    "preferred_skills": [
+      "Pinia",
+      "Vite",
+      "TypeScript"
+    ],
+    "experience_level": "Entry",
+    "company_size": "201-500",
+    "description": "Help us build and refine the user interfaces for our data tools."
+  },
+  {
+    "id": 82,
+    "title": "Backend Developer",
+    "company": "Nexus Innovations",
+    "location": "Seattle, WA",
+    "remote_option": false,
+    "salary_min": 165000,
+    "salary_max": 200000,
+    "required_skills": [
+      "Node.js",
+      "TypeScript",
+      "Microservices",
+      "PostgreSQL"
+    ],
+    "preferred_skills": [
+      "AWS",
+      "GraphQL",
+      "System Design"
+    ],
+    "experience_level": "Senior",
+    "company_size": "11-50",
+    "description": "As a senior engineer in a small company, you will have a huge impact on our technical direction and architecture."
+  },
+  {
+    "id": 83,
+    "title": "Data Scientist",
+    "company": "LogicGate Analytics",
+    "location": "New York, NY",
+    "remote_option": true,
+    "salary_min": 145000,
+    "salary_max": 180000,
+    "required_skills": [
+      "Python",
+      "SQL",
+      "Pandas",
+      "Scikit-learn",
+      "Forecasting"
+    ],
+    "preferred_skills": [
+      "Prophet",
+      "XGBoost",
+      "Databricks"
+    ],
+    "experience_level": "Mid",
+    "company_size": "1001+",
+    "description": "Build time series forecasting models to predict key business metrics for our enterprise clients."
+  },
+  {
+    "id": 84,
+    "title": "DevOps Engineer",
+    "company": "InnovateX Solutions",
+    "location": "San Francisco, CA",
+    "remote_option": false,
+    "salary_min": 110000,
+    "salary_max": 135000,
+    "required_skills": [
+      "AWS",
+      "Docker",
+      "Terraform",
+      "CI/CD"
+    ],
+    "preferred_skills": [
+      "CloudFormation",
+      "Bash Scripting"
+    ],
+    "experience_level": "Entry",
+    "company_size": "51-200",
+    "description": "Join our operations team to learn how to build and maintain scalable cloud infrastructure."
+  },
+  {
+    "id": 85,
+    "title": "Full Stack Developer",
+    "company": "Fintech Solutions",
+    "location": "Remote",
+    "remote_option": true,
+    "salary_min": 140000,
+    "salary_max": 175000,
+    "required_skills": [
+      "React",
+      "Java",
+      "Spring Boot",
+      "SQL"
+    ],
+    "preferred_skills": [
+      "TypeScript",
+      "Kafka",
+      "Microservices"
+    ],
+    "experience_level": "Mid",
+    "company_size": "1001+",
+    "description": "Develop and maintain web applications for our internal trading and analytics platforms."
+  },
+  {
+    "id": 86,
+    "title": "Frontend Developer",
+    "company": "CloudSphere Tech",
+    "location": "Seattle, WA",
+    "remote_option": true,
+    "salary_min": 125000,
+    "salary_max": 155000,
+    "required_skills": [
+      "React",
+      "TypeScript",
+      "Redux",
+      "D3.js"
+    ],
+    "preferred_skills": [
+      "GraphQL",
+      "Performance Optimization"
+    ],
+    "experience_level": "Mid",
+    "company_size": "501-1000",
+    "description": "Create intuitive dashboards and data visualizations to help users understand their cloud spending."
+  },
+  {
+    "id": 87,
+    "title": "Backend Developer",
+    "company": "InfraCore",
+    "location": "Remote",
+    "remote_option": true,
+    "salary_min": 160000,
+    "salary_max": 195000,
+    "required_skills": [
+      "Go",
+      "gRPC",
+      "PostgreSQL",
+      "Time Series Database"
+    ],
+    "preferred_skills": [
+      "Prometheus",
+      "Kubernetes",
+      "GCP"
+    ],
+    "experience_level": "Senior",
+    "company_size": "51-200",
+    "description": "Architect the backend systems for collecting and processing metrics from customer infrastructure."
+  },
+  {
+    "id": 88,
+    "title": "Data Scientist",
+    "company": "Fintech Solutions",
+    "location": "New York, NY",
+    "remote_option": false,
+    "salary_min": 185000,
+    "salary_max": 230000,
+    "required_skills": [
+      "Python",
+      "SQL",
+      "Machine Learning",
+      "Quantitative Analysis"
+    ],
+    "preferred_skills": [
+      "C++",
+      "KDB+",
+      "Time Series Analysis",
+      "Statistics"
+    ],
+    "experience_level": "Senior",
+    "company_size": "1001+",
+    "description": "Lead a quant research team in developing alpha-generating trading strategies."
+  },
+  {
+    "id": 89,
+    "title": "DevOps Engineer",
+    "company": "CodeStream",
+    "location": "Seattle, WA",
+    "remote_option": true,
+    "salary_min": 165000,
+    "salary_max": 205000,
+    "required_skills": [
+      "AWS",
+      "Kubernetes",
+      "Terraform",
+      "CI/CD"
+    ],
+    "preferred_skills": [
+      "Go",
+      "Istio",
+      "Observability"
+    ],
+    "experience_level": "Senior",
+    "company_size": "201-500",
+    "description": "Own the reliability, scalability, and performance of our production environment."
+  },
+  {
+    "id": 90,
+    "title": "Full Stack Developer",
+    "company": "ApexDeploy",
+    "location": "Austin, TX",
+    "remote_option": false,
+    "salary_min": 130000,
+    "salary_max": 160000,
+    "required_skills": [
+      "React",
+      "Go",
+      "gRPC",
+      "PostgreSQL"
+    ],
+    "preferred_skills": [
+      "TypeScript",
+      "Kubernetes",
+      "GCP"
+    ],
+    "experience_level": "Mid",
+    "company_size": "51-200",
+    "description": "Contribute across our stack to build the best continuous deployment tool for developers."
+  },
+  {
+    "id": 91,
+    "title": "Frontend Developer",
+    "company": "Synergy Systems",
+    "location": "New York, NY",
+    "remote_option": true,
+    "salary_min": 150000,
+    "salary_max": 185000,
+    "required_skills": [
+      "Vue.js",
+      "TypeScript",
+      "Vuex",
+      "Webpack"
+    ],
+    "preferred_skills": [
+      "Nuxt.js",
+      "WebSockets",
+      "E2E Testing"
+    ],
+    "experience_level": "Senior",
+    "company_size": "51-200",
+    "description": "Lead the development of our real-time collaboration features and mentor other frontend engineers."
+  },
+  {
+    "id": 92,
+    "title": "Backend Developer",
+    "company": "HealthFirst Tech",
+    "location": "Remote",
+    "remote_option": true,
+    "salary_min": 125000,
+    "salary_max": 155000,
+    "required_skills": [
+      "C#",
+      ".NET Core",
+      "SQL Server",
+      "REST APIs"
+    ],
+    "preferred_skills": [
+      "Azure Functions",
+      "Microservices",
+      "Entity Framework"
+    ],
+    "experience_level": "Mid",
+    "company_size": "501-1000",
+    "description": "Develop and maintain backend services for our patient portal and EHR integration systems."
+  },
+  {
+    "id": 93,
+    "title": "Data Scientist",
+    "company": "DataWeave Inc.",
+    "location": "Austin, TX",
+    "remote_option": false,
+    "salary_min": 110000,
+    "salary_max": 135000,
+    "required_skills": [
+      "Python",
+      "SQL",
+      "Pandas",
+      "Scikit-learn"
+    ],
+    "preferred_skills": [
+      "NLP",
+      "AWS",
+      "Looker"
+    ],
+    "experience_level": "Entry",
+    "company_size": "201-500",
+    "description": "Analyze datasets to improve our data transformation and mapping algorithms."
+  },
+  {
+    "id": 94,
+    "title": "DevOps Engineer",
+    "company": "Nexus Innovations",
+    "location": "Remote",
+    "remote_option": true,
+    "salary_min": 130000,
+    "salary_max": 160000,
+    "required_skills": [
+      "AWS",
+      "Terraform",
+      "Docker",
+      "GitHub Actions"
+    ],
+    "preferred_skills": [
+      "Kubernetes",
+      "Python",
+      "Security"
+    ],
+    "experience_level": "Mid",
+    "company_size": "11-50",
+    "description": "As our first DevOps hire, you will build our infrastructure from the ground up."
+  },
+  {
+    "id": 95,
+    "title": "Full Stack Developer",
+    "company": "SecureNet Partners",
+    "location": "Seattle, WA",
+    "remote_option": true,
+    "salary_min": 160000,
+    "salary_max": 200000,
+    "required_skills": [
+      "React",
+      "Go",
+      "PostgreSQL",
+      "TypeScript"
+    ],
+    "preferred_skills": [
+      "gRPC",
+      "Kubernetes",
+      "GraphQL"
+    ],
+    "experience_level": "Senior",
+    "company_size": "201-500",
+    "description": "Lead development of our security dashboard, working across the frontend and backend to deliver a world-class user experience."
+  },
+  {
+    "id": 96,
+    "title": "Frontend Developer",
+    "company": "LogicGate Analytics",
+    "location": "San Francisco, CA",
+    "remote_option": false,
+    "salary_min": 130000,
+    "salary_max": 160000,
+    "required_skills": [
+      "React",
+      "TypeScript",
+      "Redux",
+      "D3.js"
+    ],
+    "preferred_skills": [
+      "GraphQL",
+      "HighCharts",
+      "Performance"
+    ],
+    "experience_level": "Mid",
+    "company_size": "1001+",
+    "description": "Build high-performance, interactive data visualizations for our enterprise customers."
+  },
+  {
+    "id": 97,
+    "title": "Backend Developer",
+    "company": "PixelPerfect Studios",
+    "location": "New York, NY",
+    "remote_option": true,
+    "salary_min": 165000,
+    "salary_max": 205000,
+    "required_skills": [
+      "Ruby on Rails",
+      "PostgreSQL",
+      "Sidekiq",
+      "Redis"
+    ],
+    "preferred_skills": [
+      "Elasticsearch",
+      "System Architecture",
+      "AWS"
+    ],
+    "experience_level": "Senior",
+    "company_size": "51-200",
+    "description": "Architect and scale the backend systems that support millions of creative users."
+  },
+  {
+    "id": 98,
+    "title": "Data Scientist",
+    "company": "InnovateX Solutions",
+    "location": "San Francisco, CA",
+    "remote_option": false,
+    "salary_min": 140000,
+    "salary_max": 175000,
+    "required_skills": [
+      "Python",
+      "SQL",
+      "Pandas",
+      "PyTorch"
+    ],
+    "preferred_skills": [
+      "Computer Vision",
+      "AWS Sagemaker"
+    ],
+    "experience_level": "Mid",
+    "company_size": "51-200",
+    "description": "Develop and train deep learning models for image recognition and analysis."
+  },
+  {
+    "id": 99,
+    "title": "DevOps Engineer",
+    "company": "AdOptimize",
+    "location": "Remote",
+    "remote_option": true,
+    "salary_min": 135000,
+    "salary_max": 165000,
+    "required_skills": [
+      "GCP",
+      "Kubernetes",
+      "Terraform",
+      "CI/CD"
+    ],
+    "preferred_skills": [
+      "Ansible",
+      "Prometheus",
+      "Helm"
+    ],
+    "experience_level": "Mid",
+    "company_size": "201-500",
+    "description": "Maintain and scale the Kubernetes clusters that run our real-time bidding platform."
+  },
+  {
+    "id": 100,
+    "title": "Full Stack Developer",
+    "company": "InfraCore",
+    "location": "Austin, TX",
+    "remote_option": true,
+    "salary_min": 125000,
+    "salary_max": 155000,
+    "required_skills": [
+      "Angular",
+      "Go",
+      "PostgreSQL",
+      "TypeScript"
+    ],
+    "preferred_skills": [
+      "gRPC",
+      "Prometheus",
+      "GCP"
+    ],
+    "experience_level": "Mid",
+    "company_size": "51-200",
+    "description": "Develop features end-to-end for our infrastructure monitoring product."
+  },
+  {
+    "id": 101,
+    "title": "Frontend Developer",
+    "company": "InnovateX Solutions",
+    "location": "Austin, TX",
+    "remote_option": false,
+    "salary_min": 120000,
+    "salary_max": 150000,
+    "required_skills": [
+      "React",
+      "JavaScript",
+      "CSS",
+      "HTML"
+    ],
+    "preferred_skills": [
+      "TypeScript",
+      "Node.js"
+    ],
+    "experience_level": "Mid",
+    "company_size": "51-200",
+    "description": "Build responsive web applications using React for our innovative product suite."
+  },
+  {
+    "id": 102,
+    "title": "Backend Developer",
+    "company": "DataWeave Inc.",
+    "location": "Seattle, WA",
+    "remote_option": true,
+    "salary_min": 165000,
+    "salary_max": 205000,
+    "required_skills": [
+      "Java",
+      "Spring Boot",
+      "Kafka",
+      "PostgreSQL"
+    ],
+    "preferred_skills": [
+      "AWS",
+      "Microservices",
+      "Elasticsearch"
+    ],
+    "experience_level": "Senior",
+    "company_size": "201-500",
+    "description": "Architect scalable data processing pipelines and microservices for our core platform."
+  },
+  {
+    "id": 103,
+    "title": "Data Scientist",
+    "company": "QuantumLeap AI",
+    "location": "New York, NY",
+    "remote_option": false,
+    "salary_min": 115000,
+    "salary_max": 140000,
+    "required_skills": [
+      "Python",
+      "SQL",
+      "Pandas",
+      "Scikit-learn"
+    ],
+    "preferred_skills": [
+      "PyTorch",
+      "GCP",
+      "BigQuery"
+    ],
+    "experience_level": "Entry",
+    "company_size": "51-200",
+    "description": "Analyze datasets and assist senior scientists in building and validating machine learning models."
+  },
+  {
+    "id": 104,
+    "title": "DevOps Engineer",
+    "company": "CloudSphere Tech",
+    "location": "Remote",
+    "remote_option": true,
+    "salary_min": 130000,
+    "salary_max": 160000,
+    "required_skills": [
+      "AWS",
+      "Terraform",
+      "Docker",
+      "CI/CD"
+    ],
+    "preferred_skills": [
+      "Kubernetes",
+      "Python",
+      "Datadog"
+    ],
+    "experience_level": "Mid",
+    "company_size": "501-1000",
+    "description": "Automate infrastructure deployment and management to improve reliability and efficiency."
+  },
+  {
+    "id": 105,
+    "title": "Full Stack Developer",
+    "company": "Nexus Innovations",
+    "location": "San Francisco, CA",
+    "remote_option": true,
+    "salary_min": 170000,
+    "salary_max": 210000,
+    "required_skills": [
+      "React",
+      "Node.js",
+      "TypeScript",
+      "PostgreSQL"
+    ],
+    "preferred_skills": [
+      "GraphQL",
+      "AWS",
+      "System Design"
+    ],
+    "experience_level": "Senior",
+    "company_size": "11-50",
+    "description": "Lead the technical development of our core product, making key architectural decisions."
+  },
+  {
+    "id": 106,
+    "title": "Frontend Developer",
+    "company": "PixelPerfect Studios",
+    "location": "Austin, TX",
+    "remote_option": true,
+    "salary_min": 90000,
+    "salary_max": 110000,
+    "required_skills": [
+      "Vue.js",
+      "JavaScript",
+      "HTML",
+      "CSS"
+    ],
+    "preferred_skills": [
+      "Nuxt.js",
+      "Jest"
+    ],
+    "experience_level": "Entry",
+    "company_size": "51-200",
+    "description": "Join our creative team to build beautiful and engaging user interfaces."
+  },
+  {
+    "id": 107,
+    "title": "Backend Developer",
+    "company": "SecureNet Partners",
+    "location": "Remote",
+    "remote_option": true,
+    "salary_min": 120000,
+    "salary_max": 150000,
+    "required_skills": [
+      "Python",
+      "Flask",
+      "PostgreSQL",
+      "REST APIs"
+    ],
+    "preferred_skills": [
+      "Celery",
+      "Redis",
+      "Docker"
+    ],
+    "experience_level": "Mid",
+    "company_size": "201-500",
+    "description": "Develop and maintain the backend services for our cybersecurity threat intelligence platform."
+  },
+  {
+    "id": 108,
+    "title": "Data Scientist",
+    "company": "LogicGate Analytics",
+    "location": "Seattle, WA",
+    "remote_option": false,
+    "salary_min": 145000,
+    "salary_max": 180000,
+    "required_skills": [
+      "Python",
+      "SQL",
+      "Pandas",
+      "Scikit-learn"
+    ],
+    "preferred_skills": [
+      "Spark",
+      "AWS",
+      "SageMaker"
+    ],
+    "experience_level": "Mid",
+    "company_size": "1001+",
+    "description": "Build machine learning models to automate business processes and provide predictive insights."
+  },
+  {
+    "id": 109,
+    "title": "DevOps Engineer",
+    "company": "ApexDeploy",
+    "location": "New York, NY",
+    "remote_option": false,
+    "salary_min": 175000,
+    "salary_max": 215000,
+    "required_skills": [
+      "Kubernetes",
+      "GCP",
+      "Terraform",
+      "Go"
+    ],
+    "preferred_skills": [
+      "Istio",
+      "Prometheus",
+      "Site Reliability Engineering"
+    ],
+    "experience_level": "Senior",
+    "company_size": "51-200",
+    "description": "Architect and manage the highly-available infrastructure for our developer tools platform."
+  },
+  {
+    "id": 110,
+    "title": "Full Stack Developer",
+    "company": "CodeStream",
+    "location": "Remote",
+    "remote_option": true,
+    "salary_min": 130000,
+    "salary_max": 160000,
+    "required_skills": [
+      "React",
+      "Node.js",
+      "TypeScript",
+      "GraphQL"
+    ],
+    "preferred_skills": [
+      "PostgreSQL",
+      "AWS Lambda"
+    ],
+    "experience_level": "Mid",
+    "company_size": "201-500",
+    "description": "Work across our modern stack to build features that improve developer productivity."
+  },
+  {
+    "id": 111,
+    "title": "Frontend Developer",
+    "company": "HealthFirst Tech",
+    "location": "New York, NY",
+    "remote_option": false,
+    "salary_min": 160000,
+    "salary_max": 200000,
+    "required_skills": [
+      "Angular",
+      "TypeScript",
+      "NgRx",
+      "RxJS"
+    ],
+    "preferred_skills": [
+      "Jest",
+      "Cypress",
+      "Accessibility"
+    ],
+    "experience_level": "Senior",
+    "company_size": "501-1000",
+    "description": "Lead frontend development for our provider-facing applications, focusing on robust architecture and performance."
+  },
+  {
+    "id": 112,
+    "title": "Backend Developer",
+    "company": "Fintech Solutions",
+    "location": "Austin, TX",
+    "remote_option": true,
+    "salary_min": 130000,
+    "salary_max": 160000,
+    "required_skills": [
+      "Java",
+      "Spring",
+      "MySQL",
+      "REST APIs"
+    ],
+    "preferred_skills": [
+      "Kafka",
+      "AWS",
+      "Docker"
+    ],
+    "experience_level": "Mid",
+    "company_size": "1001+",
+    "description": "Develop and support backend services for our portfolio management and reporting systems."
+  },
+  {
+    "id": 113,
+    "title": "Data Scientist",
+    "company": "AdOptimize",
+    "location": "Remote",
+    "remote_option": true,
+    "salary_min": 170000,
+    "salary_max": 210000,
+    "required_skills": [
+      "Python",
+      "SQL",
+      "Machine Learning",
+      "Statistics"
+    ],
+    "preferred_skills": [
+      "Causal Inference",
+      "GCP",
+      "BigQuery",
+      "TensorFlow"
+    ],
+    "experience_level": "Senior",
+    "company_size": "201-500",
+    "description": "Lead the development of our next-generation ad bidding algorithms using advanced ML techniques."
+  },
+  {
+    "id": 114,
+    "title": "DevOps Engineer",
+    "company": "InfraCore",
+    "location": "San Francisco, CA",
+    "remote_option": true,
+    "salary_min": 140000,
+    "salary_max": 175000,
+    "required_skills": [
+      "GCP",
+      "Kubernetes",
+      "Terraform",
+      "CI/CD"
+    ],
+    "preferred_skills": [
+      "Python",
+      "Prometheus",
+      "Grafana"
+    ],
+    "experience_level": "Mid",
+    "company_size": "51-200",
+    "description": "Manage and improve our Google Cloud infrastructure and deployment pipelines."
+  },
+  {
+    "id": 115,
+    "title": "Full Stack Developer",
+    "company": "Synergy Systems",
+    "location": "Seattle, WA",
+    "remote_option": false,
+    "salary_min": 125000,
+    "salary_max": 155000,
+    "required_skills": [
+      "Vue.js",
+      "Python",
+      "Flask",
+      "PostgreSQL"
+    ],
+    "preferred_skills": [
+      "TypeScript",
+      "Docker",
+      "AWS"
+    ],
+    "experience_level": "Mid",
+    "company_size": "51-200",
+    "description": "Contribute to building a seamless user experience by working on both our frontend and backend."
+  },
+  {
+    "id": 116,
+    "title": "Frontend Developer",
+    "company": "QuantumLeap AI",
+    "location": "Austin, TX",
+    "remote_option": false,
+    "salary_min": 125000,
+    "salary_max": 155000,
+    "required_skills": [
+      "React",
+      "TypeScript",
+      "D3.js",
+      "GraphQL"
+    ],
+    "preferred_skills": [
+      "Next.js",
+      "WebGL"
+    ],
+    "experience_level": "Mid",
+    "company_size": "51-200",
+    "description": "Create powerful and intuitive interfaces for interacting with and visualizing complex AI model outputs."
+  },
+  {
+    "id": 117,
+    "title": "Backend Developer",
+    "company": "InnovateX Solutions",
+    "location": "Remote",
+    "remote_option": true,
+    "salary_min": 90000,
+    "salary_max": 115000,
+    "required_skills": [
+      "Node.js",
+      "Express",
+      "MongoDB",
+      "REST APIs"
+    ],
+    "preferred_skills": [
+      "TypeScript",
+      "Jest"
+    ],
+    "experience_level": "Entry",
+    "company_size": "51-200",
+    "description": "Join our backend team to learn and contribute to our API development and maintenance."
+  },
+  {
+    "id": 118,
+    "title": "Data Scientist",
+    "company": "CloudSphere Tech",
+    "location": "San Francisco, CA",
+    "remote_option": false,
+    "salary_min": 150000,
+    "salary_max": 190000,
+    "required_skills": [
+      "Python",
+      "SQL",
+      "Pandas",
+      "Scikit-learn",
+      "Forecasting"
+    ],
+    "preferred_skills": [
+      "AWS",
+      "Redshift",
+      "SageMaker",
+      "Tableau"
+    ],
+    "experience_level": "Mid",
+    "company_size": "501-1000",
+    "description": "Build predictive models for cloud cost and usage, helping customers optimize their infrastructure."
+  },
+  {
+    "id": 119,
+    "title": "DevOps Engineer",
+    "company": "DataWeave Inc.",
+    "location": "New York, NY",
+    "remote_option": true,
+    "salary_min": 110000,
+    "salary_max": 135000,
+    "required_skills": [
+      "AWS",
+      "Docker",
+      "CloudFormation",
+      "Jenkins"
+    ],
+    "preferred_skills": [
+      "Terraform",
+      "Bash",
+      "Python"
+    ],
+    "experience_level": "Entry",
+    "company_size": "201-500",
+    "description": "Support our engineering teams by managing our CI/CD pipelines and AWS infrastructure."
+  },
+  {
+    "id": 120,
+    "title": "Full Stack Developer",
+    "company": "PixelPerfect Studios",
+    "location": "San Francisco, CA",
+    "remote_option": false,
+    "salary_min": 165000,
+    "salary_max": 200000,
+    "required_skills": [
+      "Vue.js",
+      "Ruby on Rails",
+      "PostgreSQL",
+      "JavaScript"
+    ],
+    "preferred_skills": [
+      "TypeScript",
+      "Sidekiq",
+      "Heroku"
+    ],
+    "experience_level": "Senior",
+    "company_size": "51-200",
+    "description": "Lead development on major new features, influencing both frontend and backend architecture."
+  },
+  {
+    "id": 121,
+    "title": "Frontend Developer",
+    "company": "Nexus Innovations",
+    "location": "Remote",
+    "remote_option": true,
+    "salary_min": 120000,
+    "salary_max": 145000,
+    "required_skills": [
+      "React",
+      "TypeScript",
+      "Redux",
+      "CSS"
+    ],
+    "preferred_skills": [
+      "GraphQL",
+      "Next.js"
+    ],
+    "experience_level": "Mid",
+    "company_size": "11-50",
+    "description": "Take ownership of our frontend codebase and build a fantastic user experience."
+  },
+  {
+    "id": 122,
+    "title": "Backend Developer",
+    "company": "CodeStream",
+    "location": "Seattle, WA",
+    "remote_option": false,
+    "salary_min": 170000,
+    "salary_max": 210000,
+    "required_skills": [
+      "Node.js",
+      "TypeScript",
+      "PostgreSQL",
+      "GraphQL",
+      "Microservices"
+    ],
+    "preferred_skills": [
+      "AWS",
+      "NestJS",
+      "System Design"
+    ],
+    "experience_level": "Senior",
+    "company_size": "201-500",
+    "description": "Architect and scale our backend services to support a growing number of developers and integrations."
+  },
+  {
+    "id": 123,
+    "title": "Data Scientist",
+    "company": "Synergy Systems",
+    "location": "New York, NY",
+    "remote_option": true,
+    "salary_min": 140000,
+    "salary_max": 175000,
+    "required_skills": [
+      "Python",
+      "SQL",
+      "Pandas",
+      "Scikit-learn",
+      "NLP"
+    ],
+    "preferred_skills": [
+      "spaCy",
+      "Airflow",
+      "Tableau"
+    ],
+    "experience_level": "Mid",
+    "company_size": "51-200",
+    "description": "Use natural language processing to analyze project data and provide intelligent suggestions to users."
+  },
+  {
+    "id": 124,
+    "title": "DevOps Engineer",
+    "company": "SecureNet Partners",
+    "location": "Austin, TX",
+    "remote_option": false,
+    "salary_min": 135000,
+    "salary_max": 165000,
+    "required_skills": [
+      "Azure",
+      "Kubernetes (AKS)",
+      "Terraform",
+      "CI/CD"
+    ],
+    "preferred_skills": [
+      "Go",
+      "Security Best Practices",
+      "Prometheus"
+    ],
+    "experience_level": "Mid",
+    "company_size": "201-500",
+    "description": "Manage our secure, compliant cloud infrastructure on Microsoft Azure."
+  },
+  {
+    "id": 125,
+    "title": "Full Stack Developer",
+    "company": "HealthFirst Tech",
+    "location": "Austin, TX",
+    "remote_option": true,
+    "salary_min": 130000,
+    "salary_max": 160000,
+    "required_skills": [
+      "Angular",
+      "C#",
+      ".NET Core",
+      "SQL Server"
+    ],
+    "preferred_skills": [
+      "TypeScript",
+      "Azure",
+      "FHIR"
+    ],
+    "experience_level": "Mid",
+    "company_size": "501-1000",
+    "description": "Build and maintain features for our electronic health record (EHR) platform."
+  },
+  {
+    "id": 126,
+    "title": "Frontend Developer",
+    "company": "Fintech Solutions",
+    "location": "New York, NY",
+    "remote_option": false,
+    "salary_min": 135000,
+    "salary_max": 165000,
+    "required_skills": [
+      "React",
+      "TypeScript",
+      "WebSocket",
+      "HighCharts"
+    ],
+    "preferred_skills": [
+      "Redux",
+      "Performance Tuning"
+    ],
+    "experience_level": "Mid",
+    "company_size": "1001+",
+    "description": "Develop real-time data visualization components for our financial analytics dashboard."
+  },
+  {
+    "id": 127,
+    "title": "Backend Developer",
+    "company": "LogicGate Analytics",
+    "location": "San Francisco, CA",
+    "remote_option": true,
+    "salary_min": 180000,
+    "salary_max": 225000,
+    "required_skills": [
+      "Python",
+      "Spark",
+      "PostgreSQL",
+      "Distributed Systems"
+    ],
+    "preferred_skills": [
+      "AWS",
+      "Databricks",
+      "Airflow"
+    ],
+    "experience_level": "Senior",
+    "company_size": "1001+",
+    "description": "Lead the design and implementation of our large-scale data processing and analytics engine."
+  },
+  {
+    "id": 128,
+    "title": "Data Scientist",
+    "company": "PixelPerfect Studios",
+    "location": "Remote",
+    "remote_option": true,
+    "salary_min": 110000,
+    "salary_max": 135000,
+    "required_skills": [
+      "Python",
+      "SQL",
+      "Pandas",
+      "Statistics"
+    ],
+    "preferred_skills": [
+      "A/B Testing",
+      "Tableau",
+      "User Behavior Analysis"
+    ],
+    "experience_level": "Entry",
+    "company_size": "51-200",
+    "description": "Analyze user engagement data to inform product decisions and identify growth opportunities."
+  },
+  {
+    "id": 129,
+    "title": "DevOps Engineer",
+    "company": "QuantumLeap AI",
+    "location": "Austin, TX",
+    "remote_option": false,
+    "salary_min": 170000,
+    "salary_max": 210000,
+    "required_skills": [
+      "AWS",
+      "Kubernetes",
+      "Terraform",
+      "CI/CD for ML"
+    ],
+    "preferred_skills": [
+      "SageMaker",
+      "MLFlow",
+      "Python"
+    ],
+    "experience_level": "Senior",
+    "company_size": "51-200",
+    "description": "Architect and manage our MLOps platform, enabling rapid training and deployment of AI models."
+  },
+  {
+    "id": 130,
+    "title": "Full Stack Developer",
+    "company": "AdOptimize",
+    "location": "San Francisco, CA",
+    "remote_option": false,
+    "salary_min": 100000,
+    "salary_max": 125000,
+    "required_skills": [
+      "React",
+      "Node.js",
+      "JavaScript",
+      "SQL"
+    ],
+    "preferred_skills": [
+      "TypeScript",
+      "GCP"
+    ],
+    "experience_level": "Entry",
+    "company_size": "201-500",
+    "description": "A fantastic opportunity to work on a high-traffic advertising platform and learn from experienced engineers."
+  },
+  {
+    "id": 131,
+    "title": "Frontend Developer",
+    "company": "AdOptimize",
+    "location": "Austin, TX",
+    "remote_option": true,
+    "salary_min": 125000,
+    "salary_max": 155000,
+    "required_skills": [
+      "React",
+      "TypeScript",
+      "Redux",
+      "Data Visualization"
+    ],
+    "preferred_skills": [
+      "GraphQL",
+      "Next.js"
+    ],
+    "experience_level": "Mid",
+    "company_size": "201-500",
+    "description": "Build and maintain the customer-facing dashboard for our ad-tech platform."
+  },
+  {
+    "id": 132,
+    "title": "Backend Developer",
+    "company": "ApexDeploy",
+    "location": "New York, NY",
+    "remote_option": false,
+    "salary_min": 130000,
+    "salary_max": 160000,
+    "required_skills": [
+      "Go",
+      "gRPC",
+      "PostgreSQL",
+      "Docker"
+    ],
+    "preferred_skills": [
+      "Kubernetes",
+      "GCP",
+      "NATS"
+    ],
+    "experience_level": "Mid",
+    "company_size": "51-200",
+    "description": "Develop core components of our CI/CD system, focusing on performance and reliability."
+  },
+  {
+    "id": 133,
+    "title": "Data Scientist",
+    "company": "HealthFirst Tech",
+    "location": "Remote",
+    "remote_option": true,
+    "salary_min": 145000,
+    "salary_max": 180000,
+    "required_skills": [
+      "Python",
+      "SQL",
+      "Pandas",
+      "Scikit-learn",
+      "Statistics"
+    ],
+    "preferred_skills": [
+      "Healthcare Data",
+      "Azure ML",
+      "Causal Inference"
+    ],
+    "experience_level": "Mid",
+    "company_size": "501-1000",
+    "description": "Apply machine learning to EHR data to predict patient risk and improve clinical workflows."
+  },
+  {
+    "id": 134,
+    "title": "DevOps Engineer",
+    "company": "Synergy Systems",
+    "location": "Seattle, WA",
+    "remote_option": true,
+    "salary_min": 165000,
+    "salary_max": 205000,
+    "required_skills": [
+      "AWS",
+      "Kubernetes",
+      "Terraform",
+      "CI/CD"
+    ],
+    "preferred_skills": [
+      "Go",
+      "Istio",
+      "Observability"
+    ],
+    "experience_level": "Senior",
+    "company_size": "51-200",
+    "description": "Lead the evolution of our infrastructure to a modern, Kubernetes-based platform."
+  },
+  {
+    "id": 135,
+    "title": "Full Stack Developer",
+    "company": "DataWeave Inc.",
+    "location": "Austin, TX",
+    "remote_option": false,
+    "salary_min": 95000,
+    "salary_max": 120000,
+    "required_skills": [
+      "Vue.js",
+      "Python",
+      "Flask",
+      "JavaScript"
+    ],
+    "preferred_skills": [
+      "PostgreSQL",
+      "Docker"
+    ],
+    "experience_level": "Entry",
+    "company_size": "201-500",
+    "description": "Join our product team to work on both our frontend and backend systems, gaining valuable experience."
+  },
+  {
+    "id": 136,
+    "title": "Frontend Developer",
+    "company": "CodeStream",
+    "location": "New York, NY",
+    "remote_option": false,
+    "salary_min": 130000,
+    "salary_max": 160000,
+    "required_skills": [
+      "React",
+      "TypeScript",
+      "GraphQL",
+      "CSS-in-JS"
+    ],
+    "preferred_skills": [
+      "Apollo Client",
+      "Jest",
+      "Cypress"
+    ],
+    "experience_level": "Mid",
+    "company_size": "201-500",
+    "description": "Develop new features and improve the user experience of our developer collaboration tools."
+  },
+  {
+    "id": 137,
+    "title": "Backend Developer",
+    "company": "CloudSphere Tech",
+    "location": "San Francisco, CA",
+    "remote_option": true,
+    "salary_min": 135000,
+    "salary_max": 165000,
+    "required_skills": [
+      "Java",
+      "Spring",
+      "PostgreSQL",
+      "REST APIs"
+    ],
+    "preferred_skills": [
+      "AWS",
+      "Microservices",
+      "Docker"
+    ],
+    "experience_level": "Mid",
+    "company_size": "501-1000",
+    "description": "Build and scale the backend services that collect and analyze cloud infrastructure data."
+  },
+  {
+    "id": 138,
+    "title": "Data Scientist",
+    "company": "InnovateX Solutions",
+    "location": "Seattle, WA",
+    "remote_option": false,
+    "salary_min": 110000,
+    "salary_max": 135000,
+    "required_skills": [
+      "Python",
+      "SQL",
+      "Pandas",
+      "Scikit-learn"
+    ],
+    "preferred_skills": [
+      "Tableau",
+      "AWS"
+    ],
+    "experience_level": "Entry",
+    "company_size": "51-200",
+    "description": "Work with our product team to analyze user data and provide insights for new features."
+  },
+  {
+    "id": 139,
+    "title": "DevOps Engineer",
+    "company": "Fintech Solutions",
+    "location": "Remote",
+    "remote_option": true,
+    "salary_min": 180000,
+    "salary_max": 225000,
+    "required_skills": [
+      "AWS",
+      "Kubernetes",
+      "Terraform",
+      "Security"
+    ],
+    "preferred_skills": [
       "Ansible",
       "Python",
+      "Compliance (SOC2, ISO27001)"
+    ],
+    "experience_level": "Senior",
+    "company_size": "1001+",
+    "description": "Lead infrastructure security and automation for our highly regulated financial services platform."
+  },
+  {
+    "id": 140,
+    "title": "Full Stack Developer",
+    "company": "QuantumLeap AI",
+    "location": "Remote",
+    "remote_option": true,
+    "salary_min": 130000,
+    "salary_max": 160000,
+    "required_skills": [
+      "React",
+      "Python",
+      "FastAPI",
+      "PostgreSQL"
+    ],
+    "preferred_skills": [
+      "TypeScript",
+      "Docker",
+      "GCP"
+    ],
+    "experience_level": "Mid",
+    "company_size": "51-200",
+    "description": "Build the applications and APIs that showcase our cutting-edge AI research."
+  },
+  {
+    "id": 141,
+    "title": "Frontend Developer",
+    "company": "InfraCore",
+    "location": "San Francisco, CA",
+    "remote_option": false,
+    "salary_min": 160000,
+    "salary_max": 195000,
+    "required_skills": [
+      "Angular",
+      "TypeScript",
+      "NgRx",
+      "Data Visualization"
+    ],
+    "preferred_skills": [
+      "D3.js",
+      "HighCharts",
+      "gRPC-web"
+    ],
+    "experience_level": "Senior",
+    "company_size": "51-200",
+    "description": "Lead the design and development of our monitoring dashboard's frontend architecture."
+  },
+  {
+    "id": 142,
+    "title": "Backend Developer",
+    "company": "DataWeave Inc.",
+    "location": "Austin, TX",
+    "remote_option": true,
+    "salary_min": 125000,
+    "salary_max": 155000,
+    "required_skills": [
+      "Python",
+      "Django",
+      "PostgreSQL",
+      "Celery"
+    ],
+    "preferred_skills": [
+      "REST APIs",
+      "Docker",
       "AWS"
+    ],
+    "experience_level": "Mid",
+    "company_size": "201-500",
+    "description": "Develop and maintain asynchronous data processing tasks and the APIs that manage them."
+  },
+  {
+    "id": 143,
+    "title": "Data Scientist",
+    "company": "SecureNet Partners",
+    "location": "Remote",
+    "remote_option": true,
+    "salary_min": 175000,
+    "salary_max": 220000,
+    "required_skills": [
+      "Python",
+      "SQL",
+      "Machine Learning",
+      "Cybersecurity"
+    ],
+    "preferred_skills": [
+      "Deep Learning",
+      "Spark",
+      "Graph Analytics"
+    ],
+    "experience_level": "Senior",
+    "company_size": "201-500",
+    "description": "Lead research into new methods for threat detection using advanced machine learning models."
+  },
+  {
+    "id": 144,
+    "title": "DevOps Engineer",
+    "company": "LogicGate Analytics",
+    "location": "New York, NY",
+    "remote_option": false,
+    "salary_min": 145000,
+    "salary_max": 180000,
+    "required_skills": [
+      "AWS",
+      "Terraform",
+      "Kubernetes",
+      "CI/CD"
+    ],
+    "preferred_skills": [
+      "Datadog",
+      "Python",
+      "Security"
+    ],
+    "experience_level": "Mid",
+    "company_size": "1001+",
+    "description": "Manage the infrastructure that powers our large-scale, enterprise data analytics platform."
+  },
+  {
+    "id": 145,
+    "title": "Full Stack Developer",
+    "company": "InnovateX Solutions",
+    "location": "Seattle, WA",
+    "remote_option": false,
+    "salary_min": 130000,
+    "salary_max": 160000,
+    "required_skills": [
+      "React",
+      "Node.js",
+      "MongoDB",
+      "JavaScript"
+    ],
+    "preferred_skills": [
+      "TypeScript",
+      "GraphQL",
+      "AWS"
+    ],
+    "experience_level": "Mid",
+    "company_size": "51-200",
+    "description": "Work on a cross-functional team to design, develop, and deploy new product features."
+  },
+  {
+    "id": 146,
+    "title": "Frontend Developer",
+    "company": "SecureNet Partners",
+    "location": "Austin, TX",
+    "remote_option": true,
+    "salary_min": 95000,
+    "salary_max": 115000,
+    "required_skills": [
+      "React",
+      "JavaScript",
+      "HTML",
+      "CSS"
+    ],
+    "preferred_skills": [
+      "TypeScript",
+      "Redux"
+    ],
+    "experience_level": "Entry",
+    "company_size": "201-500",
+    "description": "Join our UI team to help build intuitive interfaces for complex security data."
+  },
+  {
+    "id": 147,
+    "title": "Backend Developer",
+    "company": "Synergy Systems",
+    "location": "Remote",
+    "remote_option": true,
+    "salary_min": 160000,
+    "salary_max": 195000,
+    "required_skills": [
+      "Python",
+      "Flask",
+      "PostgreSQL",
+      "Celery",
+      "Redis"
+    ],
+    "preferred_skills": [
+      "System Design",
+      "Microservices",
+      "Docker"
+    ],
+    "experience_level": "Senior",
+    "company_size": "51-200",
+    "description": "Architect and lead the backend development for a new real-time collaboration product."
+  },
+  {
+    "id": 148,
+    "title": "Data Scientist",
+    "company": "Nexus Innovations",
+    "location": "San Francisco, CA",
+    "remote_option": false,
+    "salary_min": 140000,
+    "salary_max": 175000,
+    "required_skills": [
+      "Python",
+      "SQL",
+      "Pandas",
+      "Scikit-learn"
+    ],
+    "preferred_skills": [
+      "A/B Testing",
+      "Tableau",
+      "Product Analytics"
+    ],
+    "experience_level": "Mid",
+    "company_size": "11-50",
+    "description": "Be the first data scientist on the team, establishing analytics practices and driving data-informed decisions."
+  },
+  {
+    "id": 149,
+    "title": "DevOps Engineer",
+    "company": "PixelPerfect Studios",
+    "location": "New York, NY",
+    "remote_option": true,
+    "salary_min": 130000,
+    "salary_max": 160000,
+    "required_skills": [
+      "AWS",
+      "Terraform",
+      "Docker",
+      "CI/CD"
+    ],
+    "preferred_skills": [
+      "Heroku",
+      "Ruby",
+      "Datadog"
+    ],
+    "experience_level": "Mid",
+    "company_size": "51-200",
+    "description": "Ensure the reliability and scalability of our creative platform's infrastructure."
+  },
+  {
+    "id": 150,
+    "title": "Full Stack Developer",
+    "company": "LogicGate Analytics",
+    "location": "Seattle, WA",
+    "remote_option": false,
+    "salary_min": 170000,
+    "salary_max": 210000,
+    "required_skills": [
+      "React",
+      "Python",
+      "Spark",
+      "PostgreSQL",
+      "TypeScript"
+    ],
+    "preferred_skills": [
+      "GraphQL",
+      "AWS",
+      "Databricks"
+    ],
+    "experience_level": "Senior",
+    "company_size": "1001+",
+    "description": "Take ownership of complex, data-intensive features, from backend processing to frontend visualization."
+  },
+  {
+    "id": 151,
+    "title": "Frontend Developer",
+    "company": "CloudSphere Tech",
+    "location": "Austin, TX",
+    "remote_option": true,
+    "salary_min": 95000,
+    "salary_max": 120000,
+    "required_skills": [
+      "React",
+      "JavaScript",
+      "HTML",
+      "CSS"
+    ],
+    "preferred_skills": [
+      "TypeScript",
+      "Redux"
+    ],
+    "experience_level": "Entry",
+    "company_size": "501-1000",
+    "description": "Join our frontend team to help build and improve our cloud management dashboard."
+  },
+  {
+    "id": 152,
+    "title": "Backend Developer",
+    "company": "QuantumLeap AI",
+    "location": "New York, NY",
+    "remote_option": false,
+    "salary_min": 175000,
+    "salary_max": 220000,
+    "required_skills": [
+      "Python",
+      "FastAPI",
+      "PostgreSQL",
+      "Microservices"
+    ],
+    "preferred_skills": [
+      "gRPC",
+      "Kubernetes",
+      "GCP"
+    ],
+    "experience_level": "Senior",
+    "company_size": "51-200",
+    "description": "Lead the design and development of our high-performance API services for ML model inference."
+  },
+  {
+    "id": 153,
+    "title": "Data Scientist",
+    "company": "CodeStream",
+    "location": "Remote",
+    "remote_option": true,
+    "salary_min": 140000,
+    "salary_max": 175000,
+    "required_skills": [
+      "Python",
+      "SQL",
+      "Pandas",
+      "Scikit-learn"
+    ],
+    "preferred_skills": [
+      "Product Analytics",
+      "A/B Testing",
+      "Looker"
+    ],
+    "experience_level": "Mid",
+    "company_size": "201-500",
+    "description": "Analyze user behavior to understand developer workflows and improve our product."
+  },
+  {
+    "id": 154,
+    "title": "DevOps Engineer",
+    "company": "InnovateX Solutions",
+    "location": "Remote",
+    "remote_option": true,
+    "salary_min": 135000,
+    "salary_max": 165000,
+    "required_skills": [
+      "AWS",
+      "Terraform",
+      "Docker",
+      "GitLab CI"
+    ],
+    "preferred_skills": [
+      "Kubernetes",
+      "Ansible",
+      "Python"
+    ],
+    "experience_level": "Mid",
+    "company_size": "51-200",
+    "description": "Automate and manage our cloud infrastructure to support our growing suite of applications."
+  },
+  {
+    "id": 155,
+    "title": "Full Stack Developer",
+    "company": "Fintech Solutions",
+    "location": "New York, NY",
+    "remote_option": false,
+    "salary_min": 175000,
+    "salary_max": 220000,
+    "required_skills": [
+      "React",
+      "Java",
+      "Spring Boot",
+      "SQL",
+      "TypeScript"
+    ],
+    "preferred_skills": [
+      "Kafka",
+      "Microservices",
+      "AWS"
+    ],
+    "experience_level": "Senior",
+    "company_size": "1001+",
+    "description": "Lead the development of new web applications for our financial analytics and trading desks."
+  },
+  {
+    "id": 156,
+    "title": "Frontend Developer",
+    "company": "DataWeave Inc.",
+    "location": "San Francisco, CA",
+    "remote_option": false,
+    "salary_min": 160000,
+    "salary_max": 195000,
+    "required_skills": [
+      "Vue.js",
+      "TypeScript",
+      "Vuex",
+      "Sass"
+    ],
+    "preferred_skills": [
+      "Nuxt.js",
+      "Performance Optimization",
+      "Webpack"
+    ],
+    "experience_level": "Senior",
+    "company_size": "201-500",
+    "description": "Architect and lead the frontend development of our enterprise data management platform."
+  },
+  {
+    "id": 157,
+    "title": "Backend Developer",
+    "company": "HealthFirst Tech",
+    "location": "Austin, TX",
+    "remote_option": true,
+    "salary_min": 95000,
+    "salary_max": 120000,
+    "required_skills": [
+      "C#",
+      ".NET Core",
+      "SQL Server",
+      "REST APIs"
+    ],
+    "preferred_skills": [
+      "Azure",
+      "Entity Framework"
+    ],
+    "experience_level": "Entry",
+    "company_size": "501-1000",
+    "description": "Join our backend team to help build and maintain services for our healthcare applications."
+  },
+  {
+    "id": 158,
+    "title": "Data Scientist",
+    "company": "Fintech Solutions",
+    "location": "Remote",
+    "remote_option": true,
+    "salary_min": 115000,
+    "salary_max": 140000,
+    "required_skills": [
+      "Python",
+      "SQL",
+      "Pandas",
+      "Scikit-learn"
+    ],
+    "preferred_skills": [
+      "Time Series Analysis",
+      "Statistics"
+    ],
+    "experience_level": "Entry",
+    "company_size": "1001+",
+    "description": "Analyze financial market data and assist in the development of quantitative models."
+  },
+  {
+    "id": 159,
+    "title": "DevOps Engineer",
+    "company": "InfraCore",
+    "location": "Seattle, WA",
+    "remote_option": false,
+    "salary_min": 170000,
+    "salary_max": 210000,
+    "required_skills": [
+      "GCP",
+      "Kubernetes",
+      "Terraform",
+      "Prometheus"
+    ],
+    "preferred_skills": [
+      "Go",
+      "Istio",
+      "Site Reliability Engineering"
+    ],
+    "experience_level": "Senior",
+    "company_size": "51-200",
+    "description": "Lead our SRE practice, focusing on observability, automation, and incident response."
+  },
+  {
+    "id": 160,
+    "title": "Full Stack Developer",
+    "company": "Nexus Innovations",
+    "location": "Austin, TX",
+    "remote_option": false,
+    "salary_min": 100000,
+    "salary_max": 125000,
+    "required_skills": [
+      "React",
+      "Node.js",
+      "JavaScript",
+      "SQL"
+    ],
+    "preferred_skills": [
+      "TypeScript",
+      "AWS"
+    ],
+    "experience_level": "Entry",
+    "company_size": "11-50",
+    "description": "A great opportunity to join a small, fast-moving team and make a big impact."
+  },
+  {
+    "id": 161,
+    "title": "Frontend Developer",
+    "company": "Synergy Systems",
+    "location": "Remote",
+    "remote_option": true,
+    "salary_min": 125000,
+    "salary_max": 150000,
+    "required_skills": [
+      "Vue.js",
+      "TypeScript",
+      "Vuex",
+      "CSS"
+    ],
+    "preferred_skills": [
+      "Nuxt.js",
+      "WebSockets"
+    ],
+    "experience_level": "Mid",
+    "company_size": "51-200",
+    "description": "Build real-time, collaborative features for our project management application."
+  },
+  {
+    "id": 162,
+    "title": "Backend Developer",
+    "company": "AdOptimize",
+    "location": "New York, NY",
+    "remote_option": false,
+    "salary_min": 135000,
+    "salary_max": 165000,
+    "required_skills": [
+      "Go",
+      "gRPC",
+      "ClickHouse",
+      "REST APIs"
+    ],
+    "preferred_skills": [
+      "Kubernetes",
+      "GCP",
+      "BigQuery"
+    ],
+    "experience_level": "Mid",
+    "company_size": "201-500",
+    "description": "Develop and maintain the high-throughput data ingestion and processing services for our ad platform."
+  },
+  {
+    "id": 163,
+    "title": "Data Scientist",
+    "company": "CloudSphere Tech",
+    "location": "Seattle, WA",
+    "remote_option": true,
+    "salary_min": 175000,
+    "salary_max": 220000,
+    "required_skills": [
+      "Python",
+      "SQL",
+      "Machine Learning",
+      "Forecasting"
+    ],
+    "preferred_skills": [
+      "AWS SageMaker",
+      "Spark",
+      "Causal Inference"
+    ],
+    "experience_level": "Senior",
+    "company_size": "501-1000",
+    "description": "Lead the data science team in developing models for cloud cost optimization and anomaly detection."
+  },
+  {
+    "id": 164,
+    "title": "DevOps Engineer",
+    "company": "CodeStream",
+    "location": "Austin, TX",
+    "remote_option": false,
+    "salary_min": 105000,
+    "salary_max": 130000,
+    "required_skills": [
+      "AWS",
+      "CloudFormation",
+      "Docker",
+      "CI/CD"
+    ],
+    "preferred_skills": [
+      "Terraform",
+      "Bash"
+    ],
+    "experience_level": "Entry",
+    "company_size": "201-500",
+    "description": "Join our platform team to learn and help manage our infrastructure and deployment pipelines."
+  },
+  {
+    "id": 165,
+    "title": "Full Stack Developer",
+    "company": "ApexDeploy",
+    "location": "Remote",
+    "remote_option": true,
+    "salary_min": 165000,
+    "salary_max": 205000,
+    "required_skills": [
+      "React",
+      "Go",
+      "gRPC",
+      "PostgreSQL",
+      "TypeScript"
+    ],
+    "preferred_skills": [
+      "Kubernetes",
+      "GCP",
+      "System Design"
+    ],
+    "experience_level": "Senior",
+    "company_size": "51-200",
+    "description": "Architect and build end-to-end features for our developer-focused CI/CD platform."
+  },
+  {
+    "id": 166,
+    "title": "Frontend Developer",
+    "company": "ApexDeploy",
+    "location": "San Francisco, CA",
+    "remote_option": true,
+    "salary_min": 130000,
+    "salary_max": 160000,
+    "required_skills": [
+      "React",
+      "TypeScript",
+      "GraphQL",
+      "Apollo Client"
+    ],
+    "preferred_skills": [
+      "Next.js",
+      "Storybook"
+    ],
+    "experience_level": "Mid",
+    "company_size": "51-200",
+    "description": "Build the user interface for our deployment pipeline visualization and management tools."
+  },
+  {
+    "id": 167,
+    "title": "Backend Developer",
+    "company": "InnovateX Solutions",
+    "location": "New York, NY",
+    "remote_option": false,
+    "salary_min": 170000,
+    "salary_max": 210000,
+    "required_skills": [
+      "Node.js",
+      "TypeScript",
+      "Microservices",
+      "PostgreSQL"
+    ],
+    "preferred_skills": [
+      "GraphQL",
+      "AWS",
+      "Serverless"
+    ],
+    "experience_level": "Senior",
+    "company_size": "51-200",
+    "description": "Lead the backend architecture and development for our flagship enterprise SaaS product."
+  },
+  {
+    "id": 168,
+    "title": "Data Scientist",
+    "company": "Synergy Systems",
+    "location": "San Francisco, CA",
+    "remote_option": false,
+    "salary_min": 115000,
+    "salary_max": 140000,
+    "required_skills": [
+      "Python",
+      "SQL",
+      "Pandas",
+      "Statistics"
+    ],
+    "preferred_skills": [
+      "Tableau",
+      "A/B Testing"
+    ],
+    "experience_level": "Entry",
+    "company_size": "51-200",
+    "description": "Analyze user behavior within our collaboration tool to drive product improvements."
+  },
+  {
+    "id": 169,
+    "title": "DevOps Engineer",
+    "company": "DataWeave Inc.",
+    "location": "Austin, TX",
+    "remote_option": true,
+    "salary_min": 170000,
+    "salary_max": 215000,
+    "required_skills": [
+      "AWS",
+      "Kubernetes",
+      "Terraform",
+      "Python"
+    ],
+    "preferred_skills": [
+      "Istio",
+      "Prometheus",
+      "GitOps"
+    ],
+    "experience_level": "Senior",
+    "company_size": "201-500",
+    "description": "Lead the design and implementation of our next-generation, Kubernetes-native infrastructure."
+  },
+  {
+    "id": 170,
+    "title": "Full Stack Developer",
+    "company": "PixelPerfect Studios",
+    "location": "Remote",
+    "remote_option": true,
+    "salary_min": 125000,
+    "salary_max": 155000,
+    "required_skills": [
+      "Vue.js",
+      "Ruby on Rails",
+      "JavaScript",
+      "PostgreSQL"
+    ],
+    "preferred_skills": [
+      "TypeScript",
+      "Sidekiq",
+      "Heroku"
+    ],
+    "experience_level": "Mid",
+    "company_size": "51-200",
+    "description": "Develop features across the stack for our creative collaboration platform."
+  },
+  {
+    "id": 171,
+    "title": "Frontend Developer",
+    "company": "LogicGate Analytics",
+    "location": "New York, NY",
+    "remote_option": true,
+    "salary_min": 100000,
+    "salary_max": 125000,
+    "required_skills": [
+      "React",
+      "JavaScript",
+      "HTML",
+      "CSS"
+    ],
+    "preferred_skills": [
+      "TypeScript",
+      "Redux"
+    ],
+    "experience_level": "Entry",
+    "company_size": "1001+",
+    "description": "Join our team to help build and maintain the user interfaces for our analytics products."
+  },
+  {
+    "id": 172,
+    "title": "Backend Developer",
+    "company": "SecureNet Partners",
+    "location": "Seattle, WA",
+    "remote_option": false,
+    "salary_min": 170000,
+    "salary_max": 215000,
+    "required_skills": [
+      "Go",
+      "gRPC",
+      "PostgreSQL",
+      "Distributed Systems"
+    ],
+    "preferred_skills": [
+      "Kubernetes",
+      "Kafka",
+      "ClickHouse"
+    ],
+    "experience_level": "Senior",
+    "company_size": "201-500",
+    "description": "Architect and build high-volume data ingestion and analysis pipelines for security events."
+  },
+  {
+    "id": 173,
+    "title": "Data Scientist",
+    "company": "QuantumLeap AI",
+    "location": "San Francisco, CA",
+    "remote_option": false,
+    "salary_min": 150000,
+    "salary_max": 190000,
+    "required_skills": [
+      "Python",
+      "PyTorch",
+      "TensorFlow",
+      "Deep Learning"
+    ],
+    "preferred_skills": [
+      "NLP",
+      "Transformers",
+      "GCP"
+    ],
+    "experience_level": "Mid",
+    "company_size": "51-200",
+    "description": "Research, develop, and implement state-of-the-art NLP models for various applications."
+  },
+  {
+    "id": 174,
+    "title": "DevOps Engineer",
+    "company": "HealthFirst Tech",
+    "location": "Remote",
+    "remote_option": true,
+    "salary_min": 105000,
+    "salary_max": 130000,
+    "required_skills": [
+      "Azure",
+      "Terraform",
+      "Docker",
+      "CI/CD"
+    ],
+    "preferred_skills": [
+      "PowerShell",
+      "Azure DevOps"
+    ],
+    "experience_level": "Entry",
+    "company_size": "501-1000",
+    "description": "Learn to manage secure and compliant cloud infrastructure in the healthcare space."
+  },
+  {
+    "id": 175,
+    "title": "Full Stack Developer",
+    "company": "InfraCore",
+    "location": "New York, NY",
+    "remote_option": false,
+    "salary_min": 165000,
+    "salary_max": 200000,
+    "required_skills": [
+      "Angular",
+      "Go",
+      "PostgreSQL",
+      "TypeScript"
+    ],
+    "preferred_skills": [
+      "gRPC",
+      "Prometheus",
+      "Kubernetes"
+    ],
+    "experience_level": "Senior",
+    "company_size": "51-200",
+    "description": "Lead the development of core product features, from the backend services to the user interface."
+  },
+  {
+    "id": 176,
+    "title": "Frontend Developer",
+    "company": "Fintech Solutions",
+    "location": "Austin, TX",
+    "remote_option": true,
+    "salary_min": 100000,
+    "salary_max": 125000,
+    "required_skills": [
+      "React",
+      "JavaScript",
+      "HTML",
+      "CSS"
+    ],
+    "preferred_skills": [
+      "TypeScript",
+      "Redux"
+    ],
+    "experience_level": "Entry",
+    "company_size": "1001+",
+    "description": "Join our web applications team to build interfaces for financial data analysis."
+  },
+  {
+    "id": 177,
+    "title": "Backend Developer",
+    "company": "Nexus Innovations",
+    "location": "Remote",
+    "remote_option": true,
+    "salary_min": 125000,
+    "salary_max": 150000,
+    "required_skills": [
+      "Node.js",
+      "TypeScript",
+      "PostgreSQL",
+      "REST APIs"
+    ],
+    "preferred_skills": [
+      "AWS",
+      "Serverless",
+      "GraphQL"
+    ],
+    "experience_level": "Mid",
+    "company_size": "11-50",
+    "description": "Build and maintain the core API for our innovative productivity tool."
+  },
+  {
+    "id": 178,
+    "title": "Data Scientist",
+    "company": "AdOptimize",
+    "location": "New York, NY",
+    "remote_option": false,
+    "salary_min": 145000,
+    "salary_max": 185000,
+    "required_skills": [
+      "Python",
+      "SQL",
+      "Pandas",
+      "Scikit-learn",
+      "A/B Testing"
+    ],
+    "preferred_skills": [
+      "GCP",
+      "BigQuery",
+      "Causal Inference"
+    ],
+    "experience_level": "Mid",
+    "company_size": "201-500",
+    "description": "Design and analyze experiments to measure ad effectiveness and optimize campaigns."
+  },
+  {
+    "id": 179,
+    "title": "DevOps Engineer",
+    "company": "CloudSphere Tech",
+    "location": "Seattle, WA",
+    "remote_option": false,
+    "salary_min": 140000,
+    "salary_max": 175000,
+    "required_skills": [
+      "AWS",
+      "Kubernetes",
+      "Terraform",
+      "CI/CD"
+    ],
+    "preferred_skills": [
+      "Python",
+      "Ansible",
+      "Datadog"
+    ],
+    "experience_level": "Mid",
+    "company_size": "501-1000",
+    "description": "Join our SRE team to improve the reliability and performance of our cloud management platform."
+  },
+  {
+    "id": 180,
+    "title": "Full Stack Developer",
+    "company": "CodeStream",
+    "location": "San Francisco, CA",
+    "remote_option": true,
+    "salary_min": 105000,
+    "salary_max": 130000,
+    "required_skills": [
+      "React",
+      "Node.js",
+      "JavaScript",
+      "GraphQL"
+    ],
+    "preferred_skills": [
+      "TypeScript",
+      "PostgreSQL"
+    ],
+    "experience_level": "Entry",
+    "company_size": "201-500",
+    "description": "A great entry-level role to work on a modern tech stack and build tools for developers."
+  },
+  {
+    "id": 181,
+    "title": "Frontend Developer",
+    "company": "HealthFirst Tech",
+    "location": "Austin, TX",
+    "remote_option": false,
+    "salary_min": 125000,
+    "salary_max": 155000,
+    "required_skills": [
+      "Angular",
+      "TypeScript",
+      "RxJS",
+      "Sass"
+    ],
+    "preferred_skills": [
+      "NgRx",
+      "Jest",
+      "Accessibility"
+    ],
+    "experience_level": "Mid",
+    "company_size": "501-1000",
+    "description": "Develop intuitive and accessible user interfaces for our patient engagement platform."
+  },
+  {
+    "id": 182,
+    "title": "Backend Developer",
+    "company": "Fintech Solutions",
+    "location": "New York, NY",
+    "remote_option": false,
+    "salary_min": 130000,
+    "salary_max": 160000,
+    "required_skills": [
+      "Java",
+      "Spring Boot",
+      "MySQL",
+      "REST APIs"
+    ],
+    "preferred_skills": [
+      "Kafka",
+      "Microservices",
+      "AWS"
+    ],
+    "experience_level": "Mid",
+    "company_size": "1001+",
+    "description": "Develop secure and reliable backend services for our financial trading systems using Java and Spring Boot."
+  },
+  {
+    "id": 183,
+    "title": "Data Scientist",
+    "company": "DataWeave Inc.",
+    "location": "Remote",
+    "remote_option": true,
+    "salary_min": 140000,
+    "salary_max": 175000,
+    "required_skills": [
+      "Python",
+      "SQL",
+      "Pandas",
+      "Scikit-learn",
+      "NLP"
+    ],
+    "preferred_skills": [
+      "Spark",
+      "AWS",
+      "Machine Learning"
+    ],
+    "experience_level": "Mid",
+    "company_size": "201-500",
+    "description": "Develop machine learning models to automate data mapping and transformation tasks."
+  },
+  {
+    "id": 184,
+    "title": "DevOps Engineer",
+    "company": "ApexDeploy",
+    "location": "Austin, TX",
+    "remote_option": true,
+    "salary_min": 135000,
+    "salary_max": 165000,
+    "required_skills": [
+      "GCP",
+      "Kubernetes",
+      "Terraform",
+      "CI/CD"
+    ],
+    "preferred_skills": [
+      "Go",
+      "Istio",
+      "Spinnaker"
+    ],
+    "experience_level": "Mid",
+    "company_size": "51-200",
+    "description": "Manage and automate our GCP infrastructure to ensure a reliable and efficient CI/CD platform."
+  },
+  {
+    "id": 185,
+    "title": "Full Stack Developer",
+    "company": "Synergy Systems",
+    "location": "New York, NY",
+    "remote_option": false,
+    "salary_min": 130000,
+    "salary_max": 160000,
+    "required_skills": [
+      "Vue.js",
+      "Python",
+      "Flask",
+      "PostgreSQL"
+    ],
+    "preferred_skills": [
+      "TypeScript",
+      "Celery",
+      "Docker"
+    ],
+    "experience_level": "Mid",
+    "company_size": "51-200",
+    "description": "Work across our stack to build new features for our collaborative software suite."
+  },
+  {
+    "id": 186,
+    "title": "Frontend Developer",
+    "company": "InnovateX Solutions",
+    "location": "Seattle, WA",
+    "remote_option": false,
+    "salary_min": 155000,
+    "salary_max": 190000,
+    "required_skills": [
+      "React",
+      "TypeScript",
+      "Redux",
+      "GraphQL"
+    ],
+    "preferred_skills": [
+      "Next.js",
+      "Storybook"
+    ],
+    "experience_level": "Senior",
+    "company_size": "51-200",
+    "description": "Lead frontend development, mentor junior engineers, and establish best practices."
+  },
+  {
+    "id": 187,
+    "title": "Backend Developer",
+    "company": "QuantumLeap AI",
+    "location": "Remote",
+    "remote_option": true,
+    "salary_min": 160000,
+    "salary_max": 195000,
+    "required_skills": [
+      "Python",
+      "FastAPI",
+      "MongoDB",
+      "AsyncIO"
+    ],
+    "preferred_skills": [
+      "Redis",
+      "Docker",
+      "GCP"
+    ],
+    "experience_level": "Senior",
+    "company_size": "51-200",
+    "description": "Architect and build high-throughput APIs to serve our machine learning models."
+  },
+  {
+    "id": 188,
+    "title": "Data Scientist",
+    "company": "LogicGate Analytics",
+    "location": "San Francisco, CA",
+    "remote_option": false,
+    "salary_min": 185000,
+    "salary_max": 230000,
+    "required_skills": [
+      "Python",
+      "SQL",
+      "Spark",
+      "Machine Learning"
+    ],
+    "preferred_skills": [
+      "Deep Learning",
+      "Databricks",
+      "AWS"
+    ],
+    "experience_level": "Senior",
+    "company_size": "1001+",
+    "description": "Lead the research and development of novel machine learning algorithms for our core platform."
+  },
+  {
+    "id": 189,
+    "title": "DevOps Engineer",
+    "company": "Nexus Innovations",
+    "location": "New York, NY",
+    "remote_option": false,
+    "salary_min": 110000,
+    "salary_max": 135000,
+    "required_skills": [
+      "AWS",
+      "Terraform",
+      "Docker",
+      "Jenkins"
+    ],
+    "preferred_skills": [
+      "Bash",
+      "CloudFormation",
+      "Datadog"
+    ],
+    "experience_level": "Entry",
+    "company_size": "11-50",
+    "description": "Support our engineering team by automating builds, deployments, and infrastructure."
+  },
+  {
+    "id": 190,
+    "title": "Full Stack Developer",
+    "company": "CloudSphere Tech",
+    "location": "San Francisco, CA",
+    "remote_option": false,
+    "salary_min": 140000,
+    "salary_max": 175000,
+    "required_skills": [
+      "TypeScript",
+      "Angular",
+      "Java",
+      "Spring",
+      "PostgreSQL"
+    ],
+    "preferred_skills": [
+      "AWS",
+      "Kubernetes",
+      "Microservices"
+    ],
+    "experience_level": "Mid",
+    "company_size": "501-1000",
+    "description": "Contribute to all phases of the development lifecycle for our cloud management software."
+  },
+  {
+    "id": 191,
+    "title": "Frontend Developer",
+    "company": "PixelPerfect Studios",
+    "location": "Remote",
+    "remote_option": true,
+    "salary_min": 120000,
+    "salary_max": 145000,
+    "required_skills": [
+      "Vue.js",
+      "JavaScript",
+      "Vuex",
+      "Sass"
+    ],
+    "preferred_skills": [
+      "TypeScript",
+      "Nuxt.js"
+    ],
+    "experience_level": "Mid",
+    "company_size": "51-200",
+    "description": "Craft beautiful and performant user interfaces for our suite of creative tools."
+  },
+  {
+    "id": 192,
+    "title": "Backend Developer",
+    "company": "LogicGate Analytics",
+    "location": "San Francisco, CA",
+    "remote_option": true,
+    "salary_min": 130000,
+    "salary_max": 160000,
+    "required_skills": [
+      "Python",
+      "Flask",
+      "PostgreSQL",
+      "REST APIs"
+    ],
+    "preferred_skills": [
+      "Celery",
+      "Redis",
+      "Docker"
+    ],
+    "experience_level": "Mid",
+    "company_size": "1001+",
+    "description": "Build and optimize the backend services and data pipelines for our analytics platform."
+  },
+  {
+    "id": 193,
+    "title": "Data Scientist",
+    "company": "SecureNet Partners",
+    "location": "Seattle, WA",
+    "remote_option": false,
+    "salary_min": 165000,
+    "salary_max": 205000,
+    "required_skills": [
+      "Python",
+      "SQL",
+      "Machine Learning",
+      "Network Analysis"
+    ],
+    "preferred_skills": [
+      "Spark",
+      "Graph Databases",
+      "Azure"
+    ],
+    "experience_level": "Senior",
+    "company_size": "201-500",
+    "description": "Apply machine learning techniques to detect anomalies and threats in network traffic data."
+  },
+  {
+    "id": 194,
+    "title": "DevOps Engineer",
+    "company": "CodeStream",
+    "location": "Austin, TX",
+    "remote_option": true,
+    "salary_min": 130000,
+    "salary_max": 160000,
+    "required_skills": [
+      "AWS",
+      "Docker",
+      "CloudFormation",
+      "CI/CD"
     ],
     "preferred_skills": [
       "Kubernetes",
       "Terraform",
-      "Go"
+      "Python"
     ],
     "experience_level": "Mid",
-    "company_size": "50-200",
-    "description": "Focus on automating infrastructure and release pipelines to improve developer velocity."
+    "company_size": "201-500",
+    "description": "Automate, manage, and scale our infrastructure to support a rapidly growing user base."
+  },
+  {
+    "id": 195,
+    "title": "Full Stack Developer",
+    "company": "ApexDeploy",
+    "location": "Remote",
+    "remote_option": true,
+    "salary_min": 150000,
+    "salary_max": 185000,
+    "required_skills": [
+      "Go",
+      "React",
+      "TypeScript",
+      "PostgreSQL"
+    ],
+    "preferred_skills": [
+      "gRPC",
+      "Kubernetes",
+      "GCP"
+    ],
+    "experience_level": "Senior",
+    "company_size": "51-200",
+    "description": "Architect and develop core features for our continuous deployment platform, from the database to the UI."
+  },
+  {
+    "id": 196,
+    "title": "Frontend Developer",
+    "company": "Synergy Systems",
+    "location": "New York, NY",
+    "remote_option": false,
+    "salary_min": 100000,
+    "salary_max": 125000,
+    "required_skills": [
+      "Vue.js",
+      "JavaScript",
+      "CSS",
+      "HTML"
+    ],
+    "preferred_skills": [
+      "TypeScript",
+      "Jest"
+    ],
+    "experience_level": "Entry",
+    "company_size": "51-200",
+    "description": "Join a collaborative team to build intuitive user interfaces for our project management software."
+  },
+  {
+    "id": 197,
+    "title": "Backend Developer",
+    "company": "HealthFirst Tech",
+    "location": "Austin, TX",
+    "remote_option": true,
+    "salary_min": 170000,
+    "salary_max": 210000,
+    "required_skills": [
+      "C#",
+      ".NET Core",
+      "SQL Server",
+      "Azure"
+    ],
+    "preferred_skills": [
+      "Microservices",
+      "Docker",
+      "Service Bus"
+    ],
+    "experience_level": "Senior",
+    "company_size": "501-1000",
+    "description": "Lead the design and development of our HIPAA-compliant backend services on the Azure platform."
+  },
+  {
+    "id": 198,
+    "title": "Data Scientist",
+    "company": "Fintech Solutions",
+    "location": "New York, NY",
+    "remote_option": false,
+    "salary_min": 150000,
+    "salary_max": 185000,
+    "required_skills": [
+      "Python",
+      "SQL",
+      "Pandas",
+      "Time Series Analysis"
+    ],
+    "preferred_skills": [
+      "KDB+",
+      "C++",
+      "Machine Learning"
+    ],
+    "experience_level": "Mid",
+    "company_size": "1001+",
+    "description": "Develop and backtest quantitative trading strategies using statistical analysis and machine learning."
+  },
+  {
+    "id": 199,
+    "title": "DevOps Engineer",
+    "company": "AdOptimize",
+    "location": "San Francisco, CA",
+    "remote_option": false,
+    "salary_min": 180000,
+    "salary_max": 225000,
+    "required_skills": [
+      "GCP",
+      "Kubernetes",
+      "Terraform",
+      "Prometheus"
+    ],
+    "preferred_skills": [
+      "Istio",
+      "Go",
+      "Spinnaker"
+    ],
+    "experience_level": "Senior",
+    "company_size": "201-500",
+    "description": "Architect and maintain a highly-available, multi-region infrastructure to handle billions of ad requests daily."
+  },
+  {
+    "id": 200,
+    "title": "Full Stack Developer",
+    "company": "InfraCore",
+    "location": "Seattle, WA",
+    "remote_option": true,
+    "salary_min": 105000,
+    "salary_max": 130000,
+    "required_skills": [
+      "JavaScript",
+      "Angular",
+      "Go",
+      "PostgreSQL"
+    ],
+    "preferred_skills": [
+      "TypeScript",
+      "Docker"
+    ],
+    "experience_level": "Entry",
+    "company_size": "51-200",
+    "description": "As a junior developer, you will contribute to both our frontend and backend codebases, learning and growing with our team."
+  },
+  {
+    "id": 201,
+    "title": "Frontend Developer",
+    "company": "InnovateX Solutions",
+    "location": "San Francisco, CA",
+    "remote_option": true,
+    "salary_min": 125000,
+    "salary_max": 155000,
+    "required_skills": [
+      "React",
+      "JavaScript",
+      "CSS",
+      "HTML"
+    ],
+    "preferred_skills": [
+      "TypeScript",
+      "GraphQL"
+    ],
+    "experience_level": "Mid",
+    "company_size": "51-200",
+    "description": "Join our dynamic team to build and maintain responsive, user-friendly web applications using the latest frontend technologies."
+  },
+  {
+    "id": 202,
+    "title": "Backend Developer",
+    "company": "DataWeave Inc.",
+    "location": "New York, NY",
+    "remote_option": false,
+    "salary_min": 170000,
+    "salary_max": 210000,
+    "required_skills": [
+      "Python",
+      "Django",
+      "PostgreSQL",
+      "REST APIs"
+    ],
+    "preferred_skills": [
+      "AWS",
+      "Docker",
+      "Kubernetes"
+    ],
+    "experience_level": "Senior",
+    "company_size": "201-500",
+    "description": "We are looking for a senior backend engineer to design, develop, and deploy scalable microservices for our data platform."
+  },
+  {
+    "id": 203,
+    "title": "Data Scientist",
+    "company": "QuantumLeap AI",
+    "location": "Austin, TX",
+    "remote_option": true,
+    "salary_min": 140000,
+    "salary_max": 175000,
+    "required_skills": [
+      "Python",
+      "SQL",
+      "Pandas",
+      "Scikit-learn",
+      "TensorFlow"
+    ],
+    "preferred_skills": [
+      "PySpark",
+      "AWS Sagemaker",
+      "Airflow"
+    ],
+    "experience_level": "Mid",
+    "company_size": "51-200",
+    "description": "Utilize machine learning and statistical modeling to extract valuable business insights from large, complex datasets."
+  },
+  {
+    "id": 204,
+    "title": "DevOps Engineer",
+    "company": "CloudSphere Tech",
+    "location": "Seattle, WA",
+    "remote_option": false,
+    "salary_min": 165000,
+    "salary_max": 200000,
+    "required_skills": [
+      "AWS",
+      "Kubernetes",
+      "Terraform",
+      "CI/CD",
+      "Docker"
+    ],
+    "preferred_skills": [
+      "Python",
+      "Prometheus",
+      "Ansible"
+    ],
+    "experience_level": "Senior",
+    "company_size": "501-1000",
+    "description": "Manage and automate our cloud infrastructure to ensure high availability, scalability, and performance of our services."
+  },
+  {
+    "id": 205,
+    "title": "Full Stack Developer",
+    "company": "Nexus Innovations",
+    "location": "Remote",
+    "remote_option": true,
+    "salary_min": 95000,
+    "salary_max": 120000,
+    "required_skills": [
+      "JavaScript",
+      "Node.js",
+      "React",
+      "MongoDB"
+    ],
+    "preferred_skills": [
+      "TypeScript",
+      "GraphQL",
+      "AWS"
+    ],
+    "experience_level": "Entry",
+    "company_size": "11-50",
+    "description": "Exciting opportunity for a junior full stack developer to work on both client-side and server-side development of our flagship product."
+  },
+  {
+    "id": 206,
+    "title": "Frontend Developer",
+    "company": "PixelPerfect Studios",
+    "location": "New York, NY",
+    "remote_option": true,
+    "salary_min": 105000,
+    "salary_max": 130000,
+    "required_skills": [
+      "Vue.js",
+      "JavaScript",
+      "Sass",
+      "HTML"
+    ],
+    "preferred_skills": [
+      "TypeScript",
+      "Vite",
+      "Pinia"
+    ],
+    "experience_level": "Mid",
+    "company_size": "51-200",
+    "description": "Craft beautiful and intuitive user interfaces for our creative suite of applications using Vue.js."
+  },
+  {
+    "id": 207,
+    "title": "Backend Developer",
+    "company": "SecureNet Partners",
+    "location": "Austin, TX",
+    "remote_option": false,
+    "salary_min": 110000,
+    "salary_max": 140000,
+    "required_skills": [
+      "Go",
+      "gRPC",
+      "PostgreSQL",
+      "Microservices"
+    ],
+    "preferred_skills": [
+      "Kubernetes",
+      "GCP",
+      "Prometheus"
+    ],
+    "experience_level": "Mid",
+    "company_size": "201-500",
+    "description": "Develop high-performance, concurrent backend systems for our security platform using Go."
+  },
+  {
+    "id": 208,
+    "title": "Data Scientist",
+    "company": "LogicGate Analytics",
+    "location": "San Francisco, CA",
+    "remote_option": false,
+    "salary_min": 180000,
+    "salary_max": 225000,
+    "required_skills": [
+      "Python",
+      "R",
+      "SQL",
+      "PyTorch",
+      "Statistical Analysis"
+    ],
+    "preferred_skills": [
+      "Spark",
+      "Databricks",
+      "Tableau"
+    ],
+    "experience_level": "Senior",
+    "company_size": "1001+",
+    "description": "Lead research and development of novel algorithms to solve complex problems in the logistics and supply chain domain."
+  },
+  {
+    "id": 209,
+    "title": "DevOps Engineer",
+    "company": "ApexDeploy",
+    "location": "Remote",
+    "remote_option": true,
+    "salary_min": 125000,
+    "salary_max": 155000,
+    "required_skills": [
+      "Azure",
+      "Docker",
+      "Kubernetes",
+      "Ansible",
+      "Jenkins"
+    ],
+    "preferred_skills": [
+      "PowerShell",
+      "Terraform",
+      "Azure DevOps"
+    ],
+    "experience_level": "Mid",
+    "company_size": "51-200",
+    "description": "Build and maintain CI/CD pipelines, and manage our Azure cloud infrastructure for optimal reliability and efficiency."
+  },
+  {
+    "id": 210,
+    "title": "Full Stack Developer",
+    "company": "CodeStream",
+    "location": "Seattle, WA",
+    "remote_option": true,
+    "salary_min": 160000,
+    "salary_max": 195000,
+    "required_skills": [
+      "TypeScript",
+      "React",
+      "Node.js",
+      "PostgreSQL"
+    ],
+    "preferred_skills": [
+      "GraphQL",
+      "Next.js",
+      "AWS Lambda"
+    ],
+    "experience_level": "Senior",
+    "company_size": "201-500",
+    "description": "Take ownership of features from conception to deployment, working across our modern tech stack."
+  },
+  {
+    "id": 211,
+    "title": "Frontend Developer",
+    "company": "HealthFirst Tech",
+    "location": "Austin, TX",
+    "remote_option": false,
+    "salary_min": 90000,
+    "salary_max": 115000,
+    "required_skills": [
+      "Angular",
+      "TypeScript",
+      "RxJS",
+      "HTML",
+      "CSS"
+    ],
+    "preferred_skills": [
+      "NgRx",
+      "Jest",
+      "Cypress"
+    ],
+    "experience_level": "Entry",
+    "company_size": "501-1000",
+    "description": "We are seeking a motivated entry-level frontend developer to help build the next generation of our healthcare platform."
+  },
+  {
+    "id": 212,
+    "title": "Backend Developer",
+    "company": "Fintech Solutions",
+    "location": "New York, NY",
+    "remote_option": false,
+    "salary_min": 135000,
+    "salary_max": 165000,
+    "required_skills": [
+      "Java",
+      "Spring Boot",
+      "MySQL",
+      "REST APIs"
+    ],
+    "preferred_skills": [
+      "Kafka",
+      "Microservices",
+      "AWS"
+    ],
+    "experience_level": "Mid",
+    "company_size": "1001+",
+    "description": "Develop secure and reliable backend services for our financial trading systems using Java and Spring Boot."
+  },
+  {
+    "id": 213,
+    "title": "Data Scientist",
+    "company": "AdOptimize",
+    "location": "Remote",
+    "remote_option": true,
+    "salary_min": 105000,
+    "salary_max": 130000,
+    "required_skills": [
+      "Python",
+      "SQL",
+      "Pandas",
+      "Scikit-learn"
+    ],
+    "preferred_skills": [
+      "XGBoost",
+      "Airflow",
+      "Looker"
+    ],
+    "experience_level": "Entry",
+    "company_size": "201-500",
+    "description": "Analyze campaign data to build predictive models and optimize advertising spend for our clients."
+  },
+  {
+    "id": 214,
+    "title": "DevOps Engineer",
+    "company": "InfraCore",
+    "location": "San Francisco, CA",
+    "remote_option": true,
+    "salary_min": 145000,
+    "salary_max": 180000,
+    "required_skills": [
+      "GCP",
+      "Kubernetes",
+      "Terraform",
+      "GitLab CI"
+    ],
+    "preferred_skills": [
+      "Go",
+      "Istio",
+      "Spinnaker"
+    ],
+    "experience_level": "Mid",
+    "company_size": "51-200",
+    "description": "Design and implement scalable, automated infrastructure on Google Cloud Platform."
+  },
+  {
+    "id": 215,
+    "title": "Full Stack Developer",
+    "company": "Synergy Systems",
+    "location": "New York, NY",
+    "remote_option": true,
+    "salary_min": 130000,
+    "salary_max": 160000,
+    "required_skills": [
+      "JavaScript",
+      "Vue.js",
+      "Python",
+      "Flask",
+      "PostgreSQL"
+    ],
+    "preferred_skills": [
+      "TypeScript",
+      "Celery",
+      "Docker"
+    ],
+    "experience_level": "Mid",
+    "company_size": "51-200",
+    "description": "Work across the full stack to build new features and improve existing functionality on our collaborative platform."
+  },
+  {
+    "id": 216,
+    "title": "Frontend Developer",
+    "company": "InnovateX Solutions",
+    "location": "Seattle, WA",
+    "remote_option": false,
+    "salary_min": 155000,
+    "salary_max": 190000,
+    "required_skills": [
+      "React",
+      "TypeScript",
+      "Redux",
+      "GraphQL"
+    ],
+    "preferred_skills": [
+      "Next.js",
+      "Storybook"
+    ],
+    "experience_level": "Senior",
+    "company_size": "51-200",
+    "description": "Lead frontend development efforts, mentor junior engineers, and establish best practices for our web applications."
+  },
+  {
+    "id": 217,
+    "title": "Backend Developer",
+    "company": "QuantumLeap AI",
+    "location": "Remote",
+    "remote_option": true,
+    "salary_min": 155000,
+    "salary_max": 195000,
+    "required_skills": [
+      "Python",
+      "FastAPI",
+      "MongoDB",
+      "AsyncIO"
+    ],
+    "preferred_skills": [
+      "Redis",
+      "Docker",
+      "GCP"
+    ],
+    "experience_level": "Senior",
+    "company_size": "51-200",
+    "description": "Architect and build high-throughput APIs to serve our machine learning models."
+  },
+  {
+    "id": 218,
+    "title": "Data Scientist",
+    "company": "DataWeave Inc.",
+    "location": "Austin, TX",
+    "remote_option": true,
+    "salary_min": 145000,
+    "salary_max": 180000,
+    "required_skills": [
+      "Python",
+      "SQL",
+      "Pandas",
+      "PyTorch"
+    ],
+    "preferred_skills": [
+      "NLP",
+      "Spark",
+      "AWS"
+    ],
+    "experience_level": "Mid",
+    "company_size": "201-500",
+    "description": "Develop and deploy natural language processing models to enhance our data extraction capabilities."
+  },
+  {
+    "id": 219,
+    "title": "DevOps Engineer",
+    "company": "Nexus Innovations",
+    "location": "New York, NY",
+    "remote_option": false,
+    "salary_min": 110000,
+    "salary_max": 135000,
+    "required_skills": [
+      "AWS",
+      "Terraform",
+      "Docker",
+      "Jenkins"
+    ],
+    "preferred_skills": [
+      "Bash",
+      "CloudFormation",
+      "Datadog"
+    ],
+    "experience_level": "Entry",
+    "company_size": "11-50",
+    "description": "Support our engineering team by automating builds, deployments, and infrastructure management."
+  },
+  {
+    "id": 220,
+    "title": "Full Stack Developer",
+    "company": "CloudSphere Tech",
+    "location": "San Francisco, CA",
+    "remote_option": false,
+    "salary_min": 140000,
+    "salary_max": 175000,
+    "required_skills": [
+      "TypeScript",
+      "Angular",
+      "Node.js",
+      "Express",
+      "PostgreSQL"
+    ],
+    "preferred_skills": [
+      "GCP",
+      "Kubernetes",
+      "gRPC"
+    ],
+    "experience_level": "Mid",
+    "company_size": "501-1000",
+    "description": "Contribute to all phases of the development lifecycle, from concept to deployment of our cloud management software."
+  },
+  {
+    "id": 221,
+    "title": "Frontend Developer",
+    "company": "LogicGate Analytics",
+    "location": "Remote",
+    "remote_option": true,
+    "salary_min": 120000,
+    "salary_max": 145000,
+    "required_skills": [
+      "React",
+      "JavaScript",
+      "Redux",
+      "CSS-in-JS"
+    ],
+    "preferred_skills": [
+      "TypeScript",
+      "Next.js"
+    ],
+    "experience_level": "Mid",
+    "company_size": "1001+",
+    "description": "Develop interactive data visualizations and dashboards for our analytics platform."
+  },
+  {
+    "id": 222,
+    "title": "Backend Developer",
+    "company": "PixelPerfect Studios",
+    "location": "San Francisco, CA",
+    "remote_option": true,
+    "salary_min": 125000,
+    "salary_max": 155000,
+    "required_skills": [
+      "Ruby on Rails",
+      "PostgreSQL",
+      "Sidekiq"
+    ],
+    "preferred_skills": [
+      "Elasticsearch",
+      "Redis",
+      "Heroku"
+    ],
+    "experience_level": "Mid",
+    "company_size": "51-200",
+    "description": "Maintain and enhance the backend services that power our creative collaboration tools."
+  },
+  {
+    "id": 223,
+    "title": "Data Scientist",
+    "company": "SecureNet Partners",
+    "location": "Seattle, WA",
+    "remote_option": false,
+    "salary_min": 160000,
+    "salary_max": 200000,
+    "required_skills": [
+      "Python",
+      "SQL",
+      "Machine Learning",
+      "Network Analysis"
+    ],
+    "preferred_skills": [
+      "Spark",
+      "Graph Databases",
+      "Azure"
+    ],
+    "experience_level": "Senior",
+    "company_size": "201-500",
+    "description": "Apply machine learning techniques to detect anomalies and threats in network traffic data."
+  },
+  {
+    "id": 224,
+    "title": "DevOps Engineer",
+    "company": "CodeStream",
+    "location": "Austin, TX",
+    "remote_option": true,
+    "salary_min": 130000,
+    "salary_max": 160000,
+    "required_skills": [
+      "AWS",
+      "Docker",
+      "CloudFormation",
+      "CI/CD"
+    ],
+    "preferred_skills": [
+      "Kubernetes",
+      "Terraform",
+      "Python"
+    ],
+    "experience_level": "Mid",
+    "company_size": "201-500",
+    "description": "Automate, manage, and scale our infrastructure to support a rapidly growing user base."
+  },
+  {
+    "id": 225,
+    "title": "Full Stack Developer",
+    "company": "ApexDeploy",
+    "location": "Remote",
+    "remote_option": true,
+    "salary_min": 150000,
+    "salary_max": 185000,
+    "required_skills": [
+      "Go",
+      "React",
+      "TypeScript",
+      "PostgreSQL"
+    ],
+    "preferred_skills": [
+      "gRPC",
+      "Kubernetes",
+      "GCP"
+    ],
+    "experience_level": "Senior",
+    "company_size": "51-200",
+    "description": "Architect and develop core features for our continuous deployment platform, from the database to the UI."
+  },
+  {
+    "id": 226,
+    "title": "Frontend Developer",
+    "company": "Synergy Systems",
+    "location": "New York, NY",
+    "remote_option": false,
+    "salary_min": 100000,
+    "salary_max": 125000,
+    "required_skills": [
+      "React",
+      "JavaScript",
+      "CSS",
+      "HTML"
+    ],
+    "preferred_skills": [
+      "TypeScript",
+      "Jest"
+    ],
+    "experience_level": "Entry",
+    "company_size": "51-200",
+    "description": "Join a collaborative team to build intuitive user interfaces for our project management software."
+  },
+  {
+    "id": 227,
+    "title": "Backend Developer",
+    "company": "HealthFirst Tech",
+    "location": "Austin, TX",
+    "remote_option": true,
+    "salary_min": 165000,
+    "salary_max": 205000,
+    "required_skills": [
+      "C#",
+      ".NET Core",
+      "SQL Server",
+      "Azure"
+    ],
+    "preferred_skills": [
+      "Microservices",
+      "Docker",
+      "Service Bus"
+    ],
+    "experience_level": "Senior",
+    "company_size": "501-1000",
+    "description": "Lead the design and development of our HIPAA-compliant backend services on the Azure platform."
+  },
+  {
+    "id": 228,
+    "title": "Data Scientist",
+    "company": "Fintech Solutions",
+    "location": "New York, NY",
+    "remote_option": false,
+    "salary_min": 150000,
+    "salary_max": 185000,
+    "required_skills": [
+      "Python",
+      "SQL",
+      "Pandas",
+      "Time Series Analysis"
+    ],
+    "preferred_skills": [
+      "KDB+",
+      "C++",
+      "Machine Learning"
+    ],
+    "experience_level": "Mid",
+    "company_size": "1001+",
+    "description": "Develop and backtest quantitative trading strategies using statistical analysis and machine learning."
+  },
+  {
+    "id": 229,
+    "title": "DevOps Engineer",
+    "company": "AdOptimize",
+    "location": "San Francisco, CA",
+    "remote_option": false,
+    "salary_min": 175000,
+    "salary_max": 220000,
+    "required_skills": [
+      "AWS",
+      "Kubernetes",
+      "Terraform",
+      "Prometheus"
+    ],
+    "preferred_skills": [
+      "Istio",
+      "Go",
+      "Spinnaker"
+    ],
+    "experience_level": "Senior",
+    "company_size": "201-500",
+    "description": "Architect and maintain a highly-available, multi-region infrastructure to handle billions of ad requests daily."
+  },
+  {
+    "id": 230,
+    "title": "Full Stack Developer",
+    "company": "InfraCore",
+    "location": "Seattle, WA",
+    "remote_option": true,
+    "salary_min": 105000,
+    "salary_max": 130000,
+    "required_skills": [
+      "JavaScript",
+      "React",
+      "Node.js",
+      "MySQL"
+    ],
+    "preferred_skills": [
+      "TypeScript",
+      "Docker"
+    ],
+    "experience_level": "Entry",
+    "company_size": "51-200",
+    "description": "As a junior developer, you will contribute to both our frontend and backend codebases, learning and growing with our team."
+  },
+  {
+    "id": 231,
+    "title": "Frontend Developer",
+    "company": "DataWeave Inc.",
+    "location": "New York, NY",
+    "remote_option": true,
+    "salary_min": 130000,
+    "salary_max": 160000,
+    "required_skills": [
+      "Vue.js",
+      "TypeScript",
+      "Vuex",
+      "Sass"
+    ],
+    "preferred_skills": [
+      "Nuxt.js",
+      "Jest",
+      "Cypress"
+    ],
+    "experience_level": "Mid",
+    "company_size": "201-500",
+    "description": "Build sophisticated user interfaces for data exploration and management."
+  },
+  {
+    "id": 232,
+    "title": "Backend Developer",
+    "company": "InnovateX Solutions",
+    "location": "San Francisco, CA",
+    "remote_option": false,
+    "salary_min": 120000,
+    "salary_max": 150000,
+    "required_skills": [
+      "Node.js",
+      "Express",
+      "MongoDB",
+      "REST APIs"
+    ],
+    "preferred_skills": [
+      "TypeScript",
+      "GraphQL",
+      "AWS Lambda"
+    ],
+    "experience_level": "Mid",
+    "company_size": "51-200",
+    "description": "Develop and maintain the server-side logic for our innovative suite of business applications."
+  },
+  {
+    "id": 233,
+    "title": "Data Scientist",
+    "company": "CloudSphere Tech",
+    "location": "Seattle, WA",
+    "remote_option": true,
+    "salary_min": 115000,
+    "salary_max": 140000,
+    "required_skills": [
+      "Python",
+      "SQL",
+      "Pandas",
+      "Scikit-learn",
+      "Statistics"
+    ],
+    "preferred_skills": [
+      "Tableau",
+      "AWS",
+      "Redshift"
+    ],
+    "experience_level": "Entry",
+    "company_size": "501-1000",
+    "description": "Analyze cloud usage data to identify trends, build cost-optimization models, and inform product strategy."
+  },
+  {
+    "id": 234,
+    "title": "DevOps Engineer",
+    "company": "QuantumLeap AI",
+    "location": "Austin, TX",
+    "remote_option": false,
+    "salary_min": 135000,
+    "salary_max": 165000,
+    "required_skills": [
+      "AWS",
+      "Docker",
+      "Kubernetes",
+      "Terraform"
+    ],
+    "preferred_skills": [
+      "Jenkins",
+      "Python scripting",
+      "Datadog"
+    ],
+    "experience_level": "Mid",
+    "company_size": "51-200",
+    "description": "Maintain the infrastructure that powers our AI research and model deployment pipelines."
+  },
+  {
+    "id": 235,
+    "title": "Full Stack Developer",
+    "company": "SecureNet Partners",
+    "location": "Remote",
+    "remote_option": true,
+    "salary_min": 125000,
+    "salary_max": 155000,
+    "required_skills": [
+      "Python",
+      "Django",
+      "React",
+      "JavaScript",
+      "PostgreSQL"
+    ],
+    "preferred_skills": [
+      "TypeScript",
+      "Docker",
+      "Celery"
+    ],
+    "experience_level": "Mid",
+    "company_size": "201-500",
+    "description": "Build features end-to-end for our cybersecurity analytics dashboard."
+  },
+  {
+    "id": 236,
+    "title": "Frontend Developer",
+    "company": "Nexus Innovations",
+    "location": "Austin, TX",
+    "remote_option": true,
+    "salary_min": 95000,
+    "salary_max": 115000,
+    "required_skills": [
+      "React",
+      "JavaScript",
+      "HTML",
+      "CSS"
+    ],
+    "preferred_skills": [
+      "Redux",
+      "TypeScript"
+    ],
+    "experience_level": "Entry",
+    "company_size": "11-50",
+    "description": "A great opportunity for a recent graduate to kickstart their career by building responsive UIs."
+  },
+  {
+    "id": 237,
+    "title": "Backend Developer",
+    "company": "ApexDeploy",
+    "location": "Remote",
+    "remote_option": true,
+    "salary_min": 170000,
+    "salary_max": 215000,
+    "required_skills": [
+      "Go",
+      "Kubernetes",
+      "gRPC",
+      "PostgreSQL"
+    ],
+    "preferred_skills": [
+      "GCP",
+      "Istio",
+      "Prometheus"
+    ],
+    "experience_level": "Senior",
+    "company_size": "51-200",
+    "description": "Architect and lead the development of our core backend services for CI/CD automation."
+  },
+  {
+    "id": 238,
+    "title": "Data Scientist",
+    "company": "PixelPerfect Studios",
+    "location": "New York, NY",
+    "remote_option": false,
+    "salary_min": 145000,
+    "salary_max": 180000,
+    "required_skills": [
+      "Python",
+      "SQL",
+      "Pandas",
+      "Scikit-learn"
+    ],
+    "preferred_skills": [
+      "Recommendation Systems",
+      "A/B Testing",
+      "Looker"
+    ],
+    "experience_level": "Mid",
+    "company_size": "51-200",
+    "description": "Analyze user behavior to build personalization features and improve engagement on our platform."
+  },
+  {
+    "id": 239,
+    "title": "DevOps Engineer",
+    "company": "LogicGate Analytics",
+    "location": "San Francisco, CA",
+    "remote_option": false,
+    "salary_min": 180000,
+    "salary_max": 225000,
+    "required_skills": [
+      "AWS",
+      "Kubernetes",
+      "Terraform",
+      "CI/CD",
+      "Security Best Practices"
+    ],
+    "preferred_skills": [
+      "Go",
+      "Istio",
+      "SOC 2 Compliance"
+    ],
+    "experience_level": "Senior",
+    "company_size": "1001+",
+    "description": "Lead our infrastructure security and compliance efforts, ensuring our platform is robust and secure."
+  },
+  {
+    "id": 240,
+    "title": "Full Stack Developer",
+    "company": "HealthFirst Tech",
+    "location": "Remote",
+    "remote_option": true,
+    "salary_min": 160000,
+    "salary_max": 200000,
+    "required_skills": [
+      "C#",
+      ".NET Core",
+      "Angular",
+      "TypeScript",
+      "SQL Server"
+    ],
+    "preferred_skills": [
+      "Azure",
+      "Microservices",
+      "FHIR"
+    ],
+    "experience_level": "Senior",
+    "company_size": "501-1000",
+    "description": "Lead development on a new product line, influencing architecture and technology choices across the stack."
+  },
+  {
+    "id": 241,
+    "title": "Frontend Developer",
+    "company": "Fintech Solutions",
+    "location": "New York, NY",
+    "remote_option": false,
+    "salary_min": 165000,
+    "salary_max": 205000,
+    "required_skills": [
+      "React",
+      "TypeScript",
+      "HighCharts",
+      "WebSocket"
+    ],
+    "preferred_skills": [
+      "Rust",
+      "WebAssembly",
+      "AG-Grid"
+    ],
+    "experience_level": "Senior",
+    "company_size": "1001+",
+    "description": "Build high-performance, real-time data visualization interfaces for our financial trading platform."
+  },
+  {
+    "id": 242,
+    "title": "Backend Developer",
+    "company": "CodeStream",
+    "location": "Seattle, WA",
+    "remote_option": true,
+    "salary_min": 125000,
+    "salary_max": 155000,
+    "required_skills": [
+      "Node.js",
+      "TypeScript",
+      "PostgreSQL",
+      "GraphQL"
+    ],
+    "preferred_skills": [
+      "AWS",
+      "Serverless",
+      "NestJS"
+    ],
+    "experience_level": "Mid",
+    "company_size": "201-500",
+    "description": "Contribute to our GraphQL API, building new features for our developer collaboration tool."
+  },
+  {
+    "id": 243,
+    "title": "Data Scientist",
+    "company": "Synergy Systems",
+    "location": "Remote",
+    "remote_option": true,
+    "salary_min": 135000,
+    "salary_max": 170000,
+    "required_skills": [
+      "Python",
+      "SQL",
+      "Pandas",
+      "Scikit-learn"
+    ],
+    "preferred_skills": [
+      "NLP",
+      "Airflow",
+      "Tableau"
+    ],
+    "experience_level": "Mid",
+    "company_size": "51-200",
+    "description": "Analyze product usage data to drive feature development and improve user experience."
+  },
+  {
+    "id": 244,
+    "title": "DevOps Engineer",
+    "company": "InfraCore",
+    "location": "Seattle, WA",
+    "remote_option": false,
+    "salary_min": 105000,
+    "salary_max": 130000,
+    "required_skills": [
+      "AWS",
+      "CloudFormation",
+      "Docker",
+      "Bash"
+    ],
+    "preferred_skills": [
+      "Python",
+      "Jenkins"
+    ],
+    "experience_level": "Entry",
+    "company_size": "51-200",
+    "description": "Join our platform team to learn and help manage our AWS infrastructure and deployment pipelines."
+  },
+  {
+    "id": 245,
+    "title": "Full Stack Developer",
+    "company": "AdOptimize",
+    "location": "Austin, TX",
+    "remote_option": true,
+    "salary_min": 130000,
+    "salary_max": 160000,
+    "required_skills": [
+      "React",
+      "Node.js",
+      "JavaScript",
+      "SQL"
+    ],
+    "preferred_skills": [
+      "TypeScript",
+      "Go",
+      "BigQuery"
+    ],
+    "experience_level": "Mid",
+    "company_size": "201-500",
+    "description": "Develop features for our ad management platform, working on everything from the UI to the data processing backend."
+  },
+  {
+    "id": 246,
+    "title": "Frontend Developer",
+    "company": "QuantumLeap AI",
+    "location": "San Francisco, CA",
+    "remote_option": false,
+    "salary_min": 135000,
+    "salary_max": 165000,
+    "required_skills": [
+      "React",
+      "TypeScript",
+      "D3.js",
+      "CSS"
+    ],
+    "preferred_skills": [
+      "GraphQL",
+      "Next.js"
+    ],
+    "experience_level": "Mid",
+    "company_size": "51-200",
+    "description": "Create compelling data visualizations and interfaces for interacting with our AI models."
+  },
+  {
+    "id": 247,
+    "title": "Backend Developer",
+    "company": "CloudSphere Tech",
+    "location": "New York, NY",
+    "remote_option": true,
+    "salary_min": 175000,
+    "salary_max": 220000,
+    "required_skills": [
+      "Java",
+      "Spring",
+      "Kafka",
+      "PostgreSQL",
+      "Microservices"
+    ],
+    "preferred_skills": [
+      "AWS",
+      "Kubernetes",
+      "Elasticsearch"
+    ],
+    "experience_level": "Senior",
+    "company_size": "501-1000",
+    "description": "Architect and lead the development of a distributed, event-driven system for cloud resource monitoring."
+  },
+  {
+    "id": 248,
+    "title": "Data Scientist",
+    "company": "InnovateX Solutions",
+    "location": "Remote",
+    "remote_option": true,
+    "salary_min": 160000,
+    "salary_max": 200000,
+    "required_skills": [
+      "Python",
+      "SQL",
+      "PyTorch",
+      "Deep Learning"
+    ],
+    "preferred_skills": [
+      "Computer Vision",
+      "AWS Sagemaker",
+      "Spark"
+    ],
+    "experience_level": "Senior",
+    "company_size": "51-200",
+    "description": "Lead research and development in computer vision to build cutting-edge features for our products."
+  },
+  {
+    "id": 249,
+    "title": "DevOps Engineer",
+    "company": "DataWeave Inc.",
+    "location": "Austin, TX",
+    "remote_option": false,
+    "salary_min": 140000,
+    "salary_max": 175000,
+    "required_skills": [
+      "AWS",
+      "Terraform",
+      "Ansible",
+      "Kubernetes"
+    ],
+    "preferred_skills": [
+      "Python",
+      "Datadog",
+      "GitLab CI"
+    ],
+    "experience_level": "Mid",
+    "company_size": "201-500",
+    "description": "Enhance our platform's reliability and scalability through infrastructure automation and best practices."
+  },
+  {
+    "id": 250,
+    "title": "Full Stack Developer",
+    "company": "PixelPerfect Studios",
+    "location": "New York, NY",
+    "remote_option": false,
+    "salary_min": 100000,
+    "salary_max": 125000,
+    "required_skills": [
+      "JavaScript",
+      "Vue.js",
+      "Ruby on Rails",
+      "PostgreSQL"
+    ],
+    "preferred_skills": [
+      "TypeScript",
+      "Heroku"
+    ],
+    "experience_level": "Entry",
+    "company_size": "51-200",
+    "description": "Join our product team as a full stack engineer, working on both our Vue.js frontend and Rails backend."
+  },
+  {
+    "id": 251,
+    "title": "Frontend Developer",
+    "company": "SecureNet Partners",
+    "location": "Remote",
+    "remote_option": true,
+    "salary_min": 125000,
+    "salary_max": 150000,
+    "required_skills": [
+      "React",
+      "TypeScript",
+      "Redux Toolkit",
+      "Styled Components"
+    ],
+    "preferred_skills": [
+      "D3.js",
+      "GraphQL"
+    ],
+    "experience_level": "Mid",
+    "company_size": "201-500",
+    "description": "Build the user interface for our next-generation security operations center (SOC) platform."
+  },
+  {
+    "id": 252,
+    "title": "Backend Developer",
+    "company": "LogicGate Analytics",
+    "location": "San Francisco, CA",
+    "remote_option": false,
+    "salary_min": 135000,
+    "salary_max": 170000,
+    "required_skills": [
+      "Python",
+      "Flask",
+      "Celery",
+      "PostgreSQL",
+      "Redis"
+    ],
+    "preferred_skills": [
+      "SQLAlchemy",
+      "Docker",
+      "AWS"
+    ],
+    "experience_level": "Mid",
+    "company_size": "1001+",
+    "description": "Develop and optimize data processing pipelines and APIs for our large-scale analytics engine."
+  },
+  {
+    "id": 253,
+    "title": "Data Scientist",
+    "company": "HealthFirst Tech",
+    "location": "Austin, TX",
+    "remote_option": true,
+    "salary_min": 170000,
+    "salary_max": 210000,
+    "required_skills": [
+      "Python",
+      "SQL",
+      "Machine Learning",
+      "Statistics"
+    ],
+    "preferred_skills": [
+      "Causal Inference",
+      "Azure ML",
+      "Healthcare Data (FHIR, HL7)"
+    ],
+    "experience_level": "Senior",
+    "company_size": "501-1000",
+    "description": "Lead the development of predictive models to improve patient outcomes and operational efficiency."
+  },
+  {
+    "id": 254,
+    "title": "DevOps Engineer",
+    "company": "Fintech Solutions",
+    "location": "New York, NY",
+    "remote_option": false,
+    "salary_min": 145000,
+    "salary_max": 185000,
+    "required_skills": [
+      "AWS",
+      "Kubernetes",
+      "Terraform",
+      "CI/CD",
+      "Linux"
+    ],
+    "preferred_skills": [
+      "Python",
+      "Ansible",
+      "Financial Regulations"
+    ],
+    "experience_level": "Mid",
+    "company_size": "1001+",
+    "description": "Manage the infrastructure for our low-latency trading systems, focusing on reliability and security."
+  },
+  {
+    "id": 255,
+    "title": "Full Stack Developer",
+    "company": "Nexus Innovations",
+    "location": "Seattle, WA",
+    "remote_option": false,
+    "salary_min": 125000,
+    "salary_max": 150000,
+    "required_skills": [
+      "JavaScript",
+      "React",
+      "Node.js",
+      "PostgreSQL"
+    ],
+    "preferred_skills": [
+      "TypeScript",
+      "AWS"
+    ],
+    "experience_level": "Mid",
+    "company_size": "11-50",
+    "description": "Join our small, agile team to build and ship new features for our core product."
+  },
+  {
+    "id": 256,
+    "title": "Frontend Developer",
+    "company": "CodeStream",
+    "location": "Remote",
+    "remote_option": true,
+    "salary_min": 155000,
+    "salary_max": 190000,
+    "required_skills": [
+      "React",
+      "TypeScript",
+      "GraphQL",
+      "Apollo Client"
+    ],
+    "preferred_skills": [
+      "WebSockets",
+      "Performance Optimization"
+    ],
+    "experience_level": "Senior",
+    "company_size": "201-500",
+    "description": "Take a lead role in architecting and building complex features for our real-time collaboration frontend."
+  },
+  {
+    "id": 257,
+    "title": "Backend Developer",
+    "company": "Synergy Systems",
+    "location": "New York, NY",
+    "remote_option": true,
+    "salary_min": 115000,
+    "salary_max": 145000,
+    "required_skills": [
+      "Python",
+      "Django",
+      "PostgreSQL",
+      "REST APIs"
+    ],
+    "preferred_skills": [
+      "Django Rest Framework",
+      "Celery",
+      "Docker"
+    ],
+    "experience_level": "Mid",
+    "company_size": "51-200",
+    "description": "Build and maintain the API that powers our collaborative project management application."
+  },
+  {
+    "id": 258,
+    "title": "Data Scientist",
+    "company": "AdOptimize",
+    "location": "San Francisco, CA",
+    "remote_option": false,
+    "salary_min": 150000,
+    "salary_max": 190000,
+    "required_skills": [
+      "Python",
+      "SQL",
+      "BigQuery",
+      "A/B Testing",
+      "Statistics"
+    ],
+    "preferred_skills": [
+      "Scikit-learn",
+      "TensorFlow",
+      "GCP"
+    ],
+    "experience_level": "Mid",
+    "company_size": "201-500",
+    "description": "Design and analyze large-scale experiments to optimize ad bidding strategies and campaign performance."
+  },
+  {
+    "id": 259,
+    "title": "DevOps Engineer",
+    "company": "ApexDeploy",
+    "location": "Austin, TX",
+    "remote_option": false,
+    "salary_min": 170000,
+    "salary_max": 210000,
+    "required_skills": [
+      "GCP",
+      "Kubernetes",
+      "Terraform",
+      "Go"
+    ],
+    "preferred_skills": [
+      "Istio",
+      "Spinnaker",
+      "Client-Go"
+    ],
+    "experience_level": "Senior",
+    "company_size": "51-200",
+    "description": "Architect and build the next generation of our CI/CD platform on top of Kubernetes and GCP."
+  },
+  {
+    "id": 260,
+    "title": "Full Stack Developer",
+    "company": "InnovateX Solutions",
+    "location": "San Francisco, CA",
+    "remote_option": true,
+    "salary_min": 95000,
+    "salary_max": 120000,
+    "required_skills": [
+      "JavaScript",
+      "React",
+      "Node.js",
+      "MongoDB"
+    ],
+    "preferred_skills": [
+      "TypeScript",
+      "Next.js"
+    ],
+    "experience_level": "Entry",
+    "company_size": "51-200",
+    "description": "An opportunity for a motivated junior developer to gain experience across the full MERN stack."
+  },
+  {
+    "id": 261,
+    "title": "Frontend Developer",
+    "company": "InfraCore",
+    "location": "Seattle, WA",
+    "remote_option": true,
+    "salary_min": 120000,
+    "salary_max": 145000,
+    "required_skills": [
+      "Angular",
+      "TypeScript",
+      "NgRx",
+      "Sass"
+    ],
+    "preferred_skills": [
+      "Jest",
+      "Cypress",
+      "D3.js"
+    ],
+    "experience_level": "Mid",
+    "company_size": "51-200",
+    "description": "Develop the user interface for our infrastructure monitoring and management platform."
+  },
+  {
+    "id": 262,
+    "title": "Backend Developer",
+    "company": "AdOptimize",
+    "location": "Remote",
+    "remote_option": true,
+    "salary_min": 175000,
+    "salary_max": 220000,
+    "required_skills": [
+      "Go",
+      "gRPC",
+      "BigQuery",
+      "High-Throughput Systems"
+    ],
+    "preferred_skills": [
+      "Kubernetes",
+      "GCP",
+      "ClickHouse"
+    ],
+    "experience_level": "Senior",
+    "company_size": "201-500",
+    "description": "Design and build low-latency backend systems capable of handling millions of requests per second."
+  },
+  {
+    "id": 263,
+    "title": "Data Scientist",
+    "company": "Nexus Innovations",
+    "location": "Austin, TX",
+    "remote_option": false,
+    "salary_min": 105000,
+    "salary_max": 130000,
+    "required_skills": [
+      "Python",
+      "SQL",
+      "Pandas",
+      "Scikit-learn"
+    ],
+    "preferred_skills": [
+      "Tableau",
+      "AWS"
+    ],
+    "experience_level": "Entry",
+    "company_size": "11-50",
+    "description": "Join our small team to analyze data, build reports, and help drive our product roadmap."
+  },
+  {
+    "id": 264,
+    "title": "DevOps Engineer",
+    "company": "Synergy Systems",
+    "location": "New York, NY",
+    "remote_option": false,
+    "salary_min": 130000,
+    "salary_max": 160000,
+    "required_skills": [
+      "AWS",
+      "Docker",
+      "Terraform",
+      "Jenkins"
+    ],
+    "preferred_skills": [
+      "Ansible",
+      "Python",
+      "CloudWatch"
+    ],
+    "experience_level": "Mid",
+    "company_size": "51-200",
+    "description": "Manage and improve our AWS-based infrastructure and CI/CD processes."
+  },
+  {
+    "id": 265,
+    "title": "Full Stack Developer",
+    "company": "DataWeave Inc.",
+    "location": "New York, NY",
+    "remote_option": true,
+    "salary_min": 135000,
+    "salary_max": 165000,
+    "required_skills": [
+      "Vue.js",
+      "Python",
+      "Flask",
+      "PostgreSQL"
+    ],
+    "preferred_skills": [
+      "TypeScript",
+      "Docker",
+      "AWS"
+    ],
+    "experience_level": "Mid",
+    "company_size": "201-500",
+    "description": "Build user-facing features and the APIs that power them for our data integration platform."
+  },
+  {
+    "id": 266,
+    "title": "Frontend Developer",
+    "company": "HealthFirst Tech",
+    "location": "Remote",
+    "remote_option": true,
+    "salary_min": 125000,
+    "salary_max": 155000,
+    "required_skills": [
+      "Angular",
+      "TypeScript",
+      "RxJS",
+      "HTML5"
+    ],
+    "preferred_skills": [
+      "Accessibility (A11Y)",
+      "NgRx"
+    ],
+    "experience_level": "Mid",
+    "company_size": "501-1000",
+    "description": "Create accessible and intuitive interfaces for patients and healthcare providers."
+  },
+  {
+    "id": 267,
+    "title": "Backend Developer",
+    "company": "QuantumLeap AI",
+    "location": "Austin, TX",
+    "remote_option": false,
+    "salary_min": 120000,
+    "salary_max": 145000,
+    "required_skills": [
+      "Python",
+      "FastAPI",
+      "PostgreSQL",
+      "REST APIs"
+    ],
+    "preferred_skills": [
+      "Docker",
+      "Redis",
+      "GCP"
+    ],
+    "experience_level": "Mid",
+    "company_size": "51-200",
+    "description": "Develop robust and scalable APIs to integrate our AI models with customer applications."
+  },
+  {
+    "id": 268,
+    "title": "Data Scientist",
+    "company": "CodeStream",
+    "location": "Seattle, WA",
+    "remote_option": true,
+    "salary_min": 110000,
+    "salary_max": 135000,
+    "required_skills": [
+      "Python",
+      "SQL",
+      "Pandas",
+      "Statistics"
+    ],
+    "preferred_skills": [
+      "Tableau",
+      "Looker",
+      "A/B Testing"
+    ],
+    "experience_level": "Entry",
+    "company_size": "201-500",
+    "description": "Analyze product usage and user feedback to generate insights that guide feature development."
+  },
+  {
+    "id": 269,
+    "title": "DevOps Engineer",
+    "company": "CloudSphere Tech",
+    "location": "San Francisco, CA",
+    "remote_option": true,
+    "salary_min": 175000,
+    "salary_max": 215000,
+    "required_skills": [
+      "AWS",
+      "Kubernetes",
+      "Terraform",
+      "Go",
+      "Prometheus"
+    ],
+    "preferred_skills": [
+      "Istio",
+      "Linkerd",
+      "Site Reliability Engineering"
+    ],
+    "experience_level": "Senior",
+    "company_size": "501-1000",
+    "description": "Lead our SRE team, focusing on automation, observability, and the reliability of our core services."
+  },
+  {
+    "id": 270,
+    "title": "Full Stack Developer",
+    "company": "LogicGate Analytics",
+    "location": "Remote",
+    "remote_option": true,
+    "salary_min": 165000,
+    "salary_max": 205000,
+    "required_skills": [
+      "React",
+      "Python",
+      "Flask",
+      "PostgreSQL",
+      "TypeScript"
+    ],
+    "preferred_skills": [
+      "GraphQL",
+      "Docker",
+      "AWS"
+    ],
+    "experience_level": "Senior",
+    "company_size": "1001+",
+    "description": "Architect and implement major features for our enterprise analytics product, mentoring other engineers along the way."
+  },
+  {
+    "id": 271,
+    "title": "Frontend Developer",
+    "company": "ApexDeploy",
+    "location": "Austin, TX",
+    "remote_option": true,
+    "salary_min": 125000,
+    "salary_max": 150000,
+    "required_skills": [
+      "React",
+      "TypeScript",
+      "GraphQL",
+      "Styled Components"
+    ],
+    "preferred_skills": [
+      "Next.js",
+      "Jest",
+      "Cypress"
+    ],
+    "experience_level": "Mid",
+    "company_size": "51-200",
+    "description": "Build the user interface that makes complex deployment pipelines easy to manage and visualize."
+  },
+  {
+    "id": 272,
+    "title": "Backend Developer",
+    "company": "Fintech Solutions",
+    "location": "New York, NY",
+    "remote_option": false,
+    "salary_min": 180000,
+    "salary_max": 225000,
+    "required_skills": [
+      "Java",
+      "Low-latency",
+      "Multithreading",
+      "Spring"
+    ],
+    "preferred_skills": [
+      "C++",
+      "Kafka",
+      "FIX Protocol"
+    ],
+    "experience_level": "Senior",
+    "company_size": "1001+",
+    "description": "Develop and optimize high-frequency trading systems where performance is critical."
+  },
+  {
+    "id": 273,
+    "title": "Data Scientist",
+    "company": "SecureNet Partners",
+    "location": "Seattle, WA",
+    "remote_option": false,
+    "salary_min": 145000,
+    "salary_max": 180000,
+    "required_skills": [
+      "Python",
+      "SQL",
+      "Pandas",
+      "Scikit-learn",
+      "Network Security"
+    ],
+    "preferred_skills": [
+      "Spark",
+      "Elasticsearch",
+      "Suricata"
+    ],
+    "experience_level": "Mid",
+    "company_size": "201-500",
+    "description": "Build machine learning models to identify and classify cybersecurity threats from network data."
+  },
+  {
+    "id": 274,
+    "title": "DevOps Engineer",
+    "company": "PixelPerfect Studios",
+    "location": "Remote",
+    "remote_option": true,
+    "salary_min": 125000,
+    "salary_max": 155000,
+    "required_skills": [
+      "AWS",
+      "Terraform",
+      "Docker",
+      "Heroku"
+    ],
+    "preferred_skills": [
+      "CI/CD",
+      "Ruby",
+      "CloudWatch"
+    ],
+    "experience_level": "Mid",
+    "company_size": "51-200",
+    "description": "Manage our cloud infrastructure on AWS and Heroku, ensuring our applications are scalable and reliable."
+  },
+  {
+    "id": 275,
+    "title": "Full Stack Developer",
+    "company": "CloudSphere Tech",
+    "location": "Seattle, WA",
+    "remote_option": false,
+    "salary_min": 105000,
+    "salary_max": 130000,
+    "required_skills": [
+      "JavaScript",
+      "Angular",
+      "Java",
+      "Spring"
+    ],
+    "preferred_skills": [
+      "TypeScript",
+      "PostgreSQL",
+      "AWS"
+    ],
+    "experience_level": "Entry",
+    "company_size": "501-1000",
+    "description": "Join our team to learn and contribute to the development of our cloud cost management tools."
+  },
+  {
+    "id": 276,
+    "title": "Frontend Developer",
+    "company": "InnovateX Solutions",
+    "location": "San Francisco, CA",
+    "remote_option": true,
+    "salary_min": 160000,
+    "salary_max": 200000,
+    "required_skills": [
+      "React",
+      "TypeScript",
+      "Redux",
+      "Jest"
+    ],
+    "preferred_skills": [
+      "Next.js",
+      "GraphQL",
+      "Architectural Patterns"
+    ],
+    "experience_level": "Senior",
+    "company_size": "51-200",
+    "description": "Lead frontend architecture decisions, mentor engineers, and drive the adoption of new technologies."
+  },
+  {
+    "id": 277,
+    "title": "Backend Developer",
+    "company": "SecureNet Partners",
+    "location": "Austin, TX",
+    "remote_option": false,
+    "salary_min": 125000,
+    "salary_max": 155000,
+    "required_skills": [
+      "Go",
+      "PostgreSQL",
+      "REST APIs",
+      "Microservices"
+    ],
+    "preferred_skills": [
+      "gRPC",
+      "Kubernetes",
+      "Azure"
+    ],
+    "experience_level": "Mid",
+    "company_size": "201-500",
+    "description": "Develop backend services for our security information and event management (SIEM) platform."
+  },
+  {
+    "id": 278,
+    "title": "Data Scientist",
+    "company": "QuantumLeap AI",
+    "location": "Remote",
+    "remote_option": true,
+    "salary_min": 175000,
+    "salary_max": 220000,
+    "required_skills": [
+      "Python",
+      "PyTorch",
+      "Deep Learning",
+      "Computer Vision"
+    ],
+    "preferred_skills": [
+      "Generative AI",
+      "Transformers",
+      "AWS Sagemaker"
+    ],
+    "experience_level": "Senior",
+    "company_size": "51-200",
+    "description": "Lead R&D on generative models for image and video, pushing the boundaries of what's possible."
+  },
+  {
+    "id": 279,
+    "title": "DevOps Engineer",
+    "company": "HealthFirst Tech",
+    "location": "Austin, TX",
+    "remote_option": true,
+    "salary_min": 135000,
+    "salary_max": 170000,
+    "required_skills": [
+      "Azure",
+      "Terraform",
+      "Kubernetes (AKS)",
+      "CI/CD"
+    ],
+    "preferred_skills": [
+      "Azure DevOps",
+      "PowerShell",
+      "HIPAA Compliance"
+    ],
+    "experience_level": "Mid",
+    "company_size": "501-1000",
+    "description": "Manage our Azure infrastructure with a strong focus on security and compliance for healthcare data."
+  },
+  {
+    "id": 280,
+    "title": "Full Stack Developer",
+    "company": "Synergy Systems",
+    "location": "New York, NY",
+    "remote_option": false,
+    "salary_min": 95000,
+    "salary_max": 120000,
+    "required_skills": [
+      "JavaScript",
+      "Vue.js",
+      "Python",
+      "Flask"
+    ],
+    "preferred_skills": [
+      "SQLAlchemy",
+      "PostgreSQL"
+    ],
+    "experience_level": "Entry",
+    "company_size": "51-200",
+    "description": "Work with a supportive team to build new features for our collaborative software."
+  },
+  {
+    "id": 281,
+    "title": "Frontend Developer",
+    "company": "DataWeave Inc.",
+    "location": "Remote",
+    "remote_option": true,
+    "salary_min": 95000,
+    "salary_max": 115000,
+    "required_skills": [
+      "Vue.js",
+      "JavaScript",
+      "HTML",
+      "CSS"
+    ],
+    "preferred_skills": [
+      "Pinia",
+      "Vite",
+      "TypeScript"
+    ],
+    "experience_level": "Entry",
+    "company_size": "201-500",
+    "description": "Help us build and refine the user interfaces for our data tools."
+  },
+  {
+    "id": 282,
+    "title": "Backend Developer",
+    "company": "Nexus Innovations",
+    "location": "Seattle, WA",
+    "remote_option": false,
+    "salary_min": 165000,
+    "salary_max": 200000,
+    "required_skills": [
+      "Node.js",
+      "TypeScript",
+      "Microservices",
+      "PostgreSQL"
+    ],
+    "preferred_skills": [
+      "AWS",
+      "GraphQL",
+      "System Design"
+    ],
+    "experience_level": "Senior",
+    "company_size": "11-50",
+    "description": "As a senior engineer in a small company, you will have a huge impact on our technical direction and architecture."
+  },
+  {
+    "id": 283,
+    "title": "Data Scientist",
+    "company": "LogicGate Analytics",
+    "location": "New York, NY",
+    "remote_option": true,
+    "salary_min": 145000,
+    "salary_max": 180000,
+    "required_skills": [
+      "Python",
+      "SQL",
+      "Pandas",
+      "Scikit-learn",
+      "Forecasting"
+    ],
+    "preferred_skills": [
+      "Prophet",
+      "XGBoost",
+      "Databricks"
+    ],
+    "experience_level": "Mid",
+    "company_size": "1001+",
+    "description": "Build time series forecasting models to predict key business metrics for our enterprise clients."
+  },
+  {
+    "id": 284,
+    "title": "DevOps Engineer",
+    "company": "InnovateX Solutions",
+    "location": "San Francisco, CA",
+    "remote_option": false,
+    "salary_min": 110000,
+    "salary_max": 135000,
+    "required_skills": [
+      "AWS",
+      "Docker",
+      "Terraform",
+      "CI/CD"
+    ],
+    "preferred_skills": [
+      "CloudFormation",
+      "Bash Scripting"
+    ],
+    "experience_level": "Entry",
+    "company_size": "51-200",
+    "description": "Join our operations team to learn how to build and maintain scalable cloud infrastructure."
+  },
+  {
+    "id": 285,
+    "title": "Full Stack Developer",
+    "company": "Fintech Solutions",
+    "location": "Remote",
+    "remote_option": true,
+    "salary_min": 140000,
+    "salary_max": 175000,
+    "required_skills": [
+      "React",
+      "Java",
+      "Spring Boot",
+      "SQL"
+    ],
+    "preferred_skills": [
+      "TypeScript",
+      "Kafka",
+      "Microservices"
+    ],
+    "experience_level": "Mid",
+    "company_size": "1001+",
+    "description": "Develop and maintain web applications for our internal trading and analytics platforms."
+  },
+  {
+    "id": 286,
+    "title": "Frontend Developer",
+    "company": "CloudSphere Tech",
+    "location": "Seattle, WA",
+    "remote_option": true,
+    "salary_min": 125000,
+    "salary_max": 155000,
+    "required_skills": [
+      "React",
+      "TypeScript",
+      "Redux",
+      "D3.js"
+    ],
+    "preferred_skills": [
+      "GraphQL",
+      "Performance Optimization"
+    ],
+    "experience_level": "Mid",
+    "company_size": "501-1000",
+    "description": "Create intuitive dashboards and data visualizations to help users understand their cloud spending."
+  },
+  {
+    "id": 287,
+    "title": "Backend Developer",
+    "company": "InfraCore",
+    "location": "Remote",
+    "remote_option": true,
+    "salary_min": 160000,
+    "salary_max": 195000,
+    "required_skills": [
+      "Go",
+      "gRPC",
+      "PostgreSQL",
+      "Time Series Database"
+    ],
+    "preferred_skills": [
+      "Prometheus",
+      "Kubernetes",
+      "GCP"
+    ],
+    "experience_level": "Senior",
+    "company_size": "51-200",
+    "description": "Architect the backend systems for collecting and processing metrics from customer infrastructure."
+  },
+  {
+    "id": 288,
+    "title": "Data Scientist",
+    "company": "Fintech Solutions",
+    "location": "New York, NY",
+    "remote_option": false,
+    "salary_min": 185000,
+    "salary_max": 230000,
+    "required_skills": [
+      "Python",
+      "SQL",
+      "Machine Learning",
+      "Quantitative Analysis"
+    ],
+    "preferred_skills": [
+      "C++",
+      "KDB+",
+      "Time Series Analysis",
+      "Statistics"
+    ],
+    "experience_level": "Senior",
+    "company_size": "1001+",
+    "description": "Lead a quant research team in developing alpha-generating trading strategies."
+  },
+  {
+    "id": 289,
+    "title": "DevOps Engineer",
+    "company": "CodeStream",
+    "location": "Seattle, WA",
+    "remote_option": true,
+    "salary_min": 165000,
+    "salary_max": 205000,
+    "required_skills": [
+      "AWS",
+      "Kubernetes",
+      "Terraform",
+      "CI/CD"
+    ],
+    "preferred_skills": [
+      "Go",
+      "Istio",
+      "Observability"
+    ],
+    "experience_level": "Senior",
+    "company_size": "201-500",
+    "description": "Own the reliability, scalability, and performance of our production environment."
+  },
+  {
+    "id": 290,
+    "title": "Full Stack Developer",
+    "company": "ApexDeploy",
+    "location": "Austin, TX",
+    "remote_option": false,
+    "salary_min": 130000,
+    "salary_max": 160000,
+    "required_skills": [
+      "React",
+      "Go",
+      "gRPC",
+      "PostgreSQL"
+    ],
+    "preferred_skills": [
+      "TypeScript",
+      "Kubernetes",
+      "GCP"
+    ],
+    "experience_level": "Mid",
+    "company_size": "51-200",
+    "description": "Contribute across our stack to build the best continuous deployment tool for developers."
+  },
+  {
+    "id": 291,
+    "title": "Frontend Developer",
+    "company": "Synergy Systems",
+    "location": "New York, NY",
+    "remote_option": true,
+    "salary_min": 150000,
+    "salary_max": 185000,
+    "required_skills": [
+      "Vue.js",
+      "TypeScript",
+      "Vuex",
+      "Webpack"
+    ],
+    "preferred_skills": [
+      "Nuxt.js",
+      "WebSockets",
+      "E2E Testing"
+    ],
+    "experience_level": "Senior",
+    "company_size": "51-200",
+    "description": "Lead the development of our real-time collaboration features and mentor other frontend engineers."
+  },
+  {
+    "id": 292,
+    "title": "Backend Developer",
+    "company": "HealthFirst Tech",
+    "location": "Remote",
+    "remote_option": true,
+    "salary_min": 125000,
+    "salary_max": 155000,
+    "required_skills": [
+      "C#",
+      ".NET Core",
+      "SQL Server",
+      "REST APIs"
+    ],
+    "preferred_skills": [
+      "Azure Functions",
+      "Microservices",
+      "Entity Framework"
+    ],
+    "experience_level": "Mid",
+    "company_size": "501-1000",
+    "description": "Develop and maintain backend services for our patient portal and EHR integration systems."
+  },
+  {
+    "id": 293,
+    "title": "Data Scientist",
+    "company": "DataWeave Inc.",
+    "location": "Austin, TX",
+    "remote_option": false,
+    "salary_min": 110000,
+    "salary_max": 135000,
+    "required_skills": [
+      "Python",
+      "SQL",
+      "Pandas",
+      "Scikit-learn"
+    ],
+    "preferred_skills": [
+      "NLP",
+      "AWS",
+      "Looker"
+    ],
+    "experience_level": "Entry",
+    "company_size": "201-500",
+    "description": "Analyze datasets to improve our data transformation and mapping algorithms."
+  },
+  {
+    "id": 294,
+    "title": "DevOps Engineer",
+    "company": "Nexus Innovations",
+    "location": "Remote",
+    "remote_option": true,
+    "salary_min": 130000,
+    "salary_max": 160000,
+    "required_skills": [
+      "AWS",
+      "Terraform",
+      "Docker",
+      "GitHub Actions"
+    ],
+    "preferred_skills": [
+      "Kubernetes",
+      "Python",
+      "Security"
+    ],
+    "experience_level": "Mid",
+    "company_size": "11-50",
+    "description": "As our first DevOps hire, you will build our infrastructure from the ground up."
+  },
+  {
+    "id": 295,
+    "title": "Full Stack Developer",
+    "company": "SecureNet Partners",
+    "location": "Seattle, WA",
+    "remote_option": true,
+    "salary_min": 160000,
+    "salary_max": 200000,
+    "required_skills": [
+      "React",
+      "Go",
+      "PostgreSQL",
+      "TypeScript"
+    ],
+    "preferred_skills": [
+      "gRPC",
+      "Kubernetes",
+      "GraphQL"
+    ],
+    "experience_level": "Senior",
+    "company_size": "201-500",
+    "description": "Lead development of our security dashboard, working across the frontend and backend to deliver a world-class user experience."
+  },
+  {
+    "id": 296,
+    "title": "Frontend Developer",
+    "company": "LogicGate Analytics",
+    "location": "San Francisco, CA",
+    "remote_option": false,
+    "salary_min": 130000,
+    "salary_max": 160000,
+    "required_skills": [
+      "React",
+      "TypeScript",
+      "Redux",
+      "D3.js"
+    ],
+    "preferred_skills": [
+      "GraphQL",
+      "HighCharts",
+      "Performance"
+    ],
+    "experience_level": "Mid",
+    "company_size": "1001+",
+    "description": "Build high-performance, interactive data visualizations for our enterprise customers."
+  },
+  {
+    "id": 297,
+    "title": "Backend Developer",
+    "company": "PixelPerfect Studios",
+    "location": "New York, NY",
+    "remote_option": true,
+    "salary_min": 165000,
+    "salary_max": 205000,
+    "required_skills": [
+      "Ruby on Rails",
+      "PostgreSQL",
+      "Sidekiq",
+      "Redis"
+    ],
+    "preferred_skills": [
+      "Elasticsearch",
+      "System Architecture",
+      "AWS"
+    ],
+    "experience_level": "Senior",
+    "company_size": "51-200",
+    "description": "Architect and scale the backend systems that support millions of creative users."
+  },
+  {
+    "id": 298,
+    "title": "Data Scientist",
+    "company": "InnovateX Solutions",
+    "location": "San Francisco, CA",
+    "remote_option": false,
+    "salary_min": 140000,
+    "salary_max": 175000,
+    "required_skills": [
+      "Python",
+      "SQL",
+      "Pandas",
+      "PyTorch"
+    ],
+    "preferred_skills": [
+      "Computer Vision",
+      "AWS Sagemaker"
+    ],
+    "experience_level": "Mid",
+    "company_size": "51-200",
+    "description": "Develop and train deep learning models for image recognition and analysis."
+  },
+  {
+    "id": 299,
+    "title": "DevOps Engineer",
+    "company": "AdOptimize",
+    "location": "Remote",
+    "remote_option": true,
+    "salary_min": 135000,
+    "salary_max": 165000,
+    "required_skills": [
+      "GCP",
+      "Kubernetes",
+      "Terraform",
+      "CI/CD"
+    ],
+    "preferred_skills": [
+      "Ansible",
+      "Prometheus",
+      "Helm"
+    ],
+    "experience_level": "Mid",
+    "company_size": "201-500",
+    "description": "Maintain and scale the Kubernetes clusters that run our real-time bidding platform."
+  },
+  {
+    "id": 300,
+    "title": "Full Stack Developer",
+    "company": "InfraCore",
+    "location": "Austin, TX",
+    "remote_option": true,
+    "salary_min": 125000,
+    "salary_max": 155000,
+    "required_skills": [
+      "Angular",
+      "Go",
+      "PostgreSQL",
+      "TypeScript"
+    ],
+    "preferred_skills": [
+      "gRPC",
+      "Prometheus",
+      "GCP"
+    ],
+    "experience_level": "Mid",
+    "company_size": "51-200",
+    "description": "Develop features end-to-end for our infrastructure monitoring product."
   }
 ]

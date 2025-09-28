@@ -25,6 +25,9 @@ interview_coach = InterviewCoach()
 class UserSkills(BaseModel):
     skills: List[str]
     experience_level: Optional[str] = "Mid"
+    location: Optional[str] = None
+    min_salary: Optional[int] = None
+    max_salary: Optional[int] = None
 
 class InterviewRequest(BaseModel):
     job_title: str
@@ -39,10 +42,24 @@ class AnswerRequest(BaseModel):
 async def root():
     return {"message": "Career Optimization Engine API", "status": "running"}
 
+@app.get("/api/locations")
+async def get_locations():
+    try:
+        locations = job_matcher.get_unique_locations()
+        return {"success": True, "locations": locations}
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=str(e))
+
 @app.post("/api/match-jobs")
 async def match_jobs(request: UserSkills):
     try:
-        matches = job_matcher.match_jobs(request.skills)
+        filtered_jobs = job_matcher.filter_jobs(
+            location=request.location,
+            min_salary=request.min_salary,
+            max_salary=request.max_salary
+        )
+
+        matches = job_matcher.match_jobs(request.skills, filtered_jobs)
         return {
             "success": True,
             "user_skills": request.skills,
@@ -55,18 +72,18 @@ async def match_jobs(request: UserSkills):
 @app.post("/api/interview/generate-questions")
 async def generate_questions(request: InterviewRequest):
     try:
-        sess = interview_coach.generate_questions(request.job_title, request.company)
-        return {"success": True, "session": sess}
+        session = interview_coach.generate_questions(request.job_title, request.company)
+        return {"success": True, "session": session}
     except Exception as e:
         raise HTTPException(status_code=500, detail=str(e))
 
 @app.post("/api/interview/analyze-answer")
 async def analyze_answer(request: AnswerRequest):
     try:
-        fb = interview_coach.analyze_answer(request.session_id, request.question_id, request.answer)
-        if "error" in fb:
-            raise HTTPException(status_code=404, detail=fb["error"])
-        return {"success": True, "feedback": fb}
+        feedback = interview_coach.analyze_answer(request.session_id, request.question_id, request.answer)
+        if "error" in feedback:
+            raise HTTPException(status_code=404, detail=feedback["error"])
+        return {"success": True, "feedback": feedback}
     except HTTPException:
         raise
     except Exception as e:
