@@ -204,15 +204,17 @@
                 });
 
                 if (!response.ok) {
-                    throw new Error('Failed to generate questions');
+                    throw new Error('Failed to generate questions. Please check the backend server.');
                 }
 
                 const data = await response.json();
                 
-                if (data.success) {
+                if (data.success && data.session) {
                     currentSession = data.session;
                     sessionAnswers = [];
                     startInterviewSession(jobTitle, companyName);
+                } else {
+                    throw new Error('Invalid data received from the server.');
                 }
             } catch (error) {
                 alert('Error: ' + error.message);
@@ -247,7 +249,6 @@
             document.getElementById('current-question-text').textContent = question.question;
             document.getElementById('user-answer').value = '';
             
-            // Reset UI
             document.getElementById('feedback-section').style.display = 'none';
             document.getElementById('submit-answer-btn').style.display = 'inline-block';
             document.getElementById('user-answer').disabled = false;
@@ -279,18 +280,20 @@
                 });
 
                 if (!response.ok) {
-                    throw new Error('Failed to analyze answer');
+                    throw new Error('Failed to analyze answer. Please check the backend server.');
                 }
 
                 const data = await response.json();
                 
-                if (data.success) {
+                if (data.success && data.feedback) {
                     showFeedback(data.feedback);
                     sessionAnswers.push({
                         question: currentQuestion.question,
                         answer: answer,
                         feedback: data.feedback
                     });
+                } else {
+                    throw new Error(data.detail || 'Could not retrieve feedback.');
                 }
             } catch (error) {
                 alert('Error: ' + error.message);
@@ -301,39 +304,45 @@
         });
 
         function showFeedback(feedback) {
-            document.getElementById('feedback-score').textContent = feedback.score;
+            // Safety check for the feedback object itself
+            if (!feedback) {
+                alert("Error: Feedback data is missing.");
+                return;
+            }
+
+            document.getElementById('feedback-score').textContent = feedback.score || 'N/A';
             
-            // Update score badge color based on score
             const scoreBadge = document.getElementById('feedback-score');
             scoreBadge.className = 'score-badge ' + getScoreClass(feedback.score);
             
-            // Show strengths
             const strengthsList = document.getElementById('strengths-list');
             strengthsList.innerHTML = '';
-            feedback.strengths.forEach(strength => {
-                const li = document.createElement('li');
-                li.textContent = strength;
-                strengthsList.appendChild(li);
-            });
+            // CORRECTED: Safely handle the strengths array
+            if (Array.isArray(feedback.strengths)) {
+                feedback.strengths.forEach(strength => {
+                    const li = document.createElement('li');
+                    li.textContent = strength;
+                    strengthsList.appendChild(li);
+                });
+            }
             
-            // Show improvements
             const improvementsList = document.getElementById('improvements-list');
             improvementsList.innerHTML = '';
-            feedback.improvements.forEach(improvement => {
-                const li = document.createElement('li');
-                li.textContent = improvement;
-                improvementsList.appendChild(li);
-            });
+            // CORRECTED: Safely handle the improvements array
+            if (Array.isArray(feedback.improvements)) {
+                feedback.improvements.forEach(improvement => {
+                    const li = document.createElement('li');
+                    li.textContent = improvement;
+                    improvementsList.appendChild(li);
+                });
+            }
             
-            // Show overall feedback
-            document.getElementById('overall-feedback-text').textContent = feedback.feedback;
+            document.getElementById('overall-feedback-text').textContent = feedback.feedback || 'No overall feedback provided.';
             
-            // Show feedback section and hide submit button
             document.getElementById('feedback-section').style.display = 'block';
             document.getElementById('submit-answer-btn').style.display = 'none';
             document.getElementById('user-answer').disabled = true;
             
-            // Show appropriate next button
             if (currentQuestionIndex < currentSession.questions.length - 1) {
                 document.getElementById('next-question-btn').style.display = 'inline-block';
                 document.getElementById('view-summary-btn').style.display = 'none';
@@ -350,13 +359,12 @@
             return 'needs-improvement';
         }
 
-        // Next Question
+        // Event listeners for other buttons
         document.getElementById('next-question-btn').addEventListener('click', function() {
             currentQuestionIndex++;
             showCurrentQuestion();
         });
 
-        // View Summary
         document.getElementById('view-summary-btn').addEventListener('click', function() {
             showInterviewSummary();
         });
@@ -365,14 +373,13 @@
             document.getElementById('interview-questions').style.display = 'none';
             document.getElementById('interview-summary').style.display = 'block';
             
-            const totalScore = sessionAnswers.reduce((sum, answer) => sum + answer.feedback.score, 0);
+            const totalScore = sessionAnswers.reduce((sum, answer) => sum + (answer.feedback.score || 0), 0);
             const averageScore = sessionAnswers.length > 0 ? (totalScore / sessionAnswers.length).toFixed(1) : 0;
             
             document.getElementById('average-score').textContent = averageScore;
             document.getElementById('questions-answered').textContent = sessionAnswers.length;
         }
 
-        // New Session
         document.getElementById('new-session-btn').addEventListener('click', function() {
             if (confirm('Are you sure you want to start a new session? Current progress will be lost.')) {
                 resetInterview();
@@ -384,19 +391,9 @@
         });
 
         function resetInterview() {
-            currentSession = null;
-            currentQuestionIndex = 0;
-            sessionAnswers = [];
-            
-            document.getElementById('interview-questions').style.display = 'none';
-            document.getElementById('interview-summary').style.display = 'none';
-            document.querySelector('.interview-setup').style.display = 'block';
-            
-            document.getElementById('job-title').value = '';
-            document.getElementById('company-name').value = '';
+            location.reload();
         }
 
-        // End Interview
         document.getElementById('end-interview-btn').addEventListener('click', function() {
             if (confirm('Are you sure you want to end this interview session?')) {
                 showInterviewSummary();
