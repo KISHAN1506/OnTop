@@ -1,0 +1,154 @@
+/* Additional styles for Smart Job Matching page */
+
+/* Profile Section */
+.profile-section {
+    padding: 2rem;
+    background: var(--color-gray-bg);
+    border-bottom: 1px solid var(--color-border-light);
+}
+
+.profile-section h2 {
+    margin-bottom: 1rem;
+}
+
+.profile-section form {
+    display: grid;
+    gap: 1rem;
+    max-width: 700px;
+    margin: auto;
+}
+
+.profile-section input,
+.profile-section select,
+.profile-section textarea {
+    padding: 0.7rem;
+    border: 1px solid var(--color-border-light);
+    border-radius: 6px;
+}
+
+.profile-section .connect-links {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+.profile-section .connect-links a {
+    text-decoration: none;
+    background: var(--color-primary-green);
+    color: white;
+    padding: 0.6rem 1rem;
+    border-radius: 6px;
+    font-weight: 600;
+}
+
+/* Jobs Section */
+.jobs-section {
+    padding: 3rem 1rem;
+    background: white;
+}
+
+.jobs-section h2 {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.job-filters {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+    margin-bottom: 2rem;
+}
+
+.job-filters select,
+.job-filters input {
+    padding: 0.7rem;
+    border: 1px solid var(--color-border-light);
+    border-radius: 6px;
+}
+
+.job-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.job-card {
+    background: white;
+    border: 1px solid var(--color-border-light);
+    border-radius: 8px;
+    padding: 1.5rem;
+    text-align: left;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.job-card:hover {
+    transform: scale(1.02);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    z-index: 10;
+}
+
+.job-card h3 {
+    margin-top: 0.5rem;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.job-card p {
+    font-size: 0.95rem;
+    margin: 0.3rem 0;
+}
+
+.job-tags {
+    display: flex;
+    gap: 0.5rem;
+    margin-top: 0.5rem;
+    flex-wrap: wrap;
+}
+
+.job-tags span {
+    font-size: 0.8rem;
+    padding: 0.3rem 0.5rem;
+    border-radius: 4px;
+    background: var(--color-gray-bg);
+}
+
+.apply-btn {
+    margin-top: 1rem;
+    display: inline-block;
+}
+
+/* Skill Gap Section */
+.skill-gap {
+    padding: 3rem 1rem;
+    background: var(--color-gray-bg);
+    text-align: center;
+}
+
+.skill-gap h2 {
+    margin-bottom: 2rem;
+}
+
+.skills-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+}
+
+.skills-list span {
+    padding: 0.5rem 1rem;
+    border-radius: 6px;
+    background: var(--color-primary-green);
+    color: white;
+    font-weight: 500;
+}
+
+.skills-missing span {
+    background: #e74c3c;
+}
+
+.res-inp{
+    padding: 10px;
+    box-shadow: rgba(0, 0, 0, 0.214) 1px 1px 5px;
+}
